@@ -23,19 +23,27 @@ body {
 }
 
 .header {
-    padding: 20px 0;
+    padding: 1.2rem 0;
     background-color: #fff;
 }
 
 .header .site-logo .logo {
-    width: 120px;
+    width: 9rem;
 }
 
-/* || FORM STYLE */
-  form {
-    width: min(100%, 350px);
+/* || LOGIN CONTENT AREA */
+.login-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    min-height: 600px;
+}
+
+.login-content .login-area {
     background-color: #fff;
-    border: 2px solid #000;
-    border-radius: 10px;
-    padding: 1rem;
-  }
+    box-shadow: 0 0.4rem 0.9rem #ccc;
+    padding: 2.5rem 1.8rem;
+    border-radius: 0.6rem;
+}

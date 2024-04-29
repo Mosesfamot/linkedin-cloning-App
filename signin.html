@@ -15,21 +15,34 @@
         </section>
     </header>
     <main>
-        <section class="form-card">
+        <section class="login-content">
             <article class="login-area">
                 <h1 class="title">Sign in</h1>
                 <p class="description">Stay updated on your professional world</p>
                 <form action="login" class="login-form">
-                    <p><input type="text" name="firstName" id="firstName" placeholder="Email or Phone" autocomplete="on" required autofocus/></p>
-                    <p><input type="password" name="password" id="password" placeholder="Password" autocomplete="on" required/></p>
-                    <p><a href="#">Forget password?</a></p>
-                    <button type="submit">Sign in</button>
-                    <p>By clicking Continue, you agree to LinkedIn's <a href="#">User Agreement,</a><a href="#">Privacy Policy,</a> and <a href="#">Cookie Policy</a>.</p>
+                    <p class="field">
+                        <input type="text" name="firstName" id="firstName" placeholder="Email or Phone" autocomplete="on" required autofocus/>
+                    </p>
+                    <p class="field">
+                        <input type="password" name="password" id="password" placeholder="Password" autocomplete="on" required/>
+                        <span>show</span>
+                    </p>
+                    <p class="link"><a href="#">Forget password?</a></p>
+                    <p class="button"><input type="submit" value="Sign in"></p>
+                    <p>By clicking Continue, you agree to LinkedIn's <a href="#">User <br>Agreement,</a><a href="#">Privacy Policy,</a> and <a href="#">Cookie Policy</a>.</p>
                 </form>
+                <p class="or">or</p>
+                <p class="button">
+                    <i class="bi bi-apple"></i>
+                    <a href="#">Sign in with Apple</a>
+                </p>
 
             </article>
+
+            <p class="join-now">
+                <article class="link">New to LinkedIn? <a href="#">Join now</a></article>
+            </p>
         </section>
-        <p>New to LinkedIn? <a href="#">Join now</a></p>
     </main>
 
     <footer>
