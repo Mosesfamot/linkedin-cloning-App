@@ -78,4 +78,8 @@ body {
     border-radius: 0.3rem;
 }
 
+.login-content .login-area .login-form .field input:focus {
+    outline: none;
+}
+
 
