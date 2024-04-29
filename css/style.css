@@ -47,3 +47,25 @@ body {
     padding: 2.5rem 1.8rem;
     border-radius: 0.6rem;
 }
+
+.login-content .login-area .title-area {
+    margin-bottom: 1.25rem;
+}
+
+.login-content .login-area .title-area .title {
+    font-weight: 700;
+    font-size: 1.9em;
+    color: #333;
+}
+
+.login-content .login-area .title-area .description {
+    color: #666;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.login-content .login-area .login-form {
+    display: flex;
+}
+
+
