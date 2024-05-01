@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-    padding: 2rem 0;
+    padding: 2rem 0 0;
     margin-left: 1rem;
     background-color: #fff;
 }
@@ -40,7 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     row-gap: 2rem;
-    min-height: 600px;
+    min-height: 40rem;
 }
 
 .login-content .login-area {
