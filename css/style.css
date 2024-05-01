@@ -24,12 +24,13 @@ body {
 }
 
 .header {
-    padding: 1.2rem 0;
+    padding: 2rem 0;
+    margin-left: 1rem;
     background-color: #fff;
 }
 
 .header .site-logo .logo {
-    width: 9rem;
+    width: 7rem;
 }
 
 /* || LOGIN CONTENT AREA */
@@ -173,3 +174,39 @@ body {
     margin-left: 0.43rem;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+footer ul li {
+    float: left;
+}
+
+footer ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 0.8em;
+    margin: 1rem 0.25rem;
+}
+
+/* || MEDIA QUERY */
+  @media screen and (max-width: 768px) {
+    footer {
+      display: none;
+    }
+  }
