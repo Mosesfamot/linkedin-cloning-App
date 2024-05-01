@@ -14,6 +14,7 @@ html {
 }
 
 body {
+    background-color: #f8f7f4;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -26,11 +27,11 @@ body {
 .header {
     padding: 2rem 0 0;
     margin-left: 1rem;
-    background-color: #fff;
+    background-color: #f8f7f4;
 }
 
 .header .site-logo .logo {
-    width: 7rem;
+    width: 6rem;
 }
 
 /* || LOGIN CONTENT AREA */
@@ -43,27 +44,23 @@ body {
     min-height: 40rem;
 }
 
-.login-content .login-area {
-    background-color: #fff;
-    box-shadow: 0 0.4rem 0.9rem #ccc;
-    padding: 2.5rem 1.8rem;
-    border-radius: 0.6rem;
+.login-content .title-area {
+    margin-top: 1.5rem;
+    margin-bottom: 0; 
 }
 
-.login-content .login-area .title-area {
-    margin-bottom: 1.25rem;
-}
-
-.login-content .login-area .title-area .title {
-    font-weight: 700;
-    font-size: 1.9em;
+.login-content .title-area .title {
+    word-spacing: 0.1rem;
+    font-weight: 500;
+    font-size: 2.4em;
     color: #333;
 }
 
-.login-content .login-area .title-area .description {
-    color: #666;
-    font-weight: 500;
-    font-size: 0.9em;
+.login-content .login-area {
+    background-color: #fff;
+    box-shadow: 0 0.1rem 0.1rem #ccc;
+    padding: 2.5rem 1rem 1.2rem;
+    border-radius: 0.6rem;
 }
 
 .login-content .login-area .login-form {
@@ -74,13 +71,14 @@ body {
 
 .login-content .login-area .login-form .field {
     position: relative;
+    margin-bottom: 1rem;
 }
 
 .login-content .login-area .login-form .field span {
     position: absolute;
     top: 50%;
     right: 0.75rem;
-    transform: translateY(-50%);
+    transform: translateY(5%);
     color: #0467c3;
     font-weight: 600;
     font-size: 0.9em;
@@ -88,7 +86,8 @@ body {
 
 .login-content .login-area .login-form .field input {
     width: 100%;
-    padding: 1.1rem 0.75rem;
+    padding: 0.5rem 0.5rem;
+    margin-top: 0.3rem;
     font-size: 1.1em;
     border: 1px solid #999;
     border-radius: 0.3rem;
@@ -128,7 +127,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     content: '';
-    width: 9rem;
+    width: 11rem;
     height: 1px;
     background-color: #666;
 }
@@ -139,7 +138,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     content: '';
-    width: 9rem;
+    width: 11rem;
     height: 1px;
     background-color: #666;
 }
@@ -147,6 +146,7 @@ body {
 .login-content .login-area .button-link {
     text-align: center;
     border: 2px solid #999;
+    margin: 0.6rem 0;
     padding: 1.1rem 0.75rem;
     border-radius: 3.1rem;
 }
@@ -162,12 +162,27 @@ body {
     font-weight: 600;
 }
 
-.login-content .join-now .link {
+.login-content .login-area .signin-link {
+    text-align: center;
+    padding-top: 2rem;
     color: #333;
     font-weight: 500;
 }
 
-.login-content .join-now .link a {
+.login-content .login-area .signin-link a {
+    text-decoration: none;
+    color: #0467c3;
+    font-weight: 600;
+    margin-left: 0.3rem;
+}
+
+.login-content .get-help .link {
+    margin-bottom: 2.5rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.login-content .get-help .link a {
     text-decoration: none;
     color: #0467c3;
     font-weight: 600;
@@ -203,8 +218,39 @@ footer ul li a {
 }
 
 /* || MEDIA QUERY */
+  @media screen and (max-width: 576px) { 
+    .login-content .login-area .or::before {
+        width: 7rem;
+    }
+    
+    .login-content .login-area .or::after {
+        width: 7rem;
+    }
+}
+
   @media screen and (max-width: 768px) {
-    footer {
-      display: none;
+    body {
+        background-color: #fff;
+    }
+
+    .header {
+        background-color: #fff;
+    }
+
+    .login-content .title-area {
+        margin-bottom: 0; 
+    }
+    
+    .login-content .title-area .title {
+        text-align: center;
+        font-weight: 500;
+        font-size: 2em;
+    }
+
+    .login-content .login-area {
+        background-color: #fff;
+        box-shadow: none;
+        padding-top: 0;
+        border-radius: 0.6rem;
     }
   }
