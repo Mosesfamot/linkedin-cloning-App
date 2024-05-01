@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 /* || RESET */
 * {
@@ -70,6 +71,20 @@ body {
     row-gap: 0.9rem;
 }
 
+.login-content .login-area .login-form .field {
+    position: relative;
+}
+
+.login-content .login-area .login-form .field span {
+    position: absolute;
+    top: 50%;
+    right: 0.75rem;
+    transform: translateY(-50%);
+    color: #0467c3;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
 .login-content .login-area .login-form .field input {
     width: 100%;
     padding: 1.1rem 0.75rem;
@@ -82,4 +97,79 @@ body {
     outline: none;
 }
 
+.login-content .login-area .login-form .link a {
+    text-decoration: none;
+    color: #0467c3;
+    font-weight: 600;
+}
+
+.login-content .login-area .login-form .button input {
+    width: 100%;
+    padding: 1.12rem 0.75rem;
+    background-color: #0467c3;
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.login-content .login-area .or {
+    position: relative;
+    text-align: center;
+    margin: 1.25rem 0;
+    color: #666;
+}
+
+.login-content .login-area .or::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    content: '';
+    width: 9rem;
+    height: 1px;
+    background-color: #666;
+}
+
+.login-content .login-area .or::after {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    content: '';
+    width: 9rem;
+    height: 1px;
+    background-color: #666;
+}
+
+.login-content .login-area .button-link {
+    text-align: center;
+    border: 2px solid #999;
+    padding: 1.1rem 0.75rem;
+    border-radius: 3.1rem;
+}
+
+.login-content .login-area .button-link i {
+    font-size: 1.3em;
+    color: #222;
+}
+
+.login-content .login-area .button-link a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 600;
+}
+
+.login-content .join-now .link {
+    color: #333;
+    font-weight: 500;
+}
+
+.login-content .join-now .link a {
+    text-decoration: none;
+    color: #0467c3;
+    font-weight: 600;
+    margin-left: 0.43rem;
+}
 
