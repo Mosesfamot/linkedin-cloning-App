@@ -20,7 +20,7 @@ a {
     color: #5f5f5f
 }
 
-/* || NAVBAR AREA */
+/* || NAVBAR AREA START */
 .navbar {
     display: flex;
     align-items: center;
@@ -121,7 +121,36 @@ a {
     display: flex;
     align-items: center;
 }
+/* || NAVBAR AREA END */
 
+/* || CONTAINER START */
+.container {
+    padding: 1.25rem 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* || CONTAINER END */
+
+/* || LEFT SIDEBAR START */
+.left-sidebar {
+    flex-basis:  25%;
+    align-self: flex-start;
+}
+/* || LEFT SIDEBAR END */
+
+/* || RIGHT SIDEBAR START */
+.right-sidebar {
+    flex-basis:  25%;
+    align-self: flex-start;
+}
+/* || RIGHT SIDEBAR END */
+
+/* || MAIN CONTENT START */
+.main-content {
+    flex-basis: 47;
+}
+/* || MAIN CONTENT END */
 
 
 
