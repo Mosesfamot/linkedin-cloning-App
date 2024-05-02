@@ -374,13 +374,35 @@ a {
 
 
 
-
-
-
 /* || MAIN CONTENT START */
 .main-content {
     flex-basis: 47%;
 }
+
+.create-post {
+    background: #fff;
+}
+
+.create-post-input {
+    padding: 1.25rem 1.56rem 0.625rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.create-post-input img {
+    width: 2.18rem;
+    border-radius: 50%;
+    margin-right: 0.625rem;
+}
+
+.create-post-input textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    resize: none;
+    background: transparent;
+    margin-top: 0.5rem;
+} 
 /* || MAIN CONTENT END */
 
 
