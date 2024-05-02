@@ -259,7 +259,49 @@ a {
     flex-basis:  25%;
     align-self: flex-start;
 }
+
+.sidebar-news {
+    background: #fff;
+    padding: 0.625rem 1.56rem;
+}
+
+.info-icon {
+    width: 0.93rem;
+    float: right;
+    margin-top: 0.93rem;
+}
+
+.sidebar-news h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0.625rem 0 1.875rem;
+}
+
+.sidebar-news a {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-top: 0.625rem;
+    margin-bottom: -5px;
+}
+
+.sidebar-news span {
+    font-size: 0.75rem;
+    color: #333;
+}
+
+.sidebar-news .read-more-link {
+    color: #045be6;
+    font-weight: 500;
+    margin: 1.25rem 0 0.625rem;
+}
 /* || RIGHT SIDEBAR END */
+
+
+
+
+
 
 
 
