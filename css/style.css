@@ -339,6 +339,35 @@ a {
     font-weight: 500;
     margin: 1.25rem auto 0.625rem;
 }
+
+.sidebar-useful-links {
+    padding: 0.93rem 1.56rem;
+    text-align: center;
+}
+
+.sidebar-useful-links a {
+    display: inline-block;
+    font-size: 0.875rem;
+    margin: 4px 2px;
+}
+
+.copyright-msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    margin-top: 0.625rem;
+    font-weight: 500;
+}
+
+.copyright-msg img {
+    width: 1.125rem;
+    margin-right: 0.25rem;
+}
+
+.copyright-msg p {
+    color: #333;
+}
 /* || RIGHT SIDEBAR END */
 
 
