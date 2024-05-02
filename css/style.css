@@ -437,6 +437,37 @@ a {
     border-top: 0;
     border-right: 0;
 }
+
+.sort-by {
+    display: flex;
+    align-items: center;
+    margin: 0.625rem 0;
+}
+
+.sort-by hr {
+    flex: 1;
+    border: 0;
+    height: 1px;
+    background: #ccc;
+}
+
+.sort-by p {
+    font-size: 0.81rem;
+    padding-left: 5px;
+    color: #333;
+}
+
+.sort-by p span {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sort-by p span img {
+    width: 0.75rem;
+    margin-left: 3px;
+}
+
+
 /* || MAIN CONTENT END */
 
 
