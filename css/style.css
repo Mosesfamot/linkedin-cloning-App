@@ -467,6 +467,42 @@ a {
     margin-left: 3px;
 }
 
+.post {
+    background: #fff;
+    padding: 1.25rem 1.56rem 0.31rem;
+    margin: 0.31rem 0 0.93rem;
+    color: #333;
+}
+
+.post-author {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.25rem;
+}
+
+.post-author img {
+    width: 2.18rem;
+    border-radius: 50%;
+    margin-right: 0.625rem;
+    margin-top: 0.31rem;
+}
+
+.post-author h1 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.post-author small {
+    display: block;
+    margin-bottom: -2px;
+}
+
+.post p {
+    font-size: 0.875rem;
+    margin-bottom: 0.93rem;
+}
+
 
 /* || MAIN CONTENT END */
 
