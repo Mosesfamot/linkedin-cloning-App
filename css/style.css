@@ -425,6 +425,11 @@ a {
     cursor: pointer;
     color: #333;
 }
+
+.create-post-links li img {
+    width: 0.93rem;
+    margin-right: 0.31rem;
+}
 /* || MAIN CONTENT END */
 
 
