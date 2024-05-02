@@ -296,6 +296,20 @@ a {
     font-weight: 500;
     margin: 1.25rem 0 0.625rem;
 }
+
+.sidebar-ad {
+    background: #fff;
+    padding: 0.93rem 1.56rem;
+    text-align: center;
+    margin: 0.75rem 0;
+    font-size: 0.75rem;
+}
+
+.sidebar-ad img {
+    width: 3.75rem;
+    border-radius: 50%;
+    margin: 0.25rem;
+}
 /* || RIGHT SIDEBAR END */
 
 
