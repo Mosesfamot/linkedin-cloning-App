@@ -50,6 +50,7 @@ a {
     font-size: 0.87rem;
     margin: 0.3rem 0.5rem;
     padding-right: 0.3rem;
+    position: relative;
 }
 
 .navbar-center ul li a img {
@@ -58,11 +59,18 @@ a {
 
 .navbar-center ul li a::after {
     content: '';
-    width: 100%;
+    width: 0;
     height: 0.125rem;
     background: #045be6;
     position: absolute;
     bottom: -0.93rem;
+    transition: width 0.3s;
+}
+
+.navbar-center ul li a:hover::after,
+.navbar-center ul li a.active-link::after
+{
+    width: 100%;
 }
 
 .nav-profile-img {
@@ -88,3 +96,36 @@ a {
     background: #41db51;
     position: absolute;
 }
+
+.search-box {
+    background: #f0f2f5;
+    width: 15.6rem;
+    border-radius: 1.25rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.93rem;
+}
+
+.search-box img {
+    width: 0.875rem;
+}
+
+.search-box input {
+    width: 100%;
+    background: transparent;
+    padding: 0.5rem;
+    border: 0;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
