@@ -402,7 +402,29 @@ a {
     resize: none;
     background: transparent;
     margin-top: 0.5rem;
-} 
+}
+::placeholder {
+    font-weight: 500;
+}
+
+.create-post-links {
+    display: flex;
+    align-items: flex-start;
+}
+
+.create-post-links li {
+    list-style: none;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    flex-basis: 25%;
+    height: 2.5rem;
+    font-size: 0.81rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #333;
+}
 /* || MAIN CONTENT END */
 
 
