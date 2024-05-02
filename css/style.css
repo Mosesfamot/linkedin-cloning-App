@@ -17,3 +17,46 @@ a {
     text-decoration: none;
     color: #5f5f5f
 }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 0.73rem 0.37rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 0.3rem 0.62rem rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 1.875rem;
+    margin-right: 0.93rem;
+    display: block;
+}
+
+.navbar-center ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar-center ul li a {
+    display: flex;
+    align-items: center;
+    font-size: 0.87rem;
+    margin: 0.3rem 0.5rem;
+    padding-right: 0.3rem;
+}
+
+.navbar-center ul li a img {
+    width: 1.87rem;
+}
+
+.nav-profile-img {
+    width: 2.5rem;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
