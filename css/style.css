@@ -430,6 +430,13 @@ a {
     width: 0.93rem;
     margin-right: 0.31rem;
 }
+
+.create-post-links li:last-child {
+    background: #045be6;
+    color: #fff;
+    border-top: 0;
+    border-right: 0;
+}
 /* || MAIN CONTENT END */
 
 
