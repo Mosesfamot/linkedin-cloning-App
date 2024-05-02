@@ -209,6 +209,33 @@ a {
     width: 1.25rem;
     margin: 0.62rem;
 }
+
+.sidebar-activity {
+    background: #fff;
+    padding: 0.3rem 1.56rem;
+    margin: 0.75rem 0;
+}
+
+.sidebar-activity h3 {
+    color: #777;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 1.25rem 0 0.625rem;
+}
+
+.sidebar-activity a {
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #888;
+    margin: 3px 0;
+}
+
+.sidebar-activity a img {
+    width: 1.25rem;
+    margin-right: 0.625rem;
+}
 /* || LEFT SIDEBAR END */
 
 
