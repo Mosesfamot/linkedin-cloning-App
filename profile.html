@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Clone App</title>
+    <link rel="icon" href="img/linkedin.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+    <!-- NAVBAR START -->
+    <nav class="navbar">
+        <section class="navbar-left">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="LinkedIn Logo"></a>
+
+            <article class="search-box">
+                <img src="img/search.png" alt="Search bar">
+                <input type="text" placeholder="search">
+            </article>
+
+        </section>
+        <section class="navbar-center">
+            <ul>
+                <li><a href="" class="active-link"><img src="img/home.png" alt="Home Icon"> <span>Home</span></a></li>
+                <li><a href=""><img src="img/network.png" alt="Home Icon"> <span>My Network</span></a></li>
+                <li><a href=""><img src="img/jobs.png" alt="Home Icon"> <span>Jobs</span></a></li>
+                <li><a href=""><img src="img/message.png" alt="Home Icon"> <span>Messaging</span></a></li>
+                <li><a href=""><img src="img/notification.png" alt="Home Icon"> <span>Notifications</span></a></li>
+            </ul>
+        </section>
+
+        <section class="navbar-right">
+            <article class="online">
+                <img src="img/user-1.png" alt="User Image" class="nav-profile-img" onclick="toggleMenu()">
+            </article>
+        </section>
+
+        <!-- PROFILE DROP-DOWN MENU  -->
+        <article class="profile-menu-wrap" id="profileMenu">
+            <article class="profile-menu">
+                <article class="user-info">
+                    <img src="img/user-1.png" alt="User Image">
+                    <article>
+                        <h3>Moses Ojo</h3>
+                        <a href="#">See your profile</a>
+                    </article>
+                </article>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="img/feedback.png" alt="Feedback">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="img/setting.png" alt="Setting">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="img/help.png" alt="Help">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="img/display.png" alt="Display">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="img/logout.png" alt="Logout">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </article>
+        </article>
+
+    </nav>
+    <!-- NAVBAR END -->
+
+    
+
+    <script src="js/script.js"></script>
+    <!-- CONTAINER END  -->
+</body>
+</html>
