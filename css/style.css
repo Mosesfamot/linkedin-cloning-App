@@ -644,7 +644,7 @@ a {
     flex-basis: 25%;
     align-self: flex-start;
     position: sticky;
-    top: 73%;
+    top: 4.56rem;
 }
 
 .profile-container {
@@ -792,7 +792,32 @@ a {
     margin-left: 0.5rem;
 }
 
+.skills-btn {
+    display: inline-block;
+    margin: 0.625rem 0.31rem;
+    padding: 0.375rem 1.125rem;
+    border: 1px solid #777;
+    border-radius: 1.875rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.language-btn {
+    display: inline-block;
+    margin: 0.625rem 0.31rem;
+    padding: 0.375rem 1.125rem;
+    background: #e4e6eb;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
 /* PROFILE PAGE END */
+
+/* PROFILE RIGHT SIDEBAR START */
+.profile-sidebar .sidebar-ad {
+    margin: 0;
+}
+
+/* PROFILE RIGHT SIDEBAR END */
 
 
 
