@@ -562,12 +562,20 @@ a {
 
 /* || MAIN CONTENT END */
 
+
 /* PROFILE DROP-DOWN MENU START  */
 .profile-menu-wrap {
     position: absolute;
     top: 100%;
     right: 5%;
     width: 20rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.profile-menu-wrap.open-menu {
+    max-height: 25rem;
 }
 
 .profile-menu {
