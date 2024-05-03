@@ -695,6 +695,29 @@ a {
     margin-right: 5px;
 }
 
+.profile-btn {
+    margin: 1.25rem 0;
+}
+
+.profile-btn a {
+    display: inline-flex;
+    align-items: center;
+    background: #e4e6eb;
+    padding: 0.375rem 0.93rem;
+    border-radius: 4px;
+    margin-right: 0.625rem;
+}
+
+.profile-btn a img {
+    width: 1.125rem;
+    margin-right: 5px;
+}
+
+.profile-btn .primary-btn {
+    background: #045be6;
+    color: #fff;
+}
+
 /* PROFILE PAGE END */
 
 
