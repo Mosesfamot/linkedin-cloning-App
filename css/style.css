@@ -880,6 +880,46 @@ a {
 /* PROFILE RIGHT SIDEBAR END */
 
 
+/* MEDIA QUERY FOR SMALL SCREEN START */
+@media only screen and (max-width: 600px) {
+    .search-box {
+        background: transparent;
+        width: auto;
+        padding: 0;
+    }
+
+    .search-box input {
+        width: 0;
+        padding: 0;
+    }
+
+    .navbar-center ul li a span {
+        display: none;
+    }
+
+    .navbar-center ul li a {
+        padding-right: 0;
+        margin: 0.31rem;
+    }
+
+    .nav-profile-img {
+        width: 1.875rem;
+    }
+
+    .container {
+        padding: 0.93rem 3%;
+    }
+
+    .left-sidebar, .right-sidebar {
+        flex-basis: 100%;
+        position: relative;
+        top: unset;
+    }
+}
+
+/* MEDIA QUERY FOR SMALL SCREEN END */
+
+
 
 
 
