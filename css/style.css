@@ -740,6 +740,44 @@ a {
     font-size: 0.93em;
 }
 
+.profile-desc-row {
+    display: flex;
+    align-items: flex-start;
+    margin: 1.25rem 0;
+}
+
+.profile-desc-row img {
+    width: 3.125rem;
+    margin-right: 1.56rem;
+    margin-top: 5px;
+}
+
+.profile-desc-row article {
+    width: 100%;
+}
+
+.profile-desc-row h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.profile-desc-row b {
+    display: block;
+    font-weight: 500;
+    font-size: 0.93rem;
+    color: #333;
+}
+
+.profile-desc-row p {
+    margin-top: 0.93rem;
+}
+
+.profile-desc-row hr {
+    border: 0;
+    border-bottom: 1px solid #999;
+}
+
 /* PROFILE PAGE END */
 
 
