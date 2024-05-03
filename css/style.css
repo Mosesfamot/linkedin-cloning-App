@@ -635,6 +635,69 @@ a {
 /* PROFILE DROP-DOWN MENU END  */
 
 
+/* PROFILE PAGE START */
+.profile-main {
+    flex-basis: 73%;
+}
+
+.profile-sidebar {
+    flex-basis: 25%;
+    align-self: flex-start;
+    position: sticky;
+    top: 73%;
+}
+
+.profile-container {
+    background: #fff;
+}
+
+.profile-container-inner {
+    padding: 0 4% 0.625rem;
+    color: #333;
+}
+
+.profile-pic {
+    width: 9.37rem;
+    border-radius: 50%;
+    margin-top: -4.68rem;
+    padding: 5px;
+    background: #fff;
+}
+
+.profile-container h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #222;
+}
+
+.profile-container b {
+    font-weight: 500;
+}
+
+.profile-container p {
+    margin-top: 5px;
+}
+
+.profile-container p a {
+    color: #045be6;
+    font-weight: 500;
+}
+
+.mutual-connection {
+    display: flex;
+    align-items: center;
+    margin: 1.25rem 0;
+}
+
+.mutual-connection img {
+    width: 1.875rem;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+/* PROFILE PAGE END */
+
+
 
 
 
