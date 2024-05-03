@@ -252,6 +252,10 @@ a {
     display: inline-block;
     margin: 0.625rem 0;
 }
+
+#showMoreLink {
+    display: none;
+}
 /* || LEFT SIDEBAR END */
 
 
