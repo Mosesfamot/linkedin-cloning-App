@@ -8,5 +8,11 @@ function toggleMenu() {
 
 function toggleActivity() {
     sidebarActivity.classList.toggle("open-activity");
+    
+    if(sideActivity.classList.contains("open-activity")) {
+        moreLink.innerHTML = "Show less <b>-</b>";
+    } else {
+        moreLink.innerHTML = "Show more <b>+</b>";
+    }
 }
 
