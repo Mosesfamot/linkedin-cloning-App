@@ -138,6 +138,8 @@ a {
 .left-sidebar {
     flex-basis:  25%;
     align-self: flex-start;
+    position: sticky;
+    top: 4.56rem;
 }
 
 .sidebar-profile-box {
@@ -258,6 +260,8 @@ a {
 .right-sidebar {
     flex-basis:  25%;
     align-self: flex-start;
+    position: sticky;
+    top: 4.56rem;
 }
 
 .sidebar-news {
