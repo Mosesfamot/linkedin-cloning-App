@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-/* || RESET */
+/* RESET START */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +10,12 @@
     box-sizing: border-box;
 }
 
-/* || GENERAL STYLES */
+/* RESET START */
+
+
+
+/* GENERAL STYLES START */
+
 body {
     background: #f0f2f5;
     color: #f0f2f5
@@ -20,7 +26,12 @@ a {
     color: #5f5f5f
 }
 
-/* || NAVBAR AREA START */
+/* GENERAL STYLES START */
+
+
+
+
+/* NAVBAR AREA START */
 .navbar {
     display: flex;
     align-items: center;
@@ -121,20 +132,26 @@ a {
     display: flex;
     align-items: center;
 }
-/* || NAVBAR AREA END */
 
-/* || CONTAINER START */
+/* NAVBAR AREA END */
+
+
+
+/* CONTAINER START */
+
 .container {
     padding: 1.25rem 6%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-/* || CONTAINER END */
+
+/* CONTAINER END */
 
 
 
-/* || LEFT SIDEBAR START */
+/* LEFT SIDEBAR START */
+
 .left-sidebar {
     flex-basis:  25%;
     align-self: flex-start;
@@ -256,11 +273,14 @@ a {
 #showMoreLink {
     display: none;
 }
-/* || LEFT SIDEBAR END */
+
+/* LEFT SIDEBAR END */
 
 
 
-/* || RIGHT SIDEBAR START */
+
+/* RIGHT SIDEBAR START */
+
 .right-sidebar {
     flex-basis:  25%;
     align-self: flex-start;
@@ -376,13 +396,15 @@ a {
 .copyright-msg p {
     color: #333;
 }
-/* || RIGHT SIDEBAR END */
+
+/* RIGHT SIDEBAR END */
 
 
 
 
 
-/* || MAIN CONTENT START */
+/* MAIN CONTENT START */
+
 .main-content {
     flex-basis: 47%;
 }
@@ -567,6 +589,10 @@ a {
 /* || MAIN CONTENT END */
 
 
+
+
+
+
 /* PROFILE DROP-DOWN MENU START  */
 .profile-menu-wrap {
     position: absolute;
@@ -639,7 +665,12 @@ a {
 /* PROFILE DROP-DOWN MENU END  */
 
 
+
+
+
+
 /* PROFILE PAGE START */
+
 .profile-main {
     flex-basis: 73%;
 }
@@ -814,9 +845,16 @@ a {
     font-size: 0.75rem;
     font-weight: 500;
 }
+
 /* PROFILE PAGE END */
 
+
+
+
+
+
 /* PROFILE RIGHT SIDEBAR START */
+
 .profile-sidebar .sidebar-ad {
     margin: 0;
 }
@@ -884,7 +922,13 @@ a {
 /* PROFILE RIGHT SIDEBAR END */
 
 
+
+
+
+
+
 /* MEDIA QUERY FOR SMALL SCREEN START */
+
 @media only screen and (max-width: 576px) {
     .search-box {
         background: transparent;
@@ -912,6 +956,10 @@ a {
 
     .container {
         padding: 0.93rem 3%;
+    }
+
+    .tablet-sidebar {
+        display: none;
     }
 
     .left-sidebar, .right-sidebar {
@@ -974,7 +1022,13 @@ a {
 /* MEDIA QUERY FOR SMALL SCREEN END */
 
 
+
+
+
+
+
 /* MEDIA QUERY FOR MEDIUM SCREEN START */
+
 @media only screen and (min-width: 577px) and (max-width: 768px) {
     .search-box {
         background: transparent;
@@ -1000,22 +1054,72 @@ a {
     }
 
     .left-sidebar, .right-sidebar {
-        flex-basis: 30%;
+        display: none;
+    }
+
+    .tablet-sidebar {
+        flex-basis:  30%;
         align-self: flex-start;
-        position: relative;
-        top: unset;
-        margin-top: 0;
+        position: sticky;
+        top: 4.56rem;
     }
 
     .main-content {
-        flex-basis: 67%;
+        flex-basis: 65%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    .post-stats article {
+        margin: 2px 0;
+    }
+
+    .post-activity-link span {
+        display: none;
+    }
+
+    .post-activity-link img {
+        margin-left: 0;
+    }
+
+    .profile-main {
+        flex-basis: 65%;
+    }
+
+    .profile-sidebar {
+        flex-basis: 30%;
+    }
+
+    .profile-container {
+        font-size: 0.875rem;
+    }
+
+    .profile-pic {
+        width: 6.25rem;
+        margin-top: -3.125rem;
+    }
+
+    .profile-description {
+        font-size: 0.875rem;
     }
 }
 
+/* MEDIA QUERY FOR MEDIUM SCREEN END */
 
-/* MEDIA QUERY FOR MEDIUM SCREEN START */
 
 
+
+
+
+/* MEDIA QUERY FOR LARGE SCREEN START */
+
+@media only screen and (min-width: 769px) {
+    .tablet-sidebar {
+        display: none;
+    }
+}
+
+/* MEDIA QUERY FOR LARGE SCREEN END */
 
 
 
