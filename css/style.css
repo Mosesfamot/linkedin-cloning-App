@@ -1003,6 +1003,15 @@ a {
     float: right;
 }
 
+.premium-section {
+    
+}
+
+.premium-section h3 {
+    color: #777;
+    font-weight: 600;
+}
+
 
 /* NETWORK MAIN CONTENT END */
 
