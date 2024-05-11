@@ -929,13 +929,11 @@ a {
 
 
 
-
-
-
 /* NETWORK PAGE LEFT-SIDEBAR START */
 
 .network-sidebar-activity {
     background: #fff;
+    border-radius: 0.5rem;
 }
 
 .network-manage-section {
@@ -981,6 +979,32 @@ a {
 
 
 
+
+/* NETWORK MAIN CONTENT START */
+
+.network-main-content {
+    flex-basis: 70%;
+    margin-top: 0.8rem;
+}
+
+.invitation-section {
+    background: #fff;
+    border-radius: 0.5rem;
+}
+
+.invitation-section p {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.8rem;
+    color: #777;
+}
+
+.invitation-section p span {
+    float: right;
+}
+
+
+/* NETWORK MAIN CONTENT END */
 
 
 
