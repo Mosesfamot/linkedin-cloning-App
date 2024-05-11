@@ -856,8 +856,6 @@ a {
 
 
 
-
-
 /* PROFILE RIGHT SIDEBAR START */
 
 .profile-sidebar .sidebar-ad {
@@ -925,6 +923,45 @@ a {
 }
 
 /* PROFILE RIGHT SIDEBAR END */
+
+
+
+
+
+
+
+
+
+/* NETWORK PAGE LEFT-SIDEBAR START */
+
+.network-sidebar-activity {
+    background: #fff;
+    padding: 0.3rem 1.56rem;
+    margin: 0.75rem 0;
+}
+
+.network-sidebar-activity h3 {
+    color: #777;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1.25rem 0 0.625rem;
+}
+
+.network-sidebar-activity a i {
+    margin-right: 1rem;
+}
+
+.network-sidebar-activity a {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #888;
+    margin: 0.93rem 0;
+}
+
+
+/* NETWORK PAGE LEFT-SIDEBAR END */
 
 
 
