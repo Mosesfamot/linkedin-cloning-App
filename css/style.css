@@ -936,6 +936,9 @@ a {
 
 .network-sidebar-activity {
     background: #fff;
+}
+
+.network-manage-section {
     padding: 0.3rem 1.56rem;
     margin: 0.75rem 0;
 }
@@ -944,24 +947,33 @@ a {
     color: #777;
     font-size: 1.2rem;
     font-weight: 500;
-    margin: 1.25rem 0 0.625rem;
+    margin: 1.25rem 1rem 0.625rem;
 }
 
-.network-sidebar-activity a i {
+.network-sidebar-activity ul li {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.network-sidebar-activity ul li i {
     margin-right: 1rem;
 }
 
-.network-sidebar-activity a {
-    display: flex;
+.network-sidebar-activity ul li a {
     align-items: center;
     font-size: 1rem;
     font-weight: 500;
-    color: #888;
-    margin: 0.93rem 0;
+    color: #777;
 }
 
-.network-sidebar-activity a span {
-   flex-direction: row;
+.network-sidebar-activity span {
+    float: right;
+    color: #333;
+}
+
+.network-sidebar-activity .network-sidebar-img {
+    margin-top: 0.2rem;
+    width: 100%;
 }
 
 
