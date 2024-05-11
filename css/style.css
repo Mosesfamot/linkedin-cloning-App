@@ -960,6 +960,10 @@ a {
     margin: 0.93rem 0;
 }
 
+.network-sidebar-activity a span {
+   flex-direction: row;
+}
+
 
 /* NETWORK PAGE LEFT-SIDEBAR END */
 
