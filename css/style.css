@@ -184,18 +184,21 @@ a {
     background: #fff;
     padding: 0.25rem;
     margin-top: -2.8rem;
+    cursor: pointer;
 }
 
 .sidebar-profile-info h1 {
     font-size: 1.25rem;
     font-weight: 600;
     color: #222;
+    cursor: pointer;
 }
 
 .sidebar-profile-info h3{
     font-size: 0.87rem;
     font-weight: 500;
     color: #777;
+    cursor: pointer;
 }
 
 .sidebar-profile-info ul {
@@ -204,6 +207,7 @@ a {
 }
 
 .sidebar-profile-info ul li {
+    cursor: pointer;
     width: 100%;
     margin: 0.3rem 0;
     font-size: 0.8rem;
@@ -312,6 +316,7 @@ a {
     width: 0.93rem;
     float: right;
     margin-top: 0.93rem;
+    cursor: pointer;
 }
 
 .sidebar-news h3 {
@@ -348,6 +353,7 @@ a {
     text-align: center;
     margin: 0.75rem 0;
     font-size: 0.75rem;
+    cursor: pointer;
 }
 
 .sidebar-ad img {
@@ -439,21 +445,28 @@ a {
 }
 
 .create-post-input img {
-    width: 2.18rem;
+    width: 3rem;
     border-radius: 50%;
     margin-right: 0.625rem;
+    cursor: pointer;
 }
 
-.create-post-input textarea {
+.create-post-input input {
     width: 100%;
-    border: 0;
+    border: 1px solid #ccc;
+    border-radius: 1.7rem;
+    padding: 1rem;
     outline: 0;
     resize: none;
     background: transparent;
-    margin-top: 0.5rem;
 }
 ::placeholder {
     font-weight: 500;
+}
+
+.create-post-input input:hover {
+    cursor: pointer;
+    background: #f3f3f3;
 }
 
 .create-post-links {
@@ -463,8 +476,6 @@ a {
 
 .create-post-links li {
     list-style: none;
-    border-top: 1px solid #ccc;
-    border-right: 1px solid #ccc;
     flex-basis: 25%;
     height: 2.5rem;
     font-size: 0.81rem;
