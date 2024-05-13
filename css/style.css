@@ -532,7 +532,7 @@ a {
     background: #fff;
     border-radius: 0.5rem;
     border: 0.6px solid #ccc;
-    padding: 1.25rem 1.56rem 0.31rem;
+    padding: 1.25rem 1.56rem 0;
     margin: 0.31rem 0 0.93rem;
     color: #333;
 }
@@ -548,17 +548,25 @@ a {
     border-radius: 50%;
     margin-right: 0.625rem;
     margin-top: 0.31rem;
+    cursor: pointer;
 }
 
 .post-author h1 {
-    font-size: 1.125rem;
+    font-size: 0.8rem;
     font-weight: 600;
     color: #333;
+}
+
+.post-author h1:hover {
+    cursor: pointer;
+    color: #045be6;
+    text-decoration: underline;
 }
 
 .post-author small {
     display: block;
     margin-bottom: -2px;
+    cursor: pointer;
 }
 
 .post p {
@@ -584,6 +592,13 @@ a {
 .post-stats img {
     width: 0.93rem;
     margin-right: -5px;
+    cursor: pointer;
+}
+
+.post-stats article span:hover {
+    cursor: pointer;
+    color: #045be6;
+    text-decoration: underline;
 }
 
 .liked-user {
@@ -594,9 +609,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.625rem 0;
     font-size: 0.875rem;
     font-weight: 500;
+    color: #777;
 }
 
 .post-activity article {
@@ -614,9 +629,19 @@ a {
     margin-left: 0.31rem;
 }
 
-.post-activity-link img {
-    width: 1.125rem;
-    margin-right: 0.5rem;
+.post-activity-link {
+    margin: 5px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.post-activity-link:hover {
+    cursor: pointer;
+    background: #f3f3f3;
+}
+
+.post-activity-link i {
+    font-size: 1.5rem;
 }
 
 /* || MAIN CONTENT END */
