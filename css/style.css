@@ -475,28 +475,28 @@ a {
 }
 
 .create-post-links li {
+    margin: 1rem;
+    border-radius: 0.5rem;
     list-style: none;
-    flex-basis: 25%;
+    flex-basis: 33%;
     height: 2.5rem;
     font-size: 0.81rem;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    color: #333;
+    color: #777;
+}
+
+.create-post-links li:hover {
+    cursor: pointer;
+    background: #f3f3f3;
 }
 
 .create-post-links li img {
     width: 0.93rem;
     margin-right: 0.31rem;
-}
-
-.create-post-links li:last-child {
-    border-radius: 0 0 0.5rem 0;
-    background: #045be6;
-    color: #fff;
-    border-top: 0;
-    border-right: 0;
 }
 
 .sort-by {
