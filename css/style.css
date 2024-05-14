@@ -1297,8 +1297,38 @@ figure:hover, figcaption:hover {
 }
 
 .connect-card-inner h4 {
+    text-align: center;
     color: #000;
     margin: 0.3rem 0;
+}
+
+.connect-card-inner p {
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+}
+
+.card-connect-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-connect-btn .card-inner-sch-img {
+    width: 1rem;
+    margin: 0 0.25rem;
+}
+
+.card-connect-btn span {
+    color: #777;
+    font-size: 0.7rem;
+}
+
+.card-connect-btn a {
+    border: 1.5px solid #045be6;
+    border-radius: 1.5rem;
+    padding: 0.5rem 2.3rem;
+    margin: 0.8rem 0;
 }
 
 /* NETWORK MAIN CONTENT END */
