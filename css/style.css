@@ -1190,7 +1190,7 @@ figure:hover, figcaption:hover {
 
 .premium-section h3 {
     margin-top: 0.3rem;
-    color: #777;
+    color: #000;
     font-weight: 600;
 }
 
@@ -1233,6 +1233,73 @@ figure:hover, figcaption:hover {
     font-weight: 600;
 }
 
+.people-connect-section {
+    margin-top: 1.2rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    border: 0.6px solid #ccc;
+    padding: 1rem;
+}
+
+.people-connect-section p {
+    font-size: 1rem;
+    color: #777;
+}
+
+.people-connect-section p span {
+    float: right;
+    font-weight: 600;
+    color: #000;
+}
+
+.connect-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.connect-card .people-connect-card {
+    flex-basis: 23%;
+    margin-top: 0.8rem;
+    border-radius: 0.5rem;
+    border: 0.6px solid #ccc;
+}
+
+.connect-card .people-connect-card .card-bg-img {
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    height: 4rem;
+}
+
+.connect-card-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.card-inner-img {
+    border-radius: 50%;
+    margin-top: -4.2rem;
+}
+
+.connect-card-inner span i {
+    position: absolute;
+    font-size: 1.5rem;
+    top: -3.8rem;
+    right: 0.8rem;
+    background: rgba(94, 94, 94, 0.7);
+    color: #fff;
+    padding: 0.1rem;
+    border-radius: 50%;
+}
+
+.connect-card-inner h4 {
+    color: #000;
+    margin: 0.3rem 0;
+}
 
 /* NETWORK MAIN CONTENT END */
 
