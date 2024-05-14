@@ -193,7 +193,8 @@ a {
 }
 
 .sidebar-profile-info {
-    padding: 0 1.56rem;
+    margin: 0.8rem 0;
+    padding: 0;
 }
 
 .sidebar-profile-info img {
@@ -231,15 +232,17 @@ figure:hover, figcaption:hover {
 
 .sidebar-profile-info ul {
     list-style-type: none;
-    margin: 1.25rem 0;
+    padding: 0.5rem;
 }
 
 .sidebar-profile-info ul li {
-    cursor: pointer;
     width: 100%;
-    margin: 0.3rem 0;
     font-size: 0.8rem;
     color: #777;
+}
+
+.sidebar-profile-info ul li:last-child {
+    font-weight: 600;
 }
 
 .sidebar-profile-info ul li span {
@@ -247,72 +250,98 @@ figure:hover, figcaption:hover {
     color: #045be6;
 }
 
-.sidebar-profile-link {
-    display: flex;
-    align-items: center;
-    border-top: 1px solid #ccc;
-}
-
-.sidebar-profile-link a {
-    flex-basis: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.9rem 0;
+.side-bar-career {
+    padding: 0.5rem;
+    color: #333;
     font-size: 0.8rem;
-    border-left: 1px solid #ccc;
 }
 
-.sidebar-profile-link a:first-child {
-    border-left: 0;
+.sidebar-profile-saved {
+    padding: 0.6rem 0.5rem;
+    color: #333;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
-.sidebar-profile-link a img {
-    width: 1.25rem;
-    margin: 0.62rem;
+.sidebar-profile-info ul:hover,
+.side-bar-career:hover,
+.sidebar-profile-saved:hover {
+    cursor: pointer;
+    background: #f3f3f3;
 }
 
 .sidebar-activity {
     background: #fff;
     border-radius: 0.5rem;
     border: 0.6px solid #ccc;
-    padding: 0.3rem 1.56rem;
     margin: 0.75rem 0;
-}
-
-.sidebar-activity h3 {
-    color: #777;
-    font-size: 0.875rem;
-    font-weight: 500;
-    margin: 1.25rem 0 0.625rem;
-}
-
-.sidebar-activity a {
-    display: flex;
-    align-items: center;
     font-size: 0.75rem;
-    font-weight: 500;
-    color: #888;
-    margin: 3px 0;
 }
 
-.sidebar-activity a img {
-    width: 1.25rem;
-    margin-right: 0.625rem;
+.sidebar-activity .recent {
+    color: #777;
+    margin: 1rem 0 1.5rem 0;
+}
+
+.sidebar-activity .recent p {
+    margin: 0.5rem 0;
+    padding: 0.2rem 0.5rem;
+}
+
+.sidebar-activity .recent-hash:hover {
+    cursor: pointer;
+    background: #f3f3f3;
+}
+
+.sidebar-activity .link-list {
+    padding: 0 0.5rem;
+}
+
+.sidebar-activity .link-list p {
+    margin: 0.5rem 0;
+}
+
+.sidebar-activity .link-list a {
+    font-weight: 600;
+    color: #045be6;
+}
+
+.link-list a span i {
+    float: right;
+    font-size: 1rem;
+}
+
+.sidebar-activity .link-list a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sidebar-activity .see-all {
+    margin: 1rem 0 1.5rem 0;
+}
+
+.sidebar-activity .see-all p {
+    margin: 0.5rem 0;
+    padding: 0.2rem 0.5rem;
 }
 
 .discover-more-link {
-    border-top: 1px solid #ccc;
     text-align: center;
-    margin-top: 1.25rem;
+    margin-top: 0.1rem;
     margin-left: -1.56rem;
     margin-right: -1.56rem;
 }
 
 .discover-more-link a {
-    color: #045be6;
+    font-size: 0.8rem;
+    color: #777;
     display: inline-block;
     margin: 0.625rem 0;
+}
+
+.discover-more-link:hover {
+    cursor: pointer;
+    background: #f3f3f3;
 }
 
 #showMoreLink {
