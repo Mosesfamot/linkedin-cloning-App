@@ -1265,6 +1265,10 @@ figure:hover, figcaption:hover {
     border: 0.6px solid #ccc;
 }
 
+.people-connect-card:hover {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15), 0 2px 3px rgba(0, 0, 0, .2);
+}
+
 .connect-card .people-connect-card .card-bg-img {
     width: 100%;
     border-radius: 0.5rem 0.5rem 0 0;
@@ -1308,6 +1312,12 @@ figure:hover, figcaption:hover {
     line-height: 1.1rem;
 }
 
+.connect-card-inner:hover,
+.connect-card-inner h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .card-connect-btn {
     display: flex;
     justify-content: center;
@@ -1327,8 +1337,20 @@ figure:hover, figcaption:hover {
 .card-connect-btn a {
     border: 1.5px solid #045be6;
     border-radius: 1.5rem;
-    padding: 0.5rem 2.3rem;
+    padding: 0.4rem 2rem;
     margin: 0.8rem 0;
+    color: #045be6;
+    font-weight: 600;
+}
+
+.card-connect-btn i {
+    margin: 0 0.2rem;
+}
+
+.card-connect-btn a:hover {
+    cursor: pointer;
+    background: #e0e5ef;
+    border: 2px solid #045be6;
 }
 
 /* NETWORK MAIN CONTENT END */
