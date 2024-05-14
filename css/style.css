@@ -31,6 +31,15 @@ a {
 
 
 
+
+
+
+
+/* -------------------------------------- HOME PAGE HOME PAGE HOME PAGE HOME PAGE -------------------------------------- */
+
+
+
+
 /* NAVBAR AREA START */
 .navbar {
     display: flex;
@@ -782,6 +791,23 @@ figure:hover, figcaption:hover {
 
 
 
+/* -------------------------------------- HOME PAGE HOME PAGE HOME PAGE HOME PAGE -------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------- THE PROFILE PAGE THE PROFILE PAGE THE PROFILE PAGE -------------------------------------- */
+
+
 
 /* PROFILE PAGE START */
 
@@ -1046,19 +1072,38 @@ figure:hover, figcaption:hover {
 
 
 
+/* -------------------------------------- THE PROFILE PAGE THE PROFILE PAGE THE PROFILE PAGE -------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------- THE NETWORK PAGE THE NETWORK PAGE THE NETWORK PAGE -------------------------------------- */
+
 
 
 /* NETWORK PAGE LEFT-SIDEBAR START */
 
 .network-page-container {
-    padding: 1.25rem 11%;
+    padding: 1.25rem 15%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .network-left-sidebar {
-    
+    flex-basis:  25%;
+    align-self: flex-start;
+    position: sticky;
+    margin-top: 0.8rem;
 }
 
 .network-sidebar-activity {
@@ -1068,13 +1113,13 @@ figure:hover, figcaption:hover {
 }
 
 .network-manage-section {
-    padding: 0.3rem 1.56rem;
-    margin: 0.75rem 0;
+    padding: 0;
+    margin: 0;
 }
 
 .network-sidebar-activity h3 {
     color: #777;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     margin: 1.25rem 1rem 0.625rem;
 }
@@ -1114,7 +1159,7 @@ figure:hover, figcaption:hover {
 /* NETWORK MAIN CONTENT START */
 
 .network-main-content {
-    flex-basis: 70%;
+    flex-basis: 72%;
     margin-top: 0.8rem;
 }
 
@@ -1136,7 +1181,7 @@ figure:hover, figcaption:hover {
 }
 
 .premium-section {
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
     background: #fff;
     border-radius: 0.5rem;
     border: 0.6px solid #ccc;
@@ -1190,6 +1235,18 @@ figure:hover, figcaption:hover {
 
 
 /* NETWORK MAIN CONTENT END */
+
+
+
+
+
+
+/* -------------------------------------- THE NETWORK PAGE THE NETWORK PAGE THE NETWORK PAGE -------------------------------------- */
+
+
+
+
+
 
 
 
