@@ -1126,7 +1126,24 @@ figure:hover, figcaption:hover {
 
 .network-sidebar-activity ul li {
     list-style-type: none;
-    margin: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.network-sidebar-activity .show-less {
+    width: fit-content;
+    margin: 0.1rem 0.5rem 0.5rem;
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+}
+
+.network-sidebar-activity .show-less:hover {
+    cursor: pointer;
+    background: #f3f3f3;
+}
+
+.network-sidebar-activity ul li:hover {
+    cursor: pointer;
+    background: #f3f3f3;
 }
 
 .network-sidebar-activity ul li i {
