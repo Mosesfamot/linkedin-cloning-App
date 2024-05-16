@@ -1513,15 +1513,20 @@ figure:hover, figcaption:hover {
 /* -------------------------------------- JOBS PAGE SECTION JOBS PAGE SECTION JOBS PAGE SECTION -------------------------------------- */
 
 .sidebar-profile-box .jobs-sidebar {
-    padding: 1rem;
+    padding: 0.5rem 0.5rem;
     list-style: none;
 }
 
-.jobs-sidebar ul li a {
-    margin: 5rem 0;
+.jobs-sidebar .jobs-sidebar-list {
+    margin: 1rem 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
-
+.jobs-sidebar-list .job-sidebar-icon {
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+}
 
 
 
