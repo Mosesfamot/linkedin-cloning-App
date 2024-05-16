@@ -1502,9 +1502,34 @@ figure:hover, figcaption:hover {
 
 
 
-
-
 /* -------------------------------------- THE NETWORK PAGE THE NETWORK PAGE THE NETWORK PAGE -------------------------------------- */
+
+
+
+
+
+
+
+/* -------------------------------------- JOBS PAGE SECTION JOBS PAGE SECTION JOBS PAGE SECTION -------------------------------------- */
+
+.sidebar-profile-box .jobs-sidebar {
+    padding: 1rem;
+    list-style: none;
+}
+
+.jobs-sidebar ul li a {
+    margin: 5rem 0;
+}
+
+
+
+
+
+
+
+
+
+/* -------------------------------------- JOBS PAGE SECTION JOBS PAGE SECTION JOBS PAGE SECTION -------------------------------------- */
 
 
 
