@@ -1534,17 +1534,23 @@ figure:hover, figcaption:hover {
 .sidebar-profile-box .jobs-sidebar {
     padding: 0.5rem 0.5rem;
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .jobs-sidebar .jobs-sidebar-list {
     margin: 1rem 0.5rem;
     font-size: 0.9rem;
     font-weight: 600;
+    display: inline-block;
 }
 
-.jobs-sidebar-list .job-sidebar-icon {
+.job-sidebar-icon {
     font-size: 1.4rem;
     margin-right: 0.5rem;
+    color: #333;
 }
 
 .job-sidebar-post {
