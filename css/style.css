@@ -1531,14 +1531,15 @@ figure:hover, figcaption:hover {
     top: 4.56rem;
 }
 
-.sidebar-profile-box {
+.job-sidebar-profile-box {
     margin: 0;
+    background: #fff;
     padding: 1rem 0.5rem;
     border-radius: 0.5rem;
     border: 0.6px solid #ccc;
 }
 
-.sidebar-profile-box .jobs-sidebar {
+.job-sidebar-profile-box .jobs-sidebar {
     padding: 0.5rem;
     list-style: none;
     display: flex;
