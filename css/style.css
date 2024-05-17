@@ -1830,6 +1830,15 @@ figure:hover, figcaption:hover {
     margin-top: 1rem;
 }
 
+.job-search-pick-section h3 {
+    color: #000;
+}
+
+.job-search-pick-section p {
+    color: #777;
+    margin: 0.5rem 0 2rem;
+}
+
 /* JOB PAGE MAIN CONTENT SECTION START */
 
 
