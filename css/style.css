@@ -1874,6 +1874,54 @@ figure:hover, figcaption:hover {
 
 /* JOB PAGE MAIN CONTENT SECTION START */
 
+.job-right-sidebar {
+    flex-basis: 25%;
+    align-self: flex-start;
+    top: 4.56rem;
+}
+
+.job-right-sidebar .job-sidebar-guide-bg {
+    background: #fff;
+    border-radius: 0.5rem;
+    border: 0.6px solid #ccc;
+}
+
+.job-sidebar-guide-bg h3 {
+    color: #000;
+    margin: 2rem 0.8rem 0.2rem;
+}
+
+.job-sidebar-guide-bg p,
+.job-sidebar-guide-bg .job-show-more-link {
+    color: #777;
+    margin: 0 0.8rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+.job-sidebar-guide-bg .resume-improve {
+    padding: 0.8rem 0;
+    background: #e0e5ef;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.resume-improve p {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #000;
+}
+
+.resume-improve i {
+    color: #000;
+    font-size: 2.5rem;
+}
+
+.job-sidebar-guide-bg .job-show-more-link {
+    margin-bottom: 0.5rem;
+}
 
 
 /* -------------------------------------- JOBS PAGE SECTION JOBS PAGE SECTION JOBS PAGE SECTION -------------------------------------- */
