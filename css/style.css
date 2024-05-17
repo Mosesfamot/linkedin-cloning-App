@@ -1743,6 +1743,23 @@ figure:hover, figcaption:hover {
     background: #eaf0f9;
 }
 
+.job-search-toplist-bg {
+    background: #fff;
+    border-radius: 0.5rem;
+    border: 0.6px solid #ccc;
+    padding: 1.5rem 1rem;
+    margin-top: 1rem;
+}
+
+.job-search-toplist-bg .job-search-toplist-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-search-toplist-container img {
+    
+}
+
 
 
 /* -------------------------------------- JOBS PAGE SECTION JOBS PAGE SECTION JOBS PAGE SECTION -------------------------------------- */
