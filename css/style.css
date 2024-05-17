@@ -1528,20 +1528,20 @@ figure:hover, figcaption:hover {
 
 .sidebar-profile-box {
     margin: 0;
-    padding: 0;
+    padding: 1rem 0.5rem;
 }
 
 .sidebar-profile-box .jobs-sidebar {
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem;
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .jobs-sidebar .jobs-sidebar-list {
-    margin: 1rem 0.5rem;
+    margin: 0.5rem 0.2rem;
     font-size: 0.9rem;
     font-weight: 600;
     display: inline-block;
@@ -1550,7 +1550,7 @@ figure:hover, figcaption:hover {
 .job-sidebar-icon {
     font-size: 1.4rem;
     margin-right: 0.5rem;
-    color: #333;
+    color: #000000bf;
 }
 
 .job-sidebar-post {
@@ -1559,7 +1559,7 @@ figure:hover, figcaption:hover {
 }
 
 .job-sidebar-post a {
-    padding: 8% 18%;
+    padding: 1rem 3rem;
     border: 1px solid #045be6;
     border-radius: 3rem;
     color: #045be6;
