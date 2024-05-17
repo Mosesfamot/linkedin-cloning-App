@@ -1517,6 +1517,8 @@ figure:hover, figcaption:hover {
 
 /* -------------------------------------- JOBS PAGE SECTION JOBS PAGE SECTION JOBS PAGE SECTION -------------------------------------- */
 
+/* JOB PAGE LEFT SIDEBAR START */
+
 .job-page-container {
     padding: 1.25rem 11%;
     display: flex;
@@ -1585,8 +1587,18 @@ figure:hover, figcaption:hover {
     background: #eaf0f9;
 }
 
+
+/* JOB PAGE LEFT SIDEBAR END */
+
+
+
+
+
+
+/* JOB PAGE MAIN CONTENT SECTION START */
+
 .job-page-main-content {
-    flex-basis: 47%;
+    flex-basis: 50%;
     align-self: flex-start;
     top: 4.56rem;
 }
@@ -1779,6 +1791,7 @@ figure:hover, figcaption:hover {
 .job-search-toplist-container .job-search-toplist-image {
     display: flex;
     flex-direction: row;
+    margin-bottom: 1.5rem;
 }
 
 .job-search-toplist article .applicant-premium-user-img {
@@ -1789,6 +1802,35 @@ figure:hover, figcaption:hover {
     color: #777;
     margin-left: 0.5rem;
 }
+
+.job-search-toplist .applicant-premium-user-btn {
+    background-color: #f9c982;
+    color: #000;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 3rem;
+}
+
+.job-search-toplist .applicant-premium-user-btn:hover {
+    background-color: #efa22e;
+    cursor: pointer;
+}
+
+.job-search-toplist p {
+    color: #777;
+    margin-top: 1.6rem;
+}
+
+.job-search-pick-section {
+    background: #fff;
+    border-radius: 0.5rem;
+    border: 0.6px solid #ccc;
+    padding: 1.5rem 1rem;
+    margin-top: 1rem;
+}
+
+/* JOB PAGE MAIN CONTENT SECTION START */
 
 
 
