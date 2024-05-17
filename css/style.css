@@ -1753,11 +1753,41 @@ figure:hover, figcaption:hover {
 
 .job-search-toplist-bg .job-search-toplist-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
 }
 
-.job-search-toplist-container img {
-    
+.job-search-toplist-container .toplist-img {
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+}
+
+.job-search-toplist-container .job-search-toplist h3 {
+    color: #000;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.job-search-toplist article img {
+    border-radius: 50%;
+    width: 1.5rem;
+}
+
+.job-search-toplist-container .job-search-toplist-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.job-search-toplist article .applicant-premium-user-img {
+    margin-left: -0.8rem;
+}
+
+.job-search-toplist article span {
+    color: #777;
+    margin-left: 0.5rem;
 }
 
 
