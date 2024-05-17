@@ -1857,6 +1857,21 @@ figure:hover, figcaption:hover {
     font-size: 1.3rem;
 }
 
+.job-pick-search a {
+    color: #045be6;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid #045be6;
+    border-radius: 3rem;
+}
+
+.job-pick-search a:hover {
+    cursor: pointer;
+    border: 2px solid #0647b1;
+    background: #e0e5ef;
+}
+
+
 /* JOB PAGE MAIN CONTENT SECTION START */
 
 
