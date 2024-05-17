@@ -1836,7 +1836,25 @@ figure:hover, figcaption:hover {
 
 .job-search-pick-section p {
     color: #777;
-    margin: 0.5rem 0 2rem;
+    margin: 0.5rem 0 1.2rem;
+}
+
+.job-search-pick-section .job-pick-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.job-pick-search i {
+    font-size: 3.2rem;
+    color: #000;
+    margin-bottom: 0.8rem;
+}
+
+.job-pick-search h2 {
+    color: #000;
+    font-size: 1.3rem;
 }
 
 /* JOB PAGE MAIN CONTENT SECTION START */
