@@ -1512,6 +1512,25 @@ figure:hover, figcaption:hover {
 
 /* -------------------------------------- JOBS PAGE SECTION JOBS PAGE SECTION JOBS PAGE SECTION -------------------------------------- */
 
+.job-page-container {
+    padding: 1.25rem 11%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.job-page-left-sidebar {
+    flex-basis:  20%;
+    align-self: flex-start;
+    position: sticky;
+    top: 4.56rem;
+}
+
+.sidebar-profile-box {
+    margin: 0;
+    padding: 0;
+}
+
 .sidebar-profile-box .jobs-sidebar {
     padding: 0.5rem 0.5rem;
     list-style: none;
