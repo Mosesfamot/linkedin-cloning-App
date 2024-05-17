@@ -1652,6 +1652,7 @@ figure:hover, figcaption:hover {
     float: right;
     font-size: 1.8rem;
     margin-top: -0.2rem;
+    cursor: pointer;
 }
 
 .recruit-section-bg p {
@@ -1683,6 +1684,63 @@ figure:hover, figcaption:hover {
     display: block;
 }
 
+.recruit-section-bg a {
+    padding: 0.7rem 2rem;
+    background-color: #045be6;
+    color: #fff;
+    border-radius: 4rem;
+    font-weight: 600;
+}
+
+.recruit-section-bg a:hover {
+    cursor: pointer;
+    background-color: #0647b1;
+}
+
+.job-search-section-bg {
+    background: #fff;
+    border-radius: 0.5rem;
+    border: 0.6px solid #ccc;
+    padding: 1.5rem 1rem;
+    margin-top: 1rem;
+}
+
+.job-search-section-bg h3 {
+    color: #000;
+    font-weight: 600;
+}
+
+.job-search-section-bg h3 span {
+    float: right;
+    font-size: 1.8rem;
+    margin-top: -0.2rem;
+    cursor: pointer;
+}
+
+.job-search-section-bg .job-search-bar {
+    justify-content: center;
+    align-items: center;
+}
+
+.job-search-bar a {
+    padding: 0.1rem 1rem;
+    border: 1px solid #045be6;
+    border-radius: 3rem;
+    color: #045be6;
+    display: inline-block;
+    font-weight: 600;
+    margin: 1rem 0.1rem 0 0;
+}
+
+.job-search-bar a i {
+    font-weight: 600;
+}
+
+.job-search-bar a:hover {
+    cursor: pointer;
+    border: 2px solid #0647b1;
+    background: #eaf0f9;
+}
 
 
 
