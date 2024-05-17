@@ -1540,6 +1540,7 @@ figure:hover, figcaption:hover {
     flex-direction: row;
     align-items: center;
     justify-content: left;
+    cursor: pointer;
 }
 
 .jobs-sidebar .jobs-sidebar-list {
