@@ -2054,6 +2054,52 @@ figure:hover, figcaption:hover {
     cursor: pointer;
 }
 
+.message-content-bg .message-nav {
+    border-bottom: 0.5px solid #ccc;
+}
+
+.message-nav ul {
+    padding: 0 0 0 0.8rem;
+}
+
+.message-nav ul li {
+    list-style-type: none;
+    float: left;
+    margin: 1rem 0.2rem;
+}
+
+.message-nav ul li a {
+    padding: 0.5rem 0.8rem;
+    border: 1px solid #777;
+    border-radius: 5rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.message-nav ul li a:hover {
+    cursor: pointer;
+    border: 2px solid #333;
+    background: #e7e7e7;
+}
+
+.message-nav ul li:first-child a {
+    background: #01754f;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid #777;
+    border-radius: 5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.message-nav ul li:first-child a:hover {
+    cursor: pointer;
+    background: #005438;
+}
+
+.message-nav ul li:first-child a i {
+    font-size: 0.7rem;
+}
+
 
 
 /* MESSAGE CONTENT PAGE END */
