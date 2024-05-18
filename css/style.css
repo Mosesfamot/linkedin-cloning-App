@@ -1979,6 +1979,12 @@ figure:hover, figcaption:hover {
     top: 4.56rem;
 }
 
+.message-main-content .message-content-bg {
+    background: #fff;
+    border-radius: 0.5rem;
+    border: 0.6px solid #ccc;
+}
+
 
 
 /* MESSAGE CONTENT PAGE END */
