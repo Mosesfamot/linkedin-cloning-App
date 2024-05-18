@@ -141,7 +141,7 @@ a {
 }
 
 .search-box {
-    background: #f0f2f5;
+    background: #ecf1fa;
     width: 15.6rem;
     border-radius: 0.5rem;
     display: flex;
@@ -1974,7 +1974,7 @@ figure:hover, figcaption:hover {
 /* MESSAGE CONTENT PAGE START */
 
 .message-main-content {
-    flex-basis: 65%;
+    flex-basis: 68%;
     align-self: flex-start;
     top: 4.56rem;
 }
@@ -1983,6 +1983,47 @@ figure:hover, figcaption:hover {
     background: #fff;
     border-radius: 0.5rem;
     border: 0.6px solid #ccc;
+}
+
+.message-content-bg .message-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0.5px solid #ccc;
+}
+
+.message-header .message-left-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.message-left-header p {
+    color: #000;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+.message-search-box {
+    background: #ecf1fa;
+    width: 12rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.message-search-box i {
+    width: 1rem;
+    color: #000;
+}
+
+.message-search-box input {
+    width: 100%;
+    background: transparent;
+    padding: 0.5rem;
+    border: 0;
 }
 
 
