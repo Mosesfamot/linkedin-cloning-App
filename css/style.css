@@ -465,6 +465,13 @@ figure:hover, figcaption:hover {
     display: inline-block;
     font-size: 0.875rem;
     margin: 4px 2px;
+    font-size: 0.8rem;
+}
+
+.sidebar-useful-links a:hover {
+    color: #045be6;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .copyright-msg {
@@ -1872,6 +1879,9 @@ figure:hover, figcaption:hover {
 }
 
 
+
+
+
 /* JOB PAGE MAIN CONTENT SECTION START */
 
 .job-right-sidebar {
@@ -1900,13 +1910,18 @@ figure:hover, figcaption:hover {
 
 .job-sidebar-guide-bg .resume-improve {
     padding: 0.8rem 0;
-    background: #e0e5ef;
+    background: #f8fafd;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-bottom: 0.5rem;
     cursor: pointer;
+}
+
+.job-sidebar-guide-bg .resume-improve:hover {
+    cursor: pointer;
+    background: #ecf1fa;
 }
 
 .resume-improve p {
@@ -1921,8 +1936,16 @@ figure:hover, figcaption:hover {
 }
 
 .job-sidebar-guide-bg .job-show-more-link {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.3rem;
 }
+
+.job-sidebar-guide-bg .job-show-more-link a:hover {
+    color: #045be6;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* JOB PAGE MAIN CONTENT SECTION END */
 
 
 /* -------------------------------------- JOBS PAGE SECTION JOBS PAGE SECTION JOBS PAGE SECTION -------------------------------------- */
