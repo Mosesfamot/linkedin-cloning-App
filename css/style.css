@@ -1960,7 +1960,12 @@ figure:hover, figcaption:hover {
 
 /* MESSAGE CONTAINER START */
 
-
+.message-container {
+    padding: 1.25rem 11%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 /* MESSAGE CONTAINER END */
 
