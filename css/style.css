@@ -149,8 +149,10 @@ a {
     padding: 0 1rem;
 }
 
-.search-box img {
+.search-box i {
     width: 0.875rem;
+    color: #000;
+    font-weight: 600;
 }
 
 .search-box input {
@@ -2017,6 +2019,7 @@ figure:hover, figcaption:hover {
 .message-search-box i {
     width: 1rem;
     color: #000;
+    font-weight: 600;
 }
 
 .message-search-box input {
