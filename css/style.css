@@ -2120,17 +2120,30 @@ figure:hover, figcaption:hover {
     width: 3.5rem;
 }
 
+.message-tab-highlight .tab-highlight-paragraph {
+    display: flex;
+    flex-direction: column;
+}
+
 .message-tab-highlight p {
     color: #333;
-    margin: 0.5rem;
     font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+p .highlight-date {
+    float: right;
+}
+
+.message-tab-highlight p span {
+    color: #333;
+    font-weight: 500;
     font-size: 0.8rem;
 }
 
-.message-tab-highlight p span,
 .message-tab-highlight span {
     color: #333;
-    font-weight: 500;
     font-size: 0.8rem;
 }
 
