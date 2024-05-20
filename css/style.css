@@ -2107,7 +2107,7 @@ figure:hover, figcaption:hover {
 }
 
 .message-tab-left .message-tab-highlight {
-    background: #c9dbf8;
+    background: #ecf1fa;
     border-left: 5px solid #01754f;
     display: flex;
     flex-direction: row;
@@ -2115,19 +2115,32 @@ figure:hover, figcaption:hover {
     border-bottom: 1px solid #ccc;
 }
 
-.message-tab-highlight img {
+.message-tab-left .message-tab-highlight:hover,
+.message-tab-left .message-tab-no-highlight:hover {
+    cursor: pointer;
+    background: #e7e7e7;
+}
+
+.message-tab-left .message-tab-no-highlight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.message-tab-left img {
     margin: 1rem 0.3rem;
     border-radius: 50%;
     width: 3.5rem;
 }
 
-.message-tab-highlight .tab-highlight-paragraph {
+.message-tab-left .tab-highlight-paragraph {
     display: flex;
     flex-direction: column;
     width: 75%;
 }
 
-.message-tab-highlight p {
+.message-tab-left p {
     color: #000;
     font-weight: 500;
     font-size: 0.9rem;
@@ -2139,13 +2152,13 @@ p .highlight-date {
 
 }
 
-.message-tab-highlight p span {
+.message-tab-left p span {
     color: #333;
     font-weight: 500;
     font-size: 0.8rem;
 }
 
-.message-tab-highlight span {
+.message-tab-left span {
     color: #333;
     font-size: 0.8rem;
 }
