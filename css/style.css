@@ -2070,7 +2070,7 @@ figure:hover, figcaption:hover {
 
 .message-nav ul li a {
     padding: 0.5rem 0.8rem;
-    border: 1px solid #777;
+    border: 2px solid #ccc;
     border-radius: 5rem;
     font-weight: 600;
     color: #000;
@@ -2098,6 +2098,11 @@ figure:hover, figcaption:hover {
 
 .message-nav ul li:first-child a i {
     font-size: 0.7rem;
+}
+
+.message-content-bg .message-tab {
+    display: flex;
+
 }
 
 
