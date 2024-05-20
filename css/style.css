@@ -2054,10 +2054,6 @@ figure:hover, figcaption:hover {
     cursor: pointer;
 }
 
-.message-content-bg .message-nav {
-    border-bottom: 0.5px solid #ccc;
-}
-
 .message-nav ul {
     padding: 0 0 0 0.8rem;
 }
@@ -2101,8 +2097,41 @@ figure:hover, figcaption:hover {
 }
 
 .message-content-bg .message-tab {
+    padding: 0;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
+.message-tab .message-tab-left {
+    flex-basis: 30%;
+    align-self: flex-start;
+}
+
+.message-tab-left .message-tab-highlight {
+    background: #c9dbf8;
+    border-left: 5px solid #01754f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.message-tab-highlight img {
+    padding: 1rem;
+    border-radius: 50%;
+    width: 6rem;
+}
+
+.message-tab-highlight p {
+    color: #333;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.message-tab-highlight p span,
+.message-tab-highlight span {
+    color: #333;
+    font-weight: 500;
 }
 
 
