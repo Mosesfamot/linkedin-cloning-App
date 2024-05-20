@@ -2112,6 +2112,7 @@ figure:hover, figcaption:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-bottom: 1px solid #ccc;
 }
 
 .message-tab-highlight img {
@@ -2123,17 +2124,19 @@ figure:hover, figcaption:hover {
 .message-tab-highlight .tab-highlight-paragraph {
     display: flex;
     flex-direction: column;
+    width: 75%;
 }
 
 .message-tab-highlight p {
-    color: #333;
-    font-weight: 600;
+    color: #000;
+    font-weight: 500;
     font-size: 0.9rem;
     line-height: 1.2rem;
 }
 
 p .highlight-date {
     float: right;
+
 }
 
 .message-tab-highlight p span {
