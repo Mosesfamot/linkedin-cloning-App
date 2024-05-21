@@ -2203,6 +2203,16 @@ p .highlight-date {
     font-size: 1.5rem;
 }
 
+.message-tab-right .message-tab-info {
+    background: #e0e5ef;
+}
+
+.message-tab-right .message-tab-info p {
+    color: #777;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.8rem;
+}
+
 
 
 /* MESSAGE CONTENT PAGE END */
