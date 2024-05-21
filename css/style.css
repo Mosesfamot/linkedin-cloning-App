@@ -2227,6 +2227,12 @@ p .highlight-date {
     align-self: flex-start;
 }
 
+.message-tab-full-message .full-message-img img {
+    width: 3rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
 .message-tab-full-message .full-message {
     flex-basis: 75%;
     align-self: flex-start;
