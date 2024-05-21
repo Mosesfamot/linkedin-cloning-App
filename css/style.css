@@ -2238,6 +2238,18 @@ p .highlight-date {
     align-self: flex-start;
 }
 
+.full-message p {
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.full-message p span {
+    color: #777;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
 
 
 /* MESSAGE CONTENT PAGE END */
