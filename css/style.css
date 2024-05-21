@@ -2204,13 +2204,32 @@ p .highlight-date {
 }
 
 .message-tab-right .message-tab-info {
-    background: #e0e5ef;
+    background: #f3f6fb;
 }
 
 .message-tab-right .message-tab-info p {
     color: #777;
     padding: 0.4rem 0.6rem;
     font-size: 0.8rem;
+}
+
+.message-tab-right .message-tab-info p span {
+    float: right;
+}
+
+.message-tab-right .message-tab-full-message {
+    display: flex;
+    padding: 0;
+}
+
+.message-tab-full-message .full-message-img {
+    flex-basis: 20%;
+    align-self: flex-start;
+}
+
+.message-tab-full-message .full-message {
+    flex-basis: 75%;
+    align-self: flex-start;
 }
 
 
