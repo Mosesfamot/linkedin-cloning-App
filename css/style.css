@@ -2234,7 +2234,7 @@ p .highlight-date {
 }
 
 .message-tab-full-message .full-message {
-    flex-basis: 75%;
+    flex-basis: 100%;
     align-self: flex-start;
 }
 
@@ -2242,6 +2242,7 @@ p .highlight-date {
     color: #000;
     font-size: 0.9rem;
     font-weight: 600;
+    margin: 0.6rem 0;
 }
 
 .full-message p span {
@@ -2250,6 +2251,31 @@ p .highlight-date {
     font-weight: 500;
 }
 
+.full-message .text-message:hover {
+    background: #e7e7e7;
+}
+
+.text-message p {
+    color: #777;
+    font-weight: 500;
+    padding: 0.5rem 2rem 0.5rem 0;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.full-message a {
+    border: 2px solid #045be6;
+    padding: 0.5rem 1rem;
+    border-radius: 4rem;
+    color: #045be6;
+    font-weight: 600;
+}
+
+.full-message a:hover {
+    cursor: pointer;
+    background: #e0e5ef;
+    border: 2px solid #0647b1;
+}
 
 
 /* MESSAGE CONTENT PAGE END */
