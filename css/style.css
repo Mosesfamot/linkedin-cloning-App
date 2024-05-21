@@ -2223,7 +2223,7 @@ p .highlight-date {
 }
 
 .message-tab-full-message .full-message-img {
-    flex-basis: 20%;
+    flex-basis: 15%;
     align-self: flex-start;
 }
 
@@ -2236,6 +2236,7 @@ p .highlight-date {
 .message-tab-full-message .full-message {
     flex-basis: 100%;
     align-self: flex-start;
+    margin-bottom: 10rem;
 }
 
 .full-message p {
@@ -2275,6 +2276,23 @@ p .highlight-date {
     cursor: pointer;
     background: #e0e5ef;
     border: 2px solid #0647b1;
+}
+
+.message-tab-right .message-tab-footer {
+    border-top: 1px solid #ccc;
+    display: flex;
+    padding: 0.5rem 0.5rem;
+}
+
+.message-tab-footer p {
+    color: #777;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+
+.message-tab-footer i {
+    color: #777;
+    font-size: 1.3rem;
 }
 
 
