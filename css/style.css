@@ -2372,12 +2372,23 @@ p .highlight-date {
 .message-sidebar-news .message-sidebar-toplist-image {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .message-sidebar-toplist-image img {
     border-radius: 50%;
     width: 1.5rem;
-    margin: 0.5rem 1rem;
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.message-sidebar-toplist-image .message-premium-user-img {
+    margin-left: -0.9rem;
+}
+
+.message-sidebar-toplist-image span {
+    color: #777;
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
 }
 
 
