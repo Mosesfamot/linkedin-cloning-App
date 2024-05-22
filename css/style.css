@@ -1797,7 +1797,7 @@ figure:hover, figcaption:hover {
     width: 1.5rem;
 }
 
-.job-search-toplist-conta .job-search-toplist-image {
+.job-search-toplist-container .job-search-toplist-image {
     display: flex;
     flex-direction: row;
     margin-bottom: 1.5rem;
@@ -2359,14 +2359,25 @@ p .highlight-date {
 .message-sidebar-news h4 {
     color: #000;
     font-weight: 600;
-    margin: 1rem 0.6rem 0.5rem;
+    margin: 1.3rem 1rem 0.5rem;
     font-size: 0.93rem;
 }
 
 .message-sidebar-news .messagebar-heading-text {
     color: #777;
-    margin: 0 0.6rem 0.5rem;
+    margin: 0 1rem 0;
     font-size: 0.9rem;
+}
+
+.message-sidebar-news .message-sidebar-toplist-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.message-sidebar-toplist-image img {
+    border-radius: 50%;
+    width: 1.5rem;
+    margin: 0.5rem 1rem;
 }
 
 
