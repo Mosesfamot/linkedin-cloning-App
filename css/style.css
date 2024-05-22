@@ -2326,6 +2326,36 @@ p .highlight-date {
     top: 4.56rem;
 }
 
+.message-right-sidebar .message-sidebar-news-image {
+    background: #fff;
+    border-radius: 0.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.message-sidebar-news-image .image-premium {
+    width: 100%;
+}
+
+.message-sidebar-news-image .text-premium {
+    cursor: default;
+    margin-top: -5px;
+    color: #000;
+    font-weight: 600;
+    background: #adfab5;
+    text-align: center;
+    padding: 2rem 2rem 1.5rem;
+}
+
+.message-sidebar-news-image .text-premium span {
+    font-weight: 500;
+}
+
+.message-right-sidebar .message-sidebar-news {
+    background: #fff;
+    border-radius: 0.5rem;
+    border: 0.6px solid #ccc;
+}
+
 
 
 /* MESSAGE RIGHT SIDEBAR END */
