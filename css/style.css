@@ -1797,7 +1797,7 @@ figure:hover, figcaption:hover {
     width: 1.5rem;
 }
 
-.job-search-toplist-container .job-search-toplist-image {
+.job-search-toplist-conta .job-search-toplist-image {
     display: flex;
     flex-direction: row;
     margin-bottom: 1.5rem;
@@ -2315,16 +2315,16 @@ p .highlight-date {
 
 /* MESSAGE CONTENT PAGE END */
 
-.message-right-sidebar {
-    flex-basis: 27%;
-    align-self: flex-start;
-    top: 4.56rem;
-}
 
 
 
 /* MESSAGE RIGHT SIDEBAR START */
 
+.message-right-sidebar {
+    flex-basis: 27%;
+    align-self: flex-start;
+    top: 4.56rem;
+}
 
 
 
