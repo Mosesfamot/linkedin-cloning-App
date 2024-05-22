@@ -2373,6 +2373,7 @@ p .highlight-date {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 0.8rem;
 }
 
 .message-sidebar-toplist-image img {
@@ -2389,6 +2390,27 @@ p .highlight-date {
     color: #777;
     font-size: 0.8rem;
     margin-left: 0.3rem;
+}
+
+.message-sidebar-news .message-sidebar-premium-btn {
+    color: #000;
+    font-weight: 600;
+    font-size: 1rem;
+    background: #f9c982;
+    padding: 0.4rem 0.6rem;
+    border-radius: 4rem;
+    margin: 0 1rem 0;
+}
+
+.message-sidebar-news .message-sidebar-premium-btn:hover {
+    background: #efa22e;
+    cursor: pointer;
+}
+
+.message-sidebar-news .message-sidebar-btn-text {
+    color: #777;
+    font-size: 0.85rem;
+    margin: 1rem 1rem 1rem;
 }
 
 
