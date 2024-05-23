@@ -2574,6 +2574,17 @@ p .highlight-date {
     line-height: 1.25rem;
 }
 
+.notification-highlight .highlight-connect {
+    display: flex;
+    align-items: center;
+}
+
+.notification-highlight .highlight-connect i {
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 600;
+}
+
 .notification-list-preview .notification-highlight-menu {
     color: #777;
 }
