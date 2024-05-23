@@ -2554,11 +2554,17 @@ p .highlight-date {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 1rem 1rem;
+    padding: 1rem 0.5rem;
 }
 
 .notification-list-preview .unread-icon {
     color: #045be6;
+    font-size: 0.6rem;
+}
+
+.notification-list-preview img {
+    border-radius: 50%;
+    width: 3.5rem;
 }
 
 
