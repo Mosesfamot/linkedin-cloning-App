@@ -2543,10 +2543,15 @@ p .highlight-date {
 }
 
 .notification-main-content .notification-list-bg {
-    background: #fff;
+    background: #cbdcf7;
     border: 0.6px solid #ccc;
     border-radius: 0.5rem;
     margin-top: 1rem;
+}
+
+.notification-main-content .notification-list-bg:hover {
+    cursor: pointer;
+    background: #bcd1f6;
 }
 
 .notification-list-bg .notification-list-preview {
@@ -2592,11 +2597,20 @@ p .highlight-date {
 .notification-highlight-menu p {
     color: #777;
     font-size: 0.8rem;
+    padding: 0.2rem;
 }
 
 .notification-highlight-menu i {
     color: #000;
     font-size: 1.8rem;
+    padding: 0.2rem;
+}
+
+.notification-highlight-menu i:hover {
+    cursor: pointer;
+    background: #d2e4f6;
+    padding: 0.2rem;
+    border-radius: 50%;
 }
 
 
