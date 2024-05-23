@@ -2503,7 +2503,7 @@ p .highlight-date {
     background: #fff;
     border: 0.6px solid #ccc;
     border-radius: 0.5rem;
-    padding: 0.8rem;
+    padding: 0.7rem 0.5rem;
 }
 
 .notification-menu ul {
@@ -2523,6 +2523,17 @@ p .highlight-date {
     border-radius: 5rem;
     font-weight: 600;
     color: #000;
+}
+
+.notification-menu ul li:first-child a {
+    background: #01754f;
+    color: #fff;
+    border: 2px solid #01754f;
+}
+
+.notification-menu ul li:first-child a:hover {
+    cursor: pointer;
+    background: #005438;
 }
 
 .notification-menu ul li a:hover {
