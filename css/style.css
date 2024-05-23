@@ -2503,15 +2503,39 @@ p .highlight-date {
     background: #fff;
     border: 0.6px solid #ccc;
     border-radius: 0.5rem;
+    padding: 0.8rem;
 }
 
 .notification-menu ul {
-    list-style-type: none;
-    margin: 1rem;
+    padding: 0 0 0 0.8rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .notification-menu ul li {
-    
+    list-style-type: none;
+    margin: 1rem 0.2rem;
+}
+
+.notification-menu ul li a {
+    padding: 0.5rem 0.8rem;
+    border: 2px solid #ccc;
+    border-radius: 5rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.notification-menu ul li a:hover {
+    cursor: pointer;
+    border: 2px solid #333;
+    background: #e7e7e7;
+}
+
+.notification-main-content .notification-list-bg {
+    background: #fff;
+    border: 0.6px solid #ccc;
+    border-radius: 0.5rem;
+    margin-top: 4rem;
 }
 
 
