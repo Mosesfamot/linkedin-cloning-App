@@ -2549,6 +2549,18 @@ p .highlight-date {
     margin-top: 1rem;
 }
 
+.notification-list-bg .notification-list-preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.notification-list-preview .unread-icon {
+    color: #045be6;
+}
+
 
 /* NOTIFICATION PAGE MAIN COINTENT END  */
 
