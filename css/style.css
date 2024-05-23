@@ -2457,6 +2457,19 @@ p .highlight-date {
     top: 4.56rem;
 }
 
+.notification-left-sidebar .notification-leftsidebar-bg {
+    background: #fff;
+    border: 0.6px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.notification-leftsidebar-bg h4 {
+    color: #000;
+    font-size: 1rem;
+    margin: 1.5rem 1rem 1rem;
+    line-height: 1.3rem;
+}
+
 
 
 
