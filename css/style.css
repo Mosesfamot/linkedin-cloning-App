@@ -2586,7 +2586,17 @@ p .highlight-date {
 }
 
 .notification-list-preview .notification-highlight-menu {
+    margin-right: 0.4rem;
+}
+
+.notification-highlight-menu p {
     color: #777;
+    font-size: 0.8rem;
+}
+
+.notification-highlight-menu i {
+    color: #000;
+    font-size: 1.8rem;
 }
 
 
