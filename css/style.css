@@ -2577,6 +2577,12 @@ p .highlight-date {
     margin-right: 0.4rem;
 }
 
+.notification-list-preview .read-icon {
+    color: #fff;
+    font-size: 0.6rem;
+    margin-right: 0.4rem;
+}
+
 .notification-list-preview img {
     border-radius: 50%;
     width: 3.5rem;
