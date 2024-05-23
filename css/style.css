@@ -2484,9 +2484,6 @@ p .highlight-date {
 }
 
 
-
-
-
 /* NOTIFICATION PAGE LEFT SIDEBAR END  */
 
 
@@ -2500,6 +2497,21 @@ p .highlight-date {
     align-self: flex-start;
     position: sticky;
     top: 4.56rem;
+}
+
+.notification-main-content .notification-menu {
+    background: #fff;
+    border: 0.6px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.notification-menu ul {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.notification-menu ul li {
+    
 }
 
 
