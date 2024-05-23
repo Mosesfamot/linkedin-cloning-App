@@ -2560,11 +2560,22 @@ p .highlight-date {
 .notification-list-preview .unread-icon {
     color: #045be6;
     font-size: 0.6rem;
+    margin-right: 0.4rem;
 }
 
 .notification-list-preview img {
     border-radius: 50%;
     width: 3.5rem;
+    margin-right: 0.4rem;
+}
+
+.notification-list-preview .notification-highlight {
+    color: #777;
+    line-height: 1.25rem;
+}
+
+.notification-list-preview .notification-highlight-menu {
+    color: #777;
 }
 
 
