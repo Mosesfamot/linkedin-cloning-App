@@ -1112,7 +1112,7 @@ figure:hover, figcaption:hover {
     flex-basis:  25%;
     align-self: flex-start;
     position: sticky;
-    margin-top: 0.8rem;
+    top: 4.5rem;
 }
 
 .network-sidebar-activity {
@@ -1187,7 +1187,7 @@ figure:hover, figcaption:hover {
 
 .network-main-content {
     flex-basis: 72%;
-    margin-top: 0.8rem;
+    top: 4.5rem;
 }
 
 .invitation-section {
@@ -2424,10 +2424,79 @@ p .highlight-date {
 
 
 
-
-
-
 /* -------------------------------------- MESSAGE PAGE SECION MESSAGE PAGE SECTION MESSAGE PAGE SECTION -------------------------------------- */
+
+
+
+
+
+
+
+
+/* -------------------------------------- NOTIFICATION PAGE SECION NOTIFICATION PAGE SECTION NOTIFICATION PAGE SECTION -------------------------------------- */
+
+/* NOTIFICATON PAGE CONTAINER START  */
+
+.notification-container {
+    padding: 1.25rem 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* NOTIFICATON PAGE CONTAINER END  */
+
+
+
+/* NOTIFICATION PAGE LEFT SIDEBAR START  */
+
+.notification-left-sidebar {
+    flex-basis: 15%;
+    align-self: flex-start;
+    position: sticky;
+    top: 4.56rem;
+}
+
+
+
+
+
+/* NOTIFICATION PAGE LEFT SIDEBAR END  */
+
+
+
+
+
+/* NOTIFICATION PAGE MAIN COINTENT START  */
+
+.notification-main-content {
+    flex-basis: 50%;
+    align-self: flex-start;
+    position: sticky;
+    top: 4.56rem;
+}
+
+
+/* NOTIFICATION PAGE MAIN COINTENT END  */
+
+
+
+
+
+/* NOTIFICATION PAGE LEFT SIDE BAR START */
+/* NOTIFICATION PAGE LEFT SIDE BAR END */
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------- NOTIFICATION PAGE SECION NOTIFICATION PAGE SECTION NOTIFICATION PAGE SECTION -------------------------------------- */
 
 
 
