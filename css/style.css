@@ -2549,17 +2549,26 @@ p .highlight-date {
     margin-top: 1rem;
 }
 
-.notification-main-content .notification-list-bg:hover {
-    cursor: pointer;
-    background: #bcd1f6;
-}
-
 .notification-list-bg .notification-list-preview {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 1rem 0.5rem;
+}
+
+.notification-list-bg .notification-list-preview:hover {
+    cursor: pointer;
+    background: #bcd1f6;
+}
+
+.notification-list-bg .notification-list-preview-white {
+    background: #fff;
+}
+
+.notification-list-bg .notification-list-preview-white:hover {
+    cursor: pointer;
+    background: #e7e7e7;
 }
 
 .notification-list-preview .unread-icon {
@@ -2577,6 +2586,10 @@ p .highlight-date {
 .notification-list-preview .notification-highlight {
     color: #777;
     line-height: 1.25rem;
+}
+
+.notification-highlight p b {
+    color: #000;
 }
 
 .notification-highlight .highlight-connect {
