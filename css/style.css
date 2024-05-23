@@ -2451,7 +2451,7 @@ p .highlight-date {
 /* NOTIFICATION PAGE LEFT SIDEBAR START  */
 
 .notification-left-sidebar {
-    flex-basis: 15%;
+    flex-basis: 20%;
     align-self: flex-start;
     position: sticky;
     top: 4.56rem;
@@ -2484,6 +2484,16 @@ p .highlight-date {
 
 
 /* NOTIFICATION PAGE LEFT SIDE BAR START */
+
+.notification-right-sidebar {
+    flex-basis: 25%;
+    align-self: flex-start;
+    position: sticky;
+    top: 4.56rem;
+}
+
+
+
 /* NOTIFICATION PAGE LEFT SIDE BAR END */
 
 
