@@ -2661,7 +2661,67 @@ p .highlight-date {
     top: 4.56rem;
 }
 
-.notification-right-sidebar
+.notification-right-sidebar .notification-sidebar-ad {
+    background: #fff;
+    border: 0.6px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 0.7rem 0.5rem;
+    cursor: pointer;
+}
+
+.notification-sidebar-ad .ad-indicate {
+    color: #777;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 0.93rem;
+}
+
+.notification-sidebar-ad .ad-indicate i {
+    color: #000;
+}
+
+.notification-sidebar-ad .ad-text-head {
+    color: #777;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.5rem;
+
+}
+
+.notification-sidebar-ad .notification-ad-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification-sidebar-ad .notification-ad-image img {
+    width: 4rem;
+    border-radius: 50%;
+    margin: 1rem 0.5rem;
+}
+
+.notification-text-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+.notification-sidebar-ad .ads-text {
+    font-size: 0.93rem;
+    text-align: center;
+    color: #777;
+    margin-bottom: 1rem;
+}
+
+.notification-sidebar-ad .notification-link {
+    font-weight: 600;
+    color: #045be6;
+    padding: 0.5rem 1rem;
+    border: 1px solid #045be6;
+    border-radius: 2rem;
+}
 
 
 
