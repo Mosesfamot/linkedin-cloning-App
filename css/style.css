@@ -2578,7 +2578,7 @@ p .highlight-date {
 }
 
 .notification-list-preview .read-icon {
-    color: #fff;
+    color: #ffffff00;
     font-size: 0.6rem;
     margin-right: 0.4rem;
 }
@@ -2627,7 +2627,20 @@ p .highlight-date {
 
 .notification-highlight-menu i:hover {
     cursor: pointer;
-    background: #d2e4f6;
+    background: #c5dff7;
+    padding: 0.2rem;
+    border-radius: 50%;
+}
+
+.notification-highlight-menu .notification-menu-dot {
+    color: #000;
+    font-size: 1.8rem;
+    padding: 0.2rem;
+}
+
+.notification-highlight-menu .notification-menu-dot:hover {
+    cursor: pointer;
+    background: #dddbdb;
     padding: 0.2rem;
     border-radius: 50%;
 }
@@ -2647,6 +2660,8 @@ p .highlight-date {
     position: sticky;
     top: 4.56rem;
 }
+
+.notification-right-sidebar
 
 
 
