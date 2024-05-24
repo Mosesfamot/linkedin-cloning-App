@@ -114,6 +114,8 @@ a {
 
 .navbar-right {
     margin-right: 6rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .nav-profile-img {
