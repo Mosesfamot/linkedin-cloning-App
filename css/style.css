@@ -130,6 +130,21 @@ a {
     position: relative;
 }
 
+.online p,
+.online p i {
+    color: #777;
+    font-size: 0.8rem;
+}
+
+.navbar-right .for-business-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-right .for-business-nav i {
+    color: #777;
+}
+
 .online::after {
     content: '';
     width: 0.43rem;
