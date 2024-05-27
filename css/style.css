@@ -118,6 +118,14 @@ a {
     flex-direction: row;
 }
 
+.navbar-right .online {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
 .nav-profile-img {
     width: 2.5rem;
     border-radius: 50%;
