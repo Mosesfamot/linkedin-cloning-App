@@ -142,6 +142,7 @@ a {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin-left: 0.5rem;
 }
 
 .navbar-right .for-business-nav i {
@@ -163,12 +164,14 @@ a {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin-left: 0.5rem;
 }
 
 .navbar-right .try-premium-link h6,
 .navbar-right .try-premium-link p {
     color: #777;
     font-size: 0.8rem;
+    line-height: 1rem;
 }
 
 .online::after {
