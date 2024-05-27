@@ -157,6 +157,20 @@ a {
     margin-top: 0.5rem;
 }
 
+.navbar-right .try-premium-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-right .try-premium-link h6,
+.navbar-right .try-premium-link p {
+    color: #777;
+    font-size: 0.8rem;
+}
+
 .online::after {
     content: '';
     width: 0.43rem;
