@@ -141,12 +141,20 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .navbar-right .for-business-nav i {
     color: #777;
     font-size: 1.5rem;
-    margin-bottom: -1.1rem;
+    margin-bottom: -1.05rem;
+}
+
+.navbar-right .for-business-nav p,
+.navbar-right .for-business-nav p i {
+    color: #777;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
 }
 
 .online::after {
