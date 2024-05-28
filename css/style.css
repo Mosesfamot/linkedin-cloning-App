@@ -142,6 +142,7 @@ a {
 .online p i {
     color: #777;
     font-size: 0.8rem;
+    margin-top: 0.1rem;
 }
 
 .navbar-right .for-business-nav {
@@ -219,6 +220,8 @@ a {
 .navbar-left {
     display: flex;
     align-items: center;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
 }
 
 /* NAVBAR AREA END */
