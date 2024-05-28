@@ -2946,6 +2946,11 @@ p .highlight-date {
         display: none;
     }
 
+    .navbar-right .for-business-nav, 
+    .navbar-right .try-premium-link {
+        display: none;
+    }
+
     .tablet-sidebar {
         flex-basis:  30%;
         align-self: flex-start;
@@ -2997,10 +3002,12 @@ p .highlight-date {
 
 
 
+@media only screen and (min-width: 577px) and (max-width: 1496px) {
+
+}
 
 
-
-/* MEDIA QUERY FOR LARGE SCREEN START */
+/* MEDIA QUERY FOR LARGE SCREEN START 1496 */
 
 @media only screen and (min-width: 769px) {
     .tablet-sidebar {
