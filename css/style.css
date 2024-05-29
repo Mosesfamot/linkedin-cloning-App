@@ -2811,6 +2811,17 @@ p .highlight-date {
 /* MEDIA QUERY FOR SMALL SCREEN START */
 
 @media only screen and (max-width: 576px) {
+
+    .navbar-left {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .logo img {
+        margin-right: 0.93rem;
+        margin-left: 0.93rem;
+    }
+
     .search-box {
         background: transparent;
         width: auto;
@@ -2833,6 +2844,11 @@ p .highlight-date {
 
     .nav-profile-img {
         width: 1.875rem;
+    }
+
+    .navbar-right .for-business-nav, 
+    .navbar-right .try-premium-link {
+        display: none;
     }
 
     .container {
@@ -2923,7 +2939,7 @@ p .highlight-date {
     }
 
     .logo img {
-        margin-left: 2.5rem;
+        margin-left: 2rem;
     }
 
     .navbar-right {
@@ -2943,11 +2959,6 @@ p .highlight-date {
     }
 
     .left-sidebar, .right-sidebar {
-        display: none;
-    }
-
-    .navbar-right .for-business-nav, 
-    .navbar-right .try-premium-link {
         display: none;
     }
 
@@ -3000,11 +3011,6 @@ p .highlight-date {
 
 /* MEDIA QUERY FOR MEDIUM SCREEN END */
 
-
-
-@media only screen and (min-width: 577px) and (max-width: 1496px) {
-
-}
 
 
 /* MEDIA QUERY FOR LARGE SCREEN START 1496 */
