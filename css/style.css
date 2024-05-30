@@ -2810,7 +2810,7 @@ p .highlight-date {
 
 /* MEDIA QUERY FOR SMALL SCREEN START */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 767px) {
 
     .navbar-left {
         margin-left: 0;
@@ -2839,7 +2839,11 @@ p .highlight-date {
 
     .navbar-center ul li a {
         padding-right: 0;
-        margin: 0.1rem 0 0.1rem;
+        margin: 0.31rem;
+    }
+
+    .navbar-center ul li a i {
+        margin: 0 0.5rem;
     }
 
     .navbar-right {
@@ -2930,7 +2934,7 @@ p .highlight-date {
 
 /* MEDIA QUERY FOR MEDIUM SCREEN START */
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .search-box {
         background: transparent;
         width: auto;
@@ -3019,7 +3023,7 @@ p .highlight-date {
 
 /* MEDIA QUERY FOR LARGE SCREEN START 1496 */
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
     .tablet-sidebar {
         display: none;
     }
