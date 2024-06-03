@@ -2808,7 +2808,7 @@ p .highlight-date {
 
 /* 
 LIST FOR MEDIA QUERIES
-max width - 268px
+max width - 300px
 min width 301px - max width 319px
 min width 320px - max width 350px
 min width 351px - max width 512px
@@ -2819,8 +2819,58 @@ min width 801px - max width 976px
 min width 977px - max width 1280px - as so on
 */
 
-@media only screen and (max-width: 268px) {
+@media only screen and (max-width: 300px) {
+    .navbar-left {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
+    .logo img {
+        margin-right: 0.93rem;
+        margin-left: 0.93rem;
+    }
+
+    .search-box {
+        background: transparent;
+        width: auto;
+        padding: 0;
+    }
+
+    .search-box input {
+        width: 0;
+        padding: 0;
+    }
+
+    .navbar-center ul li a span {
+        display: none;
+    }
+
+    .navbar-center ul li:last-child,
+    .navbar-center ul li:nth-last-child(2) {
+        display: none;
+    }
+
+    .navbar-center ul li a {
+        padding-right: 0;
+        margin: 0.31rem;
+    }
+
+    .navbar-center ul li a i {
+        margin: 0 0.5rem;
+    }
+
+    .navbar-right {
+        margin-right: 0;
+    }
+
+    .nav-profile-img {
+        width: 1.875rem;
+    }
+
+    .navbar-right .for-business-nav, 
+    .navbar-right .try-premium-link {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 301px) and (max-width: 319px) {
@@ -2860,7 +2910,7 @@ min width 977px - max width 1280px - as so on
 
 /* MEDIA QUERY FOR SMALL SCREEN START */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 767px) {
 
     .navbar-left {
         margin-left: 0;
