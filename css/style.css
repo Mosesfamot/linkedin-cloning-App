@@ -2875,6 +2875,20 @@ min width 977px - max width 1280px - as so on
     .navbar-center ul li a::after {
         display: none;
     }
+
+    .tablet-sidebar {
+        display: none;
+    }
+
+    .left-sidebar, .right-sidebar {
+        flex-basis: 100%;
+        position: relative;
+        top: unset;
+    }
+
+    .main-content {
+        flex-basis: 100%;
+    }
 }
 
 @media only screen and (min-width: 301px) and (max-width: 319px) {
