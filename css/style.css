@@ -2910,7 +2910,7 @@ min width 977px - max width 1280px - as so on
 
 /* MEDIA QUERY FOR SMALL SCREEN START */
 
-@media only screen and (min-width: 767px) {
+/* @media only screen and (min-width: 767px) {
 
     .navbar-left {
         margin-left: 0;
@@ -3022,7 +3022,7 @@ min width 977px - max width 1280px - as so on
     .sidebar-activity.open-activity {
         display: block;
     }
-}
+} */
 
 /* MEDIA QUERY FOR SMALL SCREEN END */
 
@@ -3034,7 +3034,7 @@ min width 977px - max width 1280px - as so on
 
 /* MEDIA QUERY FOR MEDIUM SCREEN START */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
     .search-box {
         background: transparent;
         width: auto;
@@ -3115,7 +3115,7 @@ min width 977px - max width 1280px - as so on
     .profile-description {
         font-size: 0.875rem;
     }
-}
+} */
 
 /* MEDIA QUERY FOR MEDIUM SCREEN END */
 
