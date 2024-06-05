@@ -2922,9 +2922,17 @@ min width 977px - max width 1280px - as so on
         width: 0.75rem;
         margin-left: 0.31rem;
     } */
+
+    .post-activity-link {
+        margin: 1px;
+        padding: 0.5rem 0.1rem;
+        border-radius: 0.5rem;
+    }
     
-    .post-activity-link span {
-        display: none;
+    .post-activity-link {
+        margin: 1px;
+        padding: 0.5rem 0.1rem;
+        border-radius: 0.5rem;
     }
     
     /* .post-activity-link:hover {
