@@ -2892,11 +2892,12 @@ min width 977px - max width 1280px - as so on
 
     .main-content {
         flex-basis: 100%;
+        position: relative;
     }
 
-    .create-post, .sort-by, .post {
+    /* .create-post, .sort-by, .post {
         width: 18rem;
-    }
+    } */
 
     .post-activity-link span {
         display: none;
@@ -2985,11 +2986,12 @@ min width 977px - max width 1280px - as so on
 
     .main-content {
         flex-basis: 100%;
+        position: relative;
     }
 
-    .create-post, .sort-by, .post {
+    /* .create-post, .sort-by, .post {
         width: 18rem;
-    }
+    } */
 
     .post-activity-link span {
         display: none;
@@ -3078,11 +3080,105 @@ min width 977px - max width 1280px - as so on
 
     .main-content {
         flex-basis: 100%;
+        position: relative;
     }
 
-    .create-post, .sort-by, .post {
+    /* .create-post, .sort-by, .post {
         width: 19rem;
+    } */
+
+    .post-activity-link span {
+        display: none;
     }
+    
+    .post-activity-link {
+        margin: 1px;
+        border-radius: 0.5rem;
+    }
+    
+    .post-activity-link i {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 459px) {
+    .navbar-left {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .logo img {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .search-box {
+        background: transparent;
+        width: auto;
+        padding: 0;
+    }
+
+    .search-box input {
+        width: 0;
+        padding: 0;
+    }
+
+    .navbar-center ul li a span {
+        display: none;
+    }
+
+    .navbar-center ul li:last-child {
+        display: none;
+    }
+
+    .navbar-center ul li a {
+        padding-right: 0;
+        margin: 0.31rem;
+    }
+
+    .navbar-center ul li a i {
+        margin: 0 0.1rem;
+    }
+
+    .navbar-right {
+        margin-right: 0;
+    }
+
+    .nav-profile-img {
+        width: 1.5rem;
+    }
+
+    .navbar-right .for-business-nav, 
+    .navbar-right .try-premium-link {
+        display: none;
+    }
+
+    .navbar-center ul li a::after {
+        display: none;
+    }
+
+    .tablet-sidebar {
+        display: none;
+    }
+
+    .container {
+        padding: 0.5rem 0%;
+    }
+
+    .left-sidebar, .right-sidebar {
+        flex-basis: 100%;
+        position: relative;
+        top: unset;
+    }
+
+    .main-content {
+        flex-basis: 100%;
+        position: relative;
+    }
+
+    /* .create-post, .sort-by, .post {
+        width: 21rem;
+    } */
 
     .post-activity-link span {
         display: none;
@@ -3166,11 +3262,12 @@ min width 977px - max width 1280px - as so on
 
     .main-content {
         flex-basis: 100%;
+        position: relative;
     }
 
-    .create-post, .sort-by, .post {
-        width: 19rem;
-    }
+    /* .create-post, .sort-by, .post {
+        width: 27.6rem;
+    } */
 
     .post-activity-link span {
         display: none;
@@ -3187,7 +3284,92 @@ min width 977px - max width 1280px - as so on
 }
 
 @media only screen and (min-width: 513px) and (max-width: 552px) {
+    .navbar-left {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
+    .logo img {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .search-box {
+        background: transparent;
+        width: auto;
+        padding: 0;
+    }
+
+    .search-box input {
+        width: 0;
+        padding: 0;
+    }
+
+    .navbar-center ul li a span {
+        display: none;
+    }
+
+    .navbar-center ul li a {
+        padding-right: 0;
+        margin: 0.31rem;
+    }
+
+    .navbar-center ul li a i {
+        margin: 0 0.6rem;
+    }
+
+    .navbar-right {
+        margin-right: 0;
+    }
+
+    .nav-profile-img {
+        width: 1.5rem;
+    }
+
+    .navbar-right .for-business-nav, 
+    .navbar-right .try-premium-link {
+        display: none;
+    }
+
+    .navbar-center ul li a::after {
+        display: none;
+    }
+
+    .tablet-sidebar {
+        display: none;
+    }
+
+    .container {
+        padding: 0.5rem 0%;
+    }
+
+    .left-sidebar, .right-sidebar {
+        flex-basis: 100%;
+        position: relative;
+        top: unset;
+    }
+
+    .main-content {
+        flex-basis: 100%;
+        position: relative;
+    }
+
+    /* .create-post, .sort-by, .post {
+        width: 33.5rem;
+    } */
+
+    .post-activity-link span {
+        display: none;
+    }
+    
+    .post-activity-link {
+        margin: 1px;
+        border-radius: 0.5rem;
+    }
+    
+    .post-activity-link i {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (min-width: 553px) and (max-width: 747px) {
