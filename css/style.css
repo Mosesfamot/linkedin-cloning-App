@@ -2893,6 +2893,16 @@ min width 977px - max width 1280px - as so on
     .main-content {
         flex-basis: 100%;
     }
+
+    .create-post, .sort-by, .post {
+        width: 57%;
+    }
+    
+    /* .create-post-input {
+        padding: 1.25rem 1.56rem 0.625rem;
+        display: flex;
+        align-items: flex-start;
+    } */
 }
 
 @media only screen and (min-width: 301px) and (max-width: 319px) {
