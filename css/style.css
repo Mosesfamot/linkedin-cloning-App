@@ -2880,6 +2880,10 @@ min width 977px - max width 1280px - as so on
         display: none;
     }
 
+    .container {
+        padding: 0.5rem 0%;
+    }
+
     .left-sidebar, .right-sidebar {
         flex-basis: 100%;
         position: relative;
