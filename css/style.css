@@ -3373,7 +3373,91 @@ min width 977px - max width 1280px - as so on
 }
 
 @media only screen and (min-width: 553px) and (max-width: 747px) {
+    .navbar-left {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
+    .logo img {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .search-box {
+        background: transparent;
+        width: auto;
+        padding: 0;
+    }
+
+    .search-box input {
+        width: 0;
+        padding: 0;
+    }
+
+    .navbar-center ul li a span {
+        display: none;
+    }
+
+    .navbar-center ul li a {
+        padding-right: 0;
+        margin: 0.31rem;
+    }
+
+    .navbar-center ul li a i {
+        margin: 0 0.6rem;
+    }
+
+    .navbar-right {
+        margin-right: 0;
+    }
+
+    .nav-profile-img {
+        width: 1.5rem;
+    }
+
+    .navbar-right .for-business-nav {
+        display: none;
+    }
+
+    .navbar-center ul li a::after {
+        display: none;
+    }
+
+    .tablet-sidebar {
+        display: none;
+    }
+
+    .container {
+        padding: 0.5rem 4%;
+    }
+
+    .left-sidebar, .right-sidebar {
+        flex-basis: 100%;
+        position: relative;
+        top: unset;
+    }
+
+    .main-content {
+        flex-basis: 100%;
+        position: relative;
+    }
+
+    /* .create-post, .sort-by, .post {
+        width: 33.5rem;
+    } */
+
+    .post-activity-link span {
+        display: none;
+    }
+    
+    .post-activity-link {
+        margin: 1px;
+        border-radius: 0.5rem;
+    }
+    
+    .post-activity-link i {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (min-width: 748px) and (max-width: 800px) {
