@@ -3705,6 +3705,97 @@ min width 977px - max width 1280px - as so on
     }
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1128px) {
+    .navbar-left {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .logo img {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .search-box {
+        background: transparent;
+        width: auto;
+        padding: 0;
+    }
+
+    .search-box input {
+        width: 0;
+        padding: 0;
+    }
+
+    .navbar-center ul li a {
+        padding-right: 0;
+        margin: 0.31rem;
+    }
+
+    .navbar-center ul li a span {
+        font-size: 0.8rem;
+    }
+
+    .navbar-center ul li a i {
+        margin: 0 1.3rem;
+    }
+
+    .navbar-right {
+        margin-right: 0;
+        padding-top: 0.4rem;
+    }
+
+    .nav-profile-img {
+        width: 1.5rem;
+    }
+
+    .navbar-right .try-premium-link {
+        margin-left: 0;
+    }
+
+    .navbar-center ul li a::after {
+        display: none;
+    }
+
+    .tablet-sidebar {
+        display: none;
+    }
+
+    .container {
+        padding: 0.5rem 5%;
+    }
+
+    .left-sidebar {
+        flex-basis: 23%;
+        position: relative;
+        top: unset;
+    }
+
+    .right-sidebar {
+        flex-basis: 23%;
+        position: relative;
+        top: unset;
+    }
+
+    .main-content {
+        flex-basis: 50%;
+        position: relative;
+    }
+
+    .post-activity-link span {
+        font-size: 0.8rem;
+    }
+    
+    .post-activity-link {
+        margin: 1px;
+        border-radius: 0.5rem;
+    }
+    
+    .post-activity-link i {
+        font-size: 1.5rem;
+    }
+}
+
 
 
 
