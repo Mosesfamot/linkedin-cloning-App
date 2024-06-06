@@ -3089,7 +3089,7 @@ min width 977px - max width 1280px - as so on
     }
 }
 
-@media only screen and (min-width: 350px) and (max-width: 459px) {
+@media only screen and (min-width: 350px) and (max-width: 460px) {
     .navbar-left {
         margin-left: 0;
         margin-right: 0;
@@ -3178,7 +3178,7 @@ min width 977px - max width 1280px - as so on
     }
 }
 
-@media only screen and (min-width: 459px) and (max-width: 512px) {
+@media only screen and (min-width: 460px) and (max-width: 512px) {
     .navbar-left {
         margin-left: 0;
         margin-right: 0;
@@ -3263,7 +3263,7 @@ min width 977px - max width 1280px - as so on
     }
 }
 
-@media only screen and (min-width: 513px) and (max-width: 552px) {
+@media only screen and (min-width: 512px) and (max-width: 552px) {
     .navbar-left {
         margin-left: 0;
         margin-right: 0;
@@ -3348,7 +3348,7 @@ min width 977px - max width 1280px - as so on
     }
 }
 
-@media only screen and (min-width: 553px) and (max-width: 747px) {
+@media only screen and (min-width: 552px) and (max-width: 747px) {
     .navbar-left {
         margin-left: 0;
         margin-right: 0;
@@ -3436,7 +3436,7 @@ min width 977px - max width 1280px - as so on
     }
 }
 
-@media only screen and (min-width: 748px) and (max-width: 800px) {
+@media only screen and (min-width: 747px) and (max-width: 800px) {
     .navbar-left {
         margin-left: 0;
         margin-right: 0;
@@ -3493,11 +3493,11 @@ min width 977px - max width 1280px - as so on
     }
 
     .container {
-        padding: 0.5rem 10%;
+        padding: 0.5rem 7%;
     }
 
     .left-sidebar {
-        flex-basis: 28%;
+        flex-basis: 27%;
         position: relative;
         top: unset;
     }
@@ -3507,7 +3507,7 @@ min width 977px - max width 1280px - as so on
     }
 
     .main-content {
-        flex-basis: 68%;
+        flex-basis: 67%;
         position: relative;
     }
 
@@ -3525,7 +3525,7 @@ min width 977px - max width 1280px - as so on
     }
 }
 
-@media only screen and (min-width: 801px) and (max-width: 976px) {
+@media only screen and (min-width: 800px) and (max-width: 976px) {
     .navbar-left {
         margin-left: 0;
         margin-right: 0;
@@ -3582,7 +3582,7 @@ min width 977px - max width 1280px - as so on
     }
 
     .container {
-        padding: 0.5rem 10%;
+        padding: 0.5rem 9%;
     }
 
     .left-sidebar {
@@ -3614,7 +3614,7 @@ min width 977px - max width 1280px - as so on
     }
 }
 
-@media only screen and (min-width: 977px) and (max-width: 1280px) {
+@media only screen and (min-width: 976px) and (max-width: 1280px) {
 
 }
 
