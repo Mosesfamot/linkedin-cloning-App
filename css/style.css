@@ -3717,14 +3717,7 @@ min width 977px - max width 1280px - as so on
     }
 
     .search-box {
-        background: transparent;
-        width: auto;
-        padding: 0;
-    }
-
-    .search-box input {
-        width: 0;
-        padding: 0;
+        width: 14rem;
     }
 
     .navbar-center ul li a {
