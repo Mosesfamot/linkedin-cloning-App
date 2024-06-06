@@ -3265,10 +3265,6 @@ min width 977px - max width 1280px - as so on
         position: relative;
     }
 
-    /* .create-post, .sort-by, .post {
-        width: 27.6rem;
-    } */
-
     .post-activity-link span {
         display: none;
     }
@@ -3353,10 +3349,6 @@ min width 977px - max width 1280px - as so on
         flex-basis: 100%;
         position: relative;
     }
-
-    /* .create-post, .sort-by, .post {
-        width: 33.5rem;
-    } */
 
     .post-activity-link span {
         display: none;
@@ -3445,10 +3437,6 @@ min width 977px - max width 1280px - as so on
         flex-basis: 100%;
         position: relative;
     }
-
-    /* .create-post, .sort-by, .post {
-        width: 33.5rem;
-    } */
 
     .post-activity-link span {
         display: none;
