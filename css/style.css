@@ -4098,6 +4098,11 @@ min width 977px - max width 1280px - as so on
         top: -0.5rem;
     }
 
+    .network-sidebar-activity ul li a,
+    .network-sidebar-activity ul li span {
+        font-size: 0.9rem;
+    }
+
     .network-main-content {
         flex-basis: 67%;
         position: relative;
