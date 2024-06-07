@@ -2819,6 +2819,8 @@ min width 977px - max width 1280px - as so on
 */
 
 @media only screen and (max-width: 300px) {
+
+    /* HOMEPAGE SCREENSIZING HOMEPAGE SCREENSIZING HOMEPAGE SCREENSIZING */
     .navbar-left {
         margin-left: 0;
         margin-right: 0;
@@ -2906,6 +2908,11 @@ min width 977px - max width 1280px - as so on
     .post-activity-link i {
         font-size: 1.5rem;
     }
+
+    /* HOMEPAGE SCREENSIZING HOMEPAGE SCREENSIZING HOMEPAGE SCREENSIZING */
+
+
+    /* NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING */
 
     .network-page-container {
         padding: 1.25rem 0;
@@ -2965,9 +2972,14 @@ min width 977px - max width 1280px - as so on
     .second-connect-card .people-connect-second-card {
         flex-basis: 100%;
     }
+
+    /* NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING */
 }
 
 @media only screen and (min-width: 301px) and (max-width: 320px) {
+
+    /* HOMEPAGE SCREENSIZING HOMEPAGE SCREENSIZING HOMEPAGE SCREENSIZING */
+    
     .navbar-left {
         margin-left: 0;
         margin-right: 0;
@@ -3054,6 +3066,70 @@ min width 977px - max width 1280px - as so on
     
     .post-activity-link i {
         font-size: 1.5rem;
+    }
+
+    /* HOMEPAGE SCREENSIZING HOMEPAGE SCREENSIZING HOMEPAGE SCREENSIZING */
+
+
+    /* NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING */
+
+    .network-page-container {
+        padding: 1.25rem 0;
+    }
+    
+    .network-left-sidebar {
+        flex-basis:  100%;
+        position: relative;
+        top: 0.5rem;
+    }
+
+    .network-main-content {
+        flex-basis: 100%;
+        top: 0.5rem;
+    }
+
+    .invitation-section {
+        margin-top: 1.5rem;
+    }
+    
+    .invitation-section p {
+        font-size: 0.8rem;
+    }
+    
+    .invitation-section .manage-click {
+        margin-left: 40%;
+        border-radius: 0.5rem;
+        padding: 0.1rem 0.5rem;
+    }
+
+    .premium-section h3 {
+        font-size: 1rem;
+        margin-right: -0.5rem;
+    }
+    
+    .premium-section h3 span {
+        margin-top: -1.3rem;
+        font-size: 1.5rem;
+    }
+    
+    .premium-section p {
+        font-size: 0.9rem;
+    }
+
+    .people-connect-section p {
+        font-size: 0.9rem;
+    }
+    
+    .people-connect-section p span {
+        font-size: 0.9rem;
+    }
+    
+    .connect-card .people-connect-card {
+        flex-basis: 100%;
+    }
+
+    .second-connect-card .people-connect-second-card {
+        flex-basis: 100%;
     }
 }
 
