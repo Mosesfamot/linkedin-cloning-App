@@ -3299,6 +3299,10 @@ min width 977px - max width 1280px - as so on
         flex-basis: 100%;
     }
 
+    .people-connect-card .connect-link {
+        font-size: 0.8rem;
+    }
+
     .second-connect-card .people-connect-second-card {
         flex-basis: 100%;
     }
@@ -3460,6 +3464,10 @@ min width 977px - max width 1280px - as so on
     
     .connect-card .people-connect-card {
         flex-basis: 48%;
+    }
+
+    .people-connect-card .connect-link {
+        font-size: 0.8rem;
     }
 
     .second-connect-card .people-connect-second-card {
