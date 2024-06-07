@@ -2906,6 +2906,21 @@ min width 977px - max width 1280px - as so on
     .post-activity-link i {
         font-size: 1.5rem;
     }
+
+    .network-page-container {
+        padding: 1.25rem 0;
+    }
+    
+    .network-left-sidebar {
+        flex-basis:  100%;
+        position: relative;
+        top: 0.5rem;
+    }
+
+    .network-main-content {
+        flex-basis: 100%;
+        top: 0.5rem;
+    }
 }
 
 @media only screen and (min-width: 301px) and (max-width: 320px) {
