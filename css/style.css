@@ -2921,6 +2921,31 @@ min width 977px - max width 1280px - as so on
         flex-basis: 100%;
         top: 0.5rem;
     }
+
+    .invitation-section {
+        display: flex;
+        flex-direction: row;
+        background: #fff;
+        border-radius: 0.5rem;
+        border: 0.6px solid #ccc;
+        padding: 0.5rem 0;
+    }
+    
+    .invitation-section p {
+        display: inline;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+        color: #777;
+    }
+    
+    .invitation-section .manage-click {
+        display: inline;
+        margin-left: 63%;
+        color: #000;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1rem;
+    }
 }
 
 @media only screen and (min-width: 301px) and (max-width: 320px) {
