@@ -3131,6 +3131,8 @@ min width 977px - max width 1280px - as so on
     .second-connect-card .people-connect-second-card {
         flex-basis: 100%;
     }
+
+    /* NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING */
 }
 
 @media only screen and (min-width: 320px) and (max-width: 350px) {
