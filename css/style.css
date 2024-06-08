@@ -4790,11 +4790,11 @@ min width 977px - max width 1280px - as so on
     }
     
     .invitation-section p {
-        font-size: 0.8rem;
+        font-size: 0.93rem;
     }
     
     .invitation-section .manage-click {
-        margin-left: 65%;
+        margin-left: 70%;
         border-radius: 0.5rem;
         padding: 0.1rem 0.5rem;
         display: flex;
