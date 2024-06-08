@@ -2981,6 +2981,55 @@ min width 977px - max width 1280px - as so on
     }
 
     /* NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING */
+
+
+    /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
+    .job-page-container {
+        padding: 1.25rem 0;
+    }
+    
+    .job-page-left-sidebar {
+        flex-basis:  100%;
+        position: relative;
+        top: -0.2rem;
+    }
+
+    .job-sidebar-post {
+        display: none;
+    }
+
+    .job-page-main-content {
+        flex-basis: 100%;
+        align-self: flex-start;
+        margin-top: 0.5rem;
+    }
+
+    .hiring-section-bg .hiring-link {
+        padding: 0.4rem 2rem;
+        margin: 0 1rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hiring-section-bg br {
+        display: none;
+    }
+
+    .recruit-section-bg h3 span {
+        margin-top: -1.5rem;
+    }
+
+    .job-search-toplist-container .job-search-toplist h3 {
+        font-size: 0.9rem;
+    }
+
+    .job-search-toplist .applicant-premium-user-btn {
+        padding: 0.7rem 0.3rem;
+        font-size: 0.9rem;
+    }
+
+    /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
 }
 
 @media only screen and (min-width: 301px) and (max-width: 320px) {
