@@ -2994,6 +2994,10 @@ min width 977px - max width 1280px - as so on
         top: -0.2rem;
     }
 
+    .job-sidebar-profile-box .jobs-sidebar-sizing {
+        display: none;
+    }
+
     .job-sidebar-post {
         display: none;
     }
