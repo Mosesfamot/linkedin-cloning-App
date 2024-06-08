@@ -3020,6 +3020,10 @@ min width 977px - max width 1280px - as so on
         margin-top: -1.5rem;
     }
 
+    .job-search-toplist {
+        font-size: 0.8rem;
+    }
+
     .job-search-toplist-container .job-search-toplist h3 {
         font-size: 0.9rem;
     }
@@ -3027,6 +3031,12 @@ min width 977px - max width 1280px - as so on
     .job-search-toplist .applicant-premium-user-btn {
         padding: 0.7rem 0.3rem;
         font-size: 0.9rem;
+    }
+
+    .job-right-sidebar {
+        flex-basis: 100%;
+        align-self: flex-start;
+        margin-top: 0.5rem;
     }
 
     /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
