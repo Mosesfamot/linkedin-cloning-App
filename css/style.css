@@ -3312,6 +3312,36 @@ min width 977px - max width 1280px - as so on
     }
 
     /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
+
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
+
+    .message-container {
+        padding: 1.25rem 0;
+        display: flex;
+    }
+    
+    .message-main-content {
+        flex-basis: 100%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    .full-message a {
+        border: 2px solid #045be6;
+        padding: 0.5rem 0.5rem;
+        border-radius: 4rem;
+        color: #045be6;
+        font-weight: 600;
+    }
+
+    .message-right-sidebar {
+        flex-basis: 100%;
+        align-self: flex-start;
+        margin-top: 1rem;
+    }
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
 }
 
 @media only screen and (min-width: 320px) and (max-width: 350px) {
