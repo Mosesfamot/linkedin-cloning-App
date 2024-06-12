@@ -2790,10 +2790,6 @@ p .highlight-date {
 
 
 
-
-
-
-
 /* -------------------------------------- NOTIFICATION PAGE SECION NOTIFICATION PAGE SECTION NOTIFICATION PAGE SECTION -------------------------------------- */
 
 
@@ -3084,6 +3080,36 @@ min width 977px - max width 1280px - as so on
     }
 
     /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
+
+
+    /* NOTIFICATION PAGE SIZING NOTIFICATION PAGE SIZING NOTIFICATION PAGE SIZING  */
+
+    .notification-container {
+        padding: 1.25rem 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .notification-left-sidebar {
+        flex-basis: 100%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    .notification-main-content {
+        flex-basis: 100%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    .notification-right-sidebar {
+        flex-basis: 100%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    /* NOTIFICATION PAGE SIZING NOTIFICATION PAGE SIZING NOTIFICATION PAGE SIZING  */
+
 }
 
 @media only screen and (min-width: 301px) and (max-width: 320px) {
