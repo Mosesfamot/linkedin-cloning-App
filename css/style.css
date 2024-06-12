@@ -4112,7 +4112,7 @@ min width 977px - max width 1280px - as so on
     }
 
     .message-header .message-right-header {
-        flex-basis: 29%;
+        flex-basis: 34%;
     }
 
     .message-tab .message-tab-left {
