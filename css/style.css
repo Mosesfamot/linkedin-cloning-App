@@ -3062,7 +3062,7 @@ min width 977px - max width 1280px - as so on
     .message-right-sidebar {
         flex-basis: 100%;
         align-self: flex-start;
-        top: 4.56rem;
+        margin-top: 1rem;
     }
 
     /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
