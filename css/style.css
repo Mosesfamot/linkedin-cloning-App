@@ -4111,6 +4111,10 @@ min width 977px - max width 1280px - as so on
         top: 4.56rem;
     }
 
+    .message-header .message-right-header {
+        flex-basis: 29%;
+    }
+
     .message-tab .message-tab-left {
         flex-basis: 100%;
         align-self: flex-start;
@@ -4364,6 +4368,10 @@ min width 977px - max width 1280px - as so on
         flex-basis: 100%;
         align-self: flex-start;
         top: 4.56rem;
+    }
+
+    .message-header .message-right-header {
+        flex-basis: 29%;
     }
 
     .message-tab .message-tab-left {
@@ -4623,6 +4631,10 @@ min width 977px - max width 1280px - as so on
         flex-basis: 100%;
         align-self: flex-start;
         top: 4.56rem;
+    }
+
+    .message-header .message-right-header {
+        flex-basis: 28%;
     }
 
     .message-right-sidebar {
@@ -4886,6 +4898,10 @@ min width 977px - max width 1280px - as so on
         top: 4.56rem;
     }
 
+    .message-header .message-right-header {
+        flex-basis: 20%;
+    }
+
     .message-right-sidebar {
         flex-basis: 100%;
         align-self: flex-start;
@@ -5119,6 +5135,28 @@ min width 977px - max width 1280px - as so on
     }
 
     /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
+
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
+
+    .message-container {
+        padding: 1.25rem 8%;
+        display: flex;
+    }
+    
+    .message-main-content {
+        flex-basis: 100%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    .message-right-sidebar {
+        flex-basis: 100%;
+        align-self: flex-start;
+        margin-top: 1rem;
+    }
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
 }
 
 
