@@ -2821,6 +2821,11 @@ min width 977px - max width 1280px - as so on
 @media only screen and (max-width: 300px) {
 
     /* HOMEPAGE SCREENSIZING HOMEPAGE SCREENSIZING HOMEPAGE SCREENSIZING */
+    .navbar {
+        position: fixed;
+        width: 100%;
+    }
+    
     .navbar-left {
         margin-left: 0;
         margin-right: 0;
@@ -2883,6 +2888,7 @@ min width 977px - max width 1280px - as so on
 
     .container {
         padding: 0.5rem 0%;
+        margin-top: 3rem;
     }
 
     .left-sidebar, .right-sidebar {
@@ -2916,6 +2922,7 @@ min width 977px - max width 1280px - as so on
 
     .network-page-container {
         padding: 1.25rem 0;
+        margin-top: 3rem;
     }
     
     .network-left-sidebar {
@@ -2986,6 +2993,7 @@ min width 977px - max width 1280px - as so on
     /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
     .job-page-container {
         padding: 1.25rem 0;
+        margin-top: 2.5rem;
     }
     
     .job-page-left-sidebar {
@@ -3051,6 +3059,7 @@ min width 977px - max width 1280px - as so on
     .message-container {
         padding: 1.25rem 0;
         display: flex;
+        margin-top: 2.5rem;
     }
     
     .message-main-content {
