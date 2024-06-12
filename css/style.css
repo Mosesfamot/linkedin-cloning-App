@@ -4838,8 +4838,8 @@ min width 977px - max width 1280px - as so on
         top: -0.2rem;
     }
 
-    .job-sidebar-post {
-        padding: 0 2rem;
+    .job-sidebar-post a {
+        padding: 1rem 2rem;
     }
 
     .job-page-main-content {
@@ -4880,6 +4880,7 @@ min width 977px - max width 1280px - as so on
 
     /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
 }
+
 
 @media only screen and (min-width: 977px) and (max-width: 1024px) {
 
@@ -5052,6 +5053,59 @@ min width 977px - max width 1280px - as so on
     }
 
     /* NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING */
+
+
+
+    /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
+    .job-page-container {
+        padding: 1.25rem 5%;
+    }
+    
+    .job-page-left-sidebar {
+        flex-basis:  25%;
+        position: relative;
+        top: -0.2rem;
+    }
+
+    .job-sidebar-post a {
+        padding: 1rem 2rem;
+
+    .job-page-main-content {
+        flex-basis: 47%;
+        align-self: flex-start;
+        margin-top: -0.2rem;
+    }
+
+    .hiring-section-bg .hiring-link {
+        padding: 0.4rem 2rem;
+        margin: 0 1rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hiring-section-bg br {
+        display: none;
+    }
+
+    .recruit-section-bg h3 span {
+        margin-top: -1.5rem;
+    }
+
+    .job-search-toplist {
+        font-size: 0.9rem;
+    }
+
+    .job-search-toplist-container .job-search-toplist h3 {
+        font-size: 1rem;
+    }
+
+    .job-right-sidebar {
+        flex-basis: 25%;
+        margin-top: 0.5rem;
+    }
+
+    /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1128px) {
