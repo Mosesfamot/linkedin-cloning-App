@@ -5630,6 +5630,32 @@ min width 977px - max width 1280px - as so on
     }
 
     /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
+
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
+
+    .message-container {
+        padding: 1.25rem 8%;
+        display: flex;
+    }
+    
+    .message-main-content {
+        flex-basis: 67%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    .message-header .message-right-header {
+        flex-basis: 25%;
+    }
+
+    .message-right-sidebar {
+        flex-basis: 30%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
 }
 
 @media only screen and (min-width: 1129px) and (max-width: 1424px) {
@@ -5820,6 +5846,32 @@ min width 977px - max width 1280px - as so on
     }
 
     /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
+
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
+
+    .message-container {
+        padding: 1.25rem 12%;
+        display: flex;
+    }
+    
+    .message-main-content {
+        flex-basis: 67%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    .message-header .message-right-header {
+        flex-basis: 24%;
+    }
+
+    .message-right-sidebar {
+        flex-basis: 30%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
 }
 
 
