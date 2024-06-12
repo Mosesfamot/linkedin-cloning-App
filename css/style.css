@@ -184,7 +184,7 @@ a {
     line-height: 1rem;
 }
 
-.online::after {
+/* .online::after {
     content: '';
     width: 0.43rem;
     height: 0.43rem;
@@ -194,7 +194,7 @@ a {
     top: 0px;
     background: #41db51;
     position: absolute;
-}
+} */
 
 .search-box {
     background: #ecf1fa;
@@ -5071,10 +5071,6 @@ min width 977px - max width 1280px - as so on
         top: -0.1rem;
     }
 
-    .job-sidebar-post a {
-        padding: 1rem 2rem;
-    }
-
     .job-page-main-content {
         flex-basis: 47%;
         align-self: flex-start;
@@ -5294,10 +5290,6 @@ min width 977px - max width 1280px - as so on
         top: 0.1rem;
     }
 
-    .job-sidebar-post a {
-        padding: 1rem 2rem;
-    }
-
     .job-page-main-content {
         flex-basis: 47%;
         align-self: flex-start;
@@ -5495,6 +5487,35 @@ min width 977px - max width 1280px - as so on
     }
 
     /* NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING */
+
+
+    /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
+    .job-page-container {
+        padding: 1.25rem 3%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .job-page-left-sidebar {
+        flex-basis:  25%;
+        align-self: flex-start;
+        position: sticky;
+        top: 0.1rem;
+    }
+
+    .job-page-main-content {
+        flex-basis: 47%;
+        align-self: flex-start;
+        margin-top: 0.1rem;
+    }
+
+    .job-right-sidebar {
+        flex-basis: 25%;
+        margin-top: 0.1rem;
+    }
+
+    /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
 }
 
 
