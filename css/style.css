@@ -3087,25 +3087,41 @@ min width 977px - max width 1280px - as so on
     .notification-container {
         padding: 1.25rem 0;
         display: flex;
-        flex-wrap: wrap;
     }
     
     .notification-left-sidebar {
         flex-basis: 100%;
-        align-self: flex-start;
-        top: 4.56rem;
+        position: relative;
+        margin-bottom: 2.5rem;
+        top: 2.2rem;
+        overflow: hidden;
     }
 
     .notification-main-content {
         flex-basis: 100%;
-        align-self: flex-start;
-        top: 4.56rem;
+        margin-top: 0.3rem;
+        overflow: hidden;
+        margin-bottom: 7.5rem;
+    }
+
+    .notification-menu ul li a {
+        padding: 0.3rem 0.5rem;
+    }
+
+    .notification-list-preview img {
+        width: 2rem;
+    }
+
+    .notification-list-preview .notification-highlight p {
+        font-size: 0.8rem;
     }
 
     .notification-right-sidebar {
         flex-basis: 100%;
-        align-self: flex-start;
-        top: 4.56rem;
+    }
+
+    .notification-right-sidebar .notification-sidebar-ad {
+        display: none;
     }
 
     /* NOTIFICATION PAGE SIZING NOTIFICATION PAGE SIZING NOTIFICATION PAGE SIZING  */
