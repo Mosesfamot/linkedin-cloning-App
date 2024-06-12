@@ -6046,6 +6046,37 @@ min width 977px - max width 1280px - as so on
     }
 
     /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
+
+
+    /* NOTIFICATION PAGE SIZING NOTIFICATION PAGE SIZING NOTIFICATION PAGE SIZING  */
+
+    .notification-container {
+        padding: 1.25rem 5%;
+        display: flex;
+    }
+    
+    .notification-left-sidebar {
+        flex-basis: 25%;
+        margin-bottom: 2.5rem;
+        top: 4rem;
+    }
+
+    .notification-main-content {
+        flex-basis: 47%;
+        top: 4rem;
+    }
+
+    .notification-list-preview img {
+        width: 3rem;
+    }
+
+    .notification-right-sidebar {
+        flex-basis: 25%;
+        top: 4rem;
+    }
+
+    /* NOTIFICATION PAGE SIZING NOTIFICATION PAGE SIZING NOTIFICATION PAGE SIZING  */
+    
 }
 
 @media only screen and (min-width: 1129px) and (max-width: 1424px) {
