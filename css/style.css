@@ -6329,48 +6329,6 @@ min width 977px - max width 1280px - as so on
 
 /* @media only screen and (min-width: 767px) {
 
-    .navbar-left {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .logo img {
-        margin-right: 0.93rem;
-        margin-left: 0.93rem;
-    }
-
-    .search-box {
-        background: transparent;
-        width: auto;
-        padding: 0;
-    }
-
-    .search-box input {
-        width: 0;
-        padding: 0;
-    }
-
-    .navbar-center ul li a span {
-        display: none;
-    }
-
-    .navbar-center ul li a {
-        padding-right: 0;
-        margin: 0.31rem;
-    }
-
-    .navbar-center ul li a i {
-        margin: 0 0.5rem;
-    }
-
-    .navbar-right {
-        margin-right: 0;
-    }
-
-    .nav-profile-img {
-        width: 1.875rem;
-    }
-
     .navbar-right .for-business-nav, 
     .navbar-right .try-premium-link {
         display: none;
