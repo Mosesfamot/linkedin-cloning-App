@@ -3077,14 +3077,6 @@ min width 977px - max width 1280px - as so on
         display: none;
     }
 
-    .full-message a {
-        border: 2px solid #045be6;
-        padding: 0.5rem 0.5rem;
-        border-radius: 4rem;
-        color: #045be6;
-        font-weight: 600;
-    }
-
     .message-right-sidebar {
         flex-basis: 100%;
         align-self: flex-start;
@@ -3336,20 +3328,13 @@ min width 977px - max width 1280px - as so on
         top: 4.56rem;
     }
 
-    .message-tab-left img {
+    .message-tab .message-tab-left {
+        flex-basis: 100%;
+        align-self: flex-start;
+    }
+
+    .message-tab .message-tab-right {
         display: none;
-    }
-
-    .message-tab-left .tab-highlight-paragraph {
-        width: 100%;
-    }
-
-    .full-message a {
-        border: 2px solid #045be6;
-        padding: 0.5rem 0.5rem;
-        border-radius: 4rem;
-        color: #045be6;
-        font-weight: 600;
     }
 
     .message-right-sidebar {
@@ -3607,20 +3592,13 @@ min width 977px - max width 1280px - as so on
         top: 4.56rem;
     }
 
-    .message-tab-left img {
+    .message-tab .message-tab-left {
+        flex-basis: 100%;
+        align-self: flex-start;
+    }
+
+    .message-tab .message-tab-right {
         display: none;
-    }
-
-    .message-tab-left .tab-highlight-paragraph {
-        width: 100%;
-    }
-
-    .full-message a {
-        border: 2px solid #045be6;
-        padding: 0.5rem 0.5rem;
-        border-radius: 4rem;
-        color: #045be6;
-        font-weight: 600;
     }
 
     .message-right-sidebar {
@@ -3878,20 +3856,13 @@ min width 977px - max width 1280px - as so on
         top: 4.56rem;
     }
 
-    .message-tab-left img {
+    .message-tab .message-tab-left {
+        flex-basis: 100%;
+        align-self: flex-start;
+    }
+
+    .message-tab .message-tab-right {
         display: none;
-    }
-
-    .message-tab-left .tab-highlight-paragraph {
-        width: 100%;
-    }
-
-    .full-message a {
-        border: 2px solid #045be6;
-        padding: 0.5rem 0.5rem;
-        border-radius: 4rem;
-        color: #045be6;
-        font-weight: 600;
     }
 
     .message-right-sidebar {
@@ -4140,20 +4111,13 @@ min width 977px - max width 1280px - as so on
         top: 4.56rem;
     }
 
-    .message-tab-left img {
-        width: 1.5rem;
+    .message-tab .message-tab-left {
+        flex-basis: 100%;
+        align-self: flex-start;
     }
 
-    .message-tab-left .tab-highlight-paragraph {
-        width: 100%;
-    }
-
-    .full-message a {
-        border: 2px solid #045be6;
-        padding: 0.5rem 0.5rem;
-        border-radius: 4rem;
-        color: #045be6;
-        font-weight: 600;
+    .message-tab .message-tab-right {
+        display: none;
     }
 
     .message-right-sidebar {
@@ -4402,20 +4366,13 @@ min width 977px - max width 1280px - as so on
         top: 4.56rem;
     }
 
-    .message-tab-left img {
-        width: 1.5rem;
+    .message-tab .message-tab-left {
+        flex-basis: 100%;
+        align-self: flex-start;
     }
 
-    .message-tab-left .tab-highlight-paragraph {
-        width: 100%;
-    }
-
-    .full-message a {
-        border: 2px solid #045be6;
-        padding: 0.5rem 0.5rem;
-        border-radius: 4rem;
-        color: #045be6;
-        font-weight: 600;
+    .message-tab .message-tab-right {
+        display: none;
     }
 
     .message-right-sidebar {
@@ -4654,6 +4611,28 @@ min width 977px - max width 1280px - as so on
 
     /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
 
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
+
+    .message-container {
+        padding: 1.25rem 0;
+        display: flex;
+    }
+    
+    .message-main-content {
+        flex-basis: 100%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    .message-right-sidebar {
+        flex-basis: 100%;
+        align-self: flex-start;
+        margin-top: 1rem;
+    }
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
+
 }
 
 @media only screen and (min-width: 747px) and (max-width: 800px) {
@@ -4835,6 +4814,7 @@ min width 977px - max width 1280px - as so on
 
     /* NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING NETWORK PAGE SCREENSIZING */
 
+
     /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
     .job-page-container {
         padding: 1.25rem 8%;
@@ -4891,6 +4871,28 @@ min width 977px - max width 1280px - as so on
     }
 
     /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
+
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
+
+    .message-container {
+        padding: 1.25rem 5%;
+        display: flex;
+    }
+    
+    .message-main-content {
+        flex-basis: 100%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    .message-right-sidebar {
+        flex-basis: 100%;
+        align-self: flex-start;
+        margin-top: 1rem;
+    }
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
 }
 
 @media only screen and (min-width: 800px) and (max-width: 976px) {
