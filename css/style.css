@@ -3068,12 +3068,13 @@ min width 977px - max width 1280px - as so on
         top: 4.56rem;
     }
 
-    .message-tab-left img {
-        display: none;
+    .message-tab .message-tab-left {
+        flex-basis: 100%;
+        align-self: flex-start;
     }
 
-    .message-tab-left .tab-highlight-paragraph {
-        width: 100%;
+    .message-tab .message-tab-right {
+        display: none;
     }
 
     .full-message a {
@@ -4124,6 +4125,44 @@ min width 977px - max width 1280px - as so on
     }
 
     /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
+
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
+
+    .message-container {
+        padding: 1.25rem 0;
+        display: flex;
+    }
+    
+    .message-main-content {
+        flex-basis: 100%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    .message-tab-left img {
+        width: 1.5rem;
+    }
+
+    .message-tab-left .tab-highlight-paragraph {
+        width: 100%;
+    }
+
+    .full-message a {
+        border: 2px solid #045be6;
+        padding: 0.5rem 0.5rem;
+        border-radius: 4rem;
+        color: #045be6;
+        font-weight: 600;
+    }
+
+    .message-right-sidebar {
+        flex-basis: 100%;
+        align-self: flex-start;
+        margin-top: 1rem;
+    }
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
 }
 
 @media only screen and (min-width: 512px) and (max-width: 552px) {
@@ -4348,6 +4387,44 @@ min width 977px - max width 1280px - as so on
     }
 
     /* JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING JOB PAGE SIZING */
+
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
+
+    .message-container {
+        padding: 1.25rem 0;
+        display: flex;
+    }
+    
+    .message-main-content {
+        flex-basis: 100%;
+        align-self: flex-start;
+        top: 4.56rem;
+    }
+
+    .message-tab-left img {
+        width: 1.5rem;
+    }
+
+    .message-tab-left .tab-highlight-paragraph {
+        width: 100%;
+    }
+
+    .full-message a {
+        border: 2px solid #045be6;
+        padding: 0.5rem 0.5rem;
+        border-radius: 4rem;
+        color: #045be6;
+        font-weight: 600;
+    }
+
+    .message-right-sidebar {
+        flex-basis: 100%;
+        align-self: flex-start;
+        margin-top: 1rem;
+    }
+
+    /* MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING MESSAGE PAGE SIZING */
 }
 
 @media only screen and (min-width: 552px) and (max-width: 747px) {
