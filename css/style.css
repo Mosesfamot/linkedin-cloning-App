@@ -6329,10 +6329,6 @@ min width 977px - max width 1280px - as so on
 
 /* @media only screen and (min-width: 767px) {
 
-    .container {
-        padding: 0.93rem 3%;
-    }
-
     .tablet-sidebar {
         display: none;
     }
