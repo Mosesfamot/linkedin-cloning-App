@@ -6333,12 +6333,6 @@ min width 977px - max width 1280px - as so on
         display: none;
     }
 
-    .left-sidebar, .right-sidebar {
-        flex-basis: 100%;
-        position: relative;
-        top: unset;
-    }
-
     .main-content {
         flex-basis: 100%;
     }
