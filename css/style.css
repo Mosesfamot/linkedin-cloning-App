@@ -6323,8 +6323,6 @@ min width 977px - max width 1280px - as so on
 }
 
 
-
-
 /* MEDIA QUERY FOR SMALL SCREEN START */
 
 /* @media only screen and (min-width: 767px) {
@@ -6341,7 +6339,7 @@ min width 977px - max width 1280px - as so on
         margin-left: 0;
     }
 
-    .profile-main, .profile-sidebar {
+    .profile-main .profile-sidebar {
         flex-basis: 100%;
     }
 
