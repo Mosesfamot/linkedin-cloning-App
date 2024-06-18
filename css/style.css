@@ -6348,10 +6348,6 @@ min width 977px - max width 1280px - as so on
         margin-top: -3.125rem;
     }
 
-    .profile-description {
-        font-size: 0.875rem;
-    }
-
     #showMoreLink {
         display: block;
         width: fit-content;
