@@ -3147,10 +3147,27 @@ min width 977px - max width 1280px
     .mutual-connection span {
         font-size: 0.8rem;
     }
+
+    .profile-btn a {
+        margin-right: 0;
+    }
     
     .profile-sidebar {
         flex-basis: 100%;
         padding: 0 0.5rem;
+    }
+
+    .profile-description h2 {
+        font-size: 1.2rem;
+    }
+
+    .profile-description p,
+    .profile-description a {
+        font-size: 0.8rem;
+    }
+
+    .profile-desc-row img {
+        width: 2rem;
     }
 
 
