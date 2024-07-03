@@ -3171,10 +3171,6 @@ min width 977px - max width 1280px
         width: 2rem;
     }
 
-
-
-
-
     /* PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING  */
 
 }
@@ -3485,7 +3481,48 @@ min width 977px - max width 1280px
 
      /* PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING  */
 
+     .profile-main {
+        flex-basis: 100%;
+        padding: 0 0.5rem;
+    }
 
+    .profile-main .profile-pic {
+        width: 5rem;
+        margin-top: -3rem;
+    }
+
+    .profile-container-inner h1 {
+        font-size: 1.2rem;
+    }
+
+    .profile-container-inner b,
+    .profile-container-inner p,
+    .mutual-connection span {
+        font-size: 0.8rem;
+    }
+
+    .profile-btn a {
+        margin-right: 0;
+    }
+    
+    .profile-sidebar {
+        flex-basis: 100%;
+        padding: 0 0.5rem;
+    }
+
+    .profile-description h2,
+    .profile-description h3 {
+        font-size: 1.2rem;
+    }
+
+    .profile-description p,
+    .profile-description a {
+        font-size: 0.8rem;
+    }
+
+    .profile-desc-row img {
+        width: 2rem;
+    }
 
 
      /* PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING  */
