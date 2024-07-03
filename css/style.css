@@ -4220,7 +4220,7 @@ min width 977px - max width 1280px
 
     .profile-main {
         flex-basis: 100%;
-        padding: 0 0.5rem;
+        padding: 0 1rem;
     }
 
     .profile-main .profile-pic {
@@ -4250,7 +4250,7 @@ min width 977px - max width 1280px
     
     .profile-sidebar {
         flex-basis: 100%;
-        padding: 0 0.5rem;
+        padding: 0 1rem;
     }
 
     .profile-description h2,
