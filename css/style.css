@@ -3157,7 +3157,8 @@ min width 977px - max width 1280px
         padding: 0 0.5rem;
     }
 
-    .profile-description h2 {
+    .profile-description h2,
+    .profile-description h3 {
         font-size: 1.2rem;
     }
 
