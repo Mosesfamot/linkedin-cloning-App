@@ -5991,18 +5991,18 @@ min width 977px - max width 1280px
     }
 
     .profile-main .profile-pic {
-        width: 6rem;
-        margin-top: -3rem;
+        width: 8rem;
+        margin-top: -4rem;
     }
 
     .profile-container-inner h1 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .profile-container-inner b,
     .profile-container-inner p,
     .mutual-connection span {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .profile-btn {
@@ -6021,12 +6021,12 @@ min width 977px - max width 1280px
 
     .profile-description h2,
     .profile-description h3 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .profile-description p,
     .profile-description a {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .profile-desc-row img {
