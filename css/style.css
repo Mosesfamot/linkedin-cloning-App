@@ -866,10 +866,10 @@ figure:hover, figcaption:hover {
     color: #222;
 }
 
-.profile-menu-link {
+.dropdown-menu-list .profile-menu-link {
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #333;
     margin: 0.75rem 0;
     font-size: 0.875rem;
 }
