@@ -825,6 +825,14 @@ figure:hover, figcaption:hover {
     font-size: 0.81rem;
 }
 
+.profile-menu hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    margin: 0.93rem 0 0.625rem;
+}
+
 .profile-menu-link {
     display: flex;
     align-items: center;
