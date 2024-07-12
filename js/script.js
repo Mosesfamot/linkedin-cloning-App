@@ -6,8 +6,12 @@ function toggleMenu() {
     profileMenu.classList.toggle("open-menu");
 }
 
+function toggleBusiness() {
+
+}
+
 function toggleActivity() {
-    sidebarActivity.classList.toggle("open-activity");
+    sideActivity.classList.toggle("open-activity");
     
     if(sideActivity.classList.contains("open-activity")) {
         moreLink.innerHTML = "Show less <b>-</b>";
