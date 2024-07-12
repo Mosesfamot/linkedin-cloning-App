@@ -820,17 +820,9 @@ figure:hover, figcaption:hover {
     margin-bottom: 0.2rem;
 }
 
-.user-info .profile-menu-user-desc {
+.user-info .dropdown-menu-user-desc {
     color: #c9dbf8;
     font-size: 0.81rem;
-}
-
-.profile-menu hr {
-    border: 0;
-    height: 1px;
-    width: 100%;
-    background: #fff;
-    margin: 0.93rem 0 0.625rem;
 }
 
 .profile-menu-link {
