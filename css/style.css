@@ -817,10 +817,10 @@ figure:hover, figcaption:hover {
 
 .user-info h3 {
     font-weight: 500;
-    margin-bottom: -0.43rem;
+    margin-bottom: 0.2rem;
 }
 
-.user-info a {
+.user-info .profile-menu-user-desc {
     color: #c9dbf8;
     font-size: 0.81rem;
 }
