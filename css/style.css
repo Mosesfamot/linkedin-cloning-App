@@ -821,6 +821,7 @@ figure:hover, figcaption:hover {
     font-weight: 550;
     font-size: 1rem;
     margin-bottom: 0.2rem;
+    color: #222;
 }
 
 .user-info .dropdown-menu-user-desc {
@@ -857,6 +858,12 @@ figure:hover, figcaption:hover {
 
 .profile-menu .dropdown-menu-list {
     padding: 0 1rem;
+}
+
+.profile-menu .dropdown-menu-list h3 {
+    font-weight: 550;
+    font-size: 1rem;
+    color: #222;
 }
 
 .profile-menu-link {
