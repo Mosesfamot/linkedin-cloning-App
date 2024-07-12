@@ -853,7 +853,7 @@ figure:hover, figcaption:hover {
     height: 1px;
     width: 100%;
     background: #ccc;
-    margin: 0.93rem 0 0.625rem;
+    margin: 0.4rem 0 0.6rem;
 }
 
 .profile-menu .dropdown-menu-list {
@@ -866,22 +866,32 @@ figure:hover, figcaption:hover {
     color: #222;
 }
 
+.dropdown-menu-list .profile-menu-link-premium {
+    display: flex;
+    align-items: center;
+    color: #333;
+    margin: 0.8rem 0;
+    font-size: 0.875rem;
+    font-weight: 550;
+}
+
+.dropdown-menu-list .profile-menu-link-premium:hover {
+    cursor: pointer;
+    color: #045be6;
+    text-decoration: none;
+}
+
 .dropdown-menu-list .profile-menu-link {
     display: flex;
     align-items: center;
     color: #333;
-    margin: 0.75rem 0;
+    margin: 0.8rem 0;
     font-size: 0.875rem;
 }
 
-.profile-menu-link p {
-    width: 100%;
-}
-
-.profile-menu-link img {
-    width: 2.18rem;
-    border-radius: 50%;
-    margin-right: 0.93rem;
+.dropdown-menu-list .profile-menu-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 /* PROFILE DROP-DOWN MENU END  */
