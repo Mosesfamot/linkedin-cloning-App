@@ -855,6 +855,10 @@ figure:hover, figcaption:hover {
     margin: 0.93rem 0 0.625rem;
 }
 
+.profile-menu .dropdown-menu-list {
+    padding: 0 1rem;
+}
+
 .profile-menu-link {
     display: flex;
     align-items: center;
