@@ -786,7 +786,7 @@ figure:hover, figcaption:hover {
 .profile-menu-wrap {
     position: absolute;
     top: 100%;
-    right: 5%;
+    right: 26%;
     width: 20rem;
     max-height: 0;
     overflow: hidden;
