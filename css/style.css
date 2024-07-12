@@ -793,11 +793,11 @@ figure:hover, figcaption:hover {
     transition: max-height 0.5s;
     border-radius: 0.4rem;
     background: #fff;
-    border: 1px solid #ccc;
 }
 
 .profile-menu-wrap.open-menu {
     max-height: 25rem;
+    border: 1px solid #ccc;
 }
 
 .profile-menu {
@@ -828,7 +828,7 @@ figure:hover, figcaption:hover {
     font-size: 0.81rem;
 }
 
-.user-info .dropdown-menu-profilelink {
+.profile-menu .dropdown-menu-profilelink {
     display: flex;
     flex-direction: column;
     align-items: center;
