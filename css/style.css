@@ -932,6 +932,7 @@ figure:hover, figcaption:hover {
 .dropdown-menu-list-left h3 {
     color: #000;
     font-size: 1.1rem;
+    margin-bottom: 2rem;
 }
 
 .dropdown-menu-list-left .business-menu-link {
@@ -939,8 +940,23 @@ figure:hover, figcaption:hover {
     font-weight: 550;
 }
 
+.dropdown-menu-list-left .business-menu-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .dropdown-menu-list-left .business-menu-link p {
-    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin: 0.2rem 0 2rem;
+}
+
+.dropdown-menu-list-left .business-menu-link p i {
+    color: #378fe9;
+    font-size: 2rem;
+    margin-right: 0.5rem;
 }
 
 .dropdown-menu-list-center {
