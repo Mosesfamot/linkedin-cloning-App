@@ -909,7 +909,6 @@ figure:hover, figcaption:hover {
     max-height: 0;
     /* overflow: hidden; */
     transition: max-height 0.5s;
-    border-radius: 0.4rem;
 }
 
 .business-menu-wrap.open-menu {
@@ -917,11 +916,13 @@ figure:hover, figcaption:hover {
 }
 
 .business-menu {
-    padding: 2rem 8%;
+    padding: 1.9rem 6%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
 }
 
 .dropdown-menu-list-left {
