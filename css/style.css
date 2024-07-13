@@ -929,6 +929,20 @@ figure:hover, figcaption:hover {
     align-self: flex-start;
 }
 
+.dropdown-menu-list-left h3 {
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.dropdown-menu-list-left .business-menu-link {
+    font-size: 0.93rem;
+    font-weight: 550;
+}
+
+.dropdown-menu-list-left .business-menu-link p {
+    margin: 1rem 0;
+}
+
 .dropdown-menu-list-center {
     flex-basis: 5%;
 }
