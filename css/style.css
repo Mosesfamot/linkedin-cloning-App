@@ -898,6 +898,30 @@ figure:hover, figcaption:hover {
 
 
 
+/* BUSINESS DROP-DOWN MENU START  */
+
+.business-menu-wrap {
+    background: #fff;
+    position: absolute;
+    top: 115%;
+    right: 20%;
+    width: 46rem;
+    max-height: 0;
+    /* overflow: hidden; */
+    transition: max-height 0.5s;
+    border-radius: 0.4rem;
+}
+
+/* .business-menu-wrap.open-menu {} */
+
+.business-menu {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+}
+
+/* BUSINESS DROP-DOWN MENU END  */
+
 
 
 /* -------------------------------------- HOME PAGE HOME PAGE HOME PAGE HOME PAGE -------------------------------------- */
