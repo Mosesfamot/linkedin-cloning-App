@@ -935,12 +935,19 @@ figure:hover, figcaption:hover {
     margin-bottom: 2rem;
 }
 
+.dropdown-menu-list-left h4 {
+    color: #333;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
 .dropdown-menu-list-left .business-menu-link {
     font-size: 0.93rem;
     font-weight: 550;
 }
 
-.dropdown-menu-list-left .business-menu-link:hover {
+.dropdown-menu-list-left .business-menu-link span:hover {
     cursor: pointer;
     text-decoration: underline;
 }
@@ -956,11 +963,11 @@ figure:hover, figcaption:hover {
 .dropdown-menu-list-left .business-menu-link p i {
     color: #378fe9;
     font-size: 2rem;
-    margin-right: 0.5rem;
+    margin: 0 0.5rem;
 }
 
-.dropdown-menu-list-center {
-    flex-basis: 5%;
+.business-menu hr {
+    color: #ccc;
 }
 
 .dropdown-menu-list-right {
