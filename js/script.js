@@ -5,8 +5,11 @@ let moreLink = document.getElementById("showMoreLink");
 
 function toggleMenu() {
     profileMenu.classList.toggle("open-menu");
-    businessMenu.classList.toogle("open-business-menu");
-}
+};
+
+function businessToggleMenu() {
+    businessMenu.classList.toggle("open-business-menu");
+};
 
 function toggleActivity() {
     sideActivity.classList.toggle("open-activity");
@@ -16,5 +19,5 @@ function toggleActivity() {
     } else {
         moreLink.innerHTML = "Show more <b>+</b>";
     }
-}
+};
 
