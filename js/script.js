@@ -1,13 +1,11 @@
 let profileMenu = document.getElementById("profileMenu");
+let businessMenu = document.getElementById("businessMenu");
 let sideActivity = document.getElementById("sidebarActivity");
 let moreLink = document.getElementById("showMoreLink");
 
 function toggleMenu() {
     profileMenu.classList.toggle("open-menu");
-}
-
-function toggleBusiness() {
-
+    businessMenu.classList.toogle("open-business-menu");
 }
 
 function toggleActivity() {
