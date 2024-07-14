@@ -13,11 +13,11 @@ class pageNavbar extends HTMLElement {
             </section>
             <section class="navbar-center">
                 <ul>
-                    <li><a href="index.html" class="nav-link"><i class='bx bxs-home'></i> <span>Home</span></a></li>
-                    <li><a href="network.html" class="nav-link"><i class='bx bxs-user-plus'></i> <span>My Network</span></a></li>
-                    <li><a href="jobs.html" class="nav-link"><i class='bx bxs-shopping-bag'></i> <span>Jobs</span></a></li>
-                    <li><a href="message.html" class="nav-link"><i class='bx bxs-message-rounded-dots'></i> <span>Messaging</span></a></li>
-                    <li><a href="notifications.html" class="nav-link"><i class='bx bxs-bell'></i> <span>Notifications</span></a></li>
+                    <li><a href="index.html" class="navbar-link"><i class='bx bxs-home'></i> <span>Home</span></a></li>
+                    <li><a href="network.html" class="navbar-link"><i class='bx bxs-user-plus'></i> <span>My Network</span></a></li>
+                    <li><a href="jobs.html" class="navbar-link"><i class='bx bxs-shopping-bag'></i> <span>Jobs</span></a></li>
+                    <li><a href="message.html" class="navbar-link"><i class='bx bxs-message-rounded-dots'></i> <span>Messaging</span></a></li>
+                    <li><a href="notifications.html" class="navbar-link"><i class='bx bxs-bell'></i> <span>Notifications</span></a></li>
                 </ul>
             </section>
 
