@@ -92,7 +92,7 @@ a {
     color: #000;
 }
 
-.navbar-center .active-link {
+.nav-link[aria-current="active-link"] {
     color: #000;
 }
 
@@ -107,7 +107,7 @@ a {
 }
 
 .navbar-center ul li a:hover::after,
-.navbar-center ul li a.active-link::after
+.nav-link[aria-current="active-link"]::after
 {
     width: 100%;
 }

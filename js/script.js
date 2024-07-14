@@ -3,6 +3,12 @@ let businessMenu = document.getElementById("businessMenu");
 let sideActivity = document.getElementById("sidebarActivity");
 let moreLink = document.getElementById("showMoreLink");
 
+document.querySelectorAll('.nav-link').forEach(link => {
+    if(link.href === window.location.href){
+        link.setAttribute('aria-current', 'active-link');
+    }
+})
+
 function toggleMenu() {
     profileMenu.classList.toggle("open-menu");
 };
