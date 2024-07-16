@@ -2996,7 +2996,7 @@ p .highlight-date {
 
 .message-tab-pop-icon .popup-profile span {
     margin-right: 2.5rem;
-    font-size: 1rem;
+    font-size: 0.93rem;
     font-weight: 550;
     color: #000;
 }
@@ -3014,6 +3014,22 @@ p .highlight-date {
 
 .message-tab-pop-bg .search-box {
     width: 100%;
+}
+
+.message-tab-pop-bg .message-popup-tabs ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.message-tab-pop-bg .message-popup-tabs ul li {
+    list-style-type: none;
+    color: #333;
+    font-weight: 550;
+    font-size: 0.9rem;
+    margin: 0 3rem 0.8rem;
 }
 
 
