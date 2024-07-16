@@ -3006,7 +3006,7 @@ p .highlight-date {
 
 .message-tab-pop-bg .search-box-container {
     padding: 0 0.5rem;
-    margin: 0.5rem 0 1rem;
+    margin: 0.5rem 0 0.5rem;
 }
 
 .message-tab-pop-bg .search-box {
@@ -3026,11 +3026,11 @@ p .highlight-date {
     color: #333;
     font-weight: 550;
     font-size: 0.9rem;
-    margin: 0 3rem 0.8rem;
+    padding: 0.8rem 2.95rem 0.8rem;
 }
 
 .message-tab-pop-bg .message-popup-tabs ul li:hover {
-    background: #ccc;
+    background: #f0f2f5;
     cursor: pointer;
 }
 
