@@ -2985,6 +2985,7 @@ p .highlight-date {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-bottom: 1px solid #ccc;
 }
 
 .message-tab-pop-icon .popup-profile img {
@@ -3006,6 +3007,14 @@ p .highlight-date {
     margin: 0 0.5rem;
 }
 
+.message-tab-pop-bg .search-box-container {
+    padding: 0 0.5rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.message-tab-pop-bg .search-box {
+    width: 100%;
+}
 
 
 
