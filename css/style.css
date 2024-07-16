@@ -18,7 +18,7 @@
 
 body {
     background: #f4f2ee;
-    color: #f0f2f5
+    color: #f0f2f5;
 }
 
 a {
@@ -235,6 +235,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
 }
 
 /* CONTAINER END */
@@ -2945,6 +2946,62 @@ p .highlight-date {
 
 
 /* -------------------------------------- NOTIFICATION PAGE SECION NOTIFICATION PAGE SECTION NOTIFICATION PAGE SECTION -------------------------------------- */
+
+
+
+
+
+
+
+
+/* -------------------------------------- MESSAGE POPUP SECION MESSAGE POPUP SECION MESSAGE POPUP SECION -------------------------------------- */
+
+.message-tab-pop {
+    position: absolute;
+    position: fixed;
+    top: 10%;
+    right: 8%;
+    width: 18rem;
+    max-height: 0;
+    /* overflow: hidden; */
+    transition: max-height 0.5s;
+    border-radius: 0.4rem;
+    background: #fff;
+}
+
+.message-tab-pop .message-tab-pop-bg {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 6px #ccc;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.message-content-bg .message-tab-pop-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.message-tab-pop-icon .popup-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.message-tab-pop-icon .popup-profile img {
+    width: 2.5rem;
+    border-radius: 50%;
+    margin: 0.4rem;
+}
+
+.message-tab-pop-icon span,
+.message-tab-pop-icon i {
+    color: #000;
+}
+
+
+
+
+/* -------------------------------------- MESSAGE POPUP SECION MESSAGE POPUP SECION MESSAGE POPUP SECION -------------------------------------- */
 
 
 
