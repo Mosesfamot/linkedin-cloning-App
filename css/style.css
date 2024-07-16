@@ -3092,6 +3092,14 @@ p .highlight-date {
 }
 
 
+.message-tab-pop-bg .message-popup-other-content a {
+    border: 1px solid #333;
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    font-weight: 550;
+}
+
+
 /* -------------------------------------- MESSAGE POPUP SECION MESSAGE POPUP SECION MESSAGE POPUP SECION -------------------------------------- */
 
 
