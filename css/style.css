@@ -32,9 +32,6 @@ a {
 
 
 
-
-
-
 /* -------------------------------------- HOME PAGE HOME PAGE HOME PAGE HOME PAGE -------------------------------------- */
 
 
@@ -3030,6 +3027,11 @@ p .highlight-date {
     font-weight: 550;
     font-size: 0.9rem;
     margin: 0 3rem 0.8rem;
+}
+
+.message-tab-pop-bg .message-popup-tabs ul li:hover {
+    background: #ccc;
+    cursor: pointer;
 }
 
 .message-tab-pop-bg .message-popup-focused-content {
