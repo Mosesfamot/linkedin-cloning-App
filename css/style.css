@@ -3066,6 +3066,13 @@ p .highlight-date {
     margin-top: 0.2rem;
 }
 
+.message-tab-pop-bg .message-popup-other-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 /* -------------------------------------- MESSAGE POPUP SECION MESSAGE POPUP SECION MESSAGE POPUP SECION -------------------------------------- */
