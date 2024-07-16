@@ -3032,6 +3032,22 @@ p .highlight-date {
     margin: 0 3rem 0.8rem;
 }
 
+.message-tab-pop-bg .message-popup-focused-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.message-tab-pop-bg .message-popup-focused-content img {
+    width: 3rem;
+    border-radius: 50%;
+    margin: 0.5rem 0.4rem;
+}
+
+.message-popup-focused-content .message-content-highlight {
+    color: #333;
+    
+}
+
 
 
 /* -------------------------------------- MESSAGE POPUP SECION MESSAGE POPUP SECION MESSAGE POPUP SECION -------------------------------------- */
