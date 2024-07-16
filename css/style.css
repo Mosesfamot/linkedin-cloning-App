@@ -3073,6 +3073,10 @@ p .highlight-date {
     justify-content: center;
 }
 
+.message-tab-pop-bg .message-popup-other-content img {
+    margin: 1.2rem 0 1.2rem;
+}
+
 
 
 /* -------------------------------------- MESSAGE POPUP SECION MESSAGE POPUP SECION MESSAGE POPUP SECION -------------------------------------- */
