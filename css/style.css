@@ -2993,13 +2993,16 @@ p .highlight-date {
     margin: 0.4rem;
 }
 
-.message-tab-pop-icon .popup-profile i {
-    
+.message-tab-pop-icon .popup-profile span {
+    margin-right: 2rem;
+    font-size: 1rem;
+    font-weight: 550;
+    color: #000;
 }
 
-.message-tab-pop-icon span,
-.message-tab-pop-icon i {
+.message-tab-pop-icon .popup-profile i {
     color: #000;
+    font-size: 1.5rem;
 }
 
 
