@@ -2993,6 +2993,10 @@ p .highlight-date {
     margin: 0.4rem;
 }
 
+.message-tab-pop-icon .popup-profile i {
+    
+}
+
 .message-tab-pop-icon span,
 .message-tab-pop-icon i {
     color: #000;
