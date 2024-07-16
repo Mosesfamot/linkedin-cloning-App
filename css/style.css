@@ -3035,6 +3035,8 @@ p .highlight-date {
 .message-tab-pop-bg .message-popup-focused-content {
     display: flex;
     flex-direction: row;
+    justify-content: start;
+    align-items: center;
 }
 
 .message-tab-pop-bg .message-popup-focused-content img {
@@ -3044,8 +3046,11 @@ p .highlight-date {
 }
 
 .message-popup-focused-content .message-content-highlight {
-    color: #333;
-    
+    color: #666;
+}
+
+.message-popup-focused-content .message-content-highlight h4 {
+    font-size: 0.8rem;
 }
 
 
