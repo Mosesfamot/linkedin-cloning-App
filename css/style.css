@@ -3093,10 +3093,16 @@ p .highlight-date {
 
 
 .message-tab-pop-bg .message-popup-other-content a {
-    border: 1px solid #333;
+    border: 2.3px solid #ccc;
     padding: 0.4rem 1rem;
     border-radius: 2rem;
     font-weight: 550;
+}
+
+.message-tab-pop-bg .message-popup-other-content a:hover {
+    cursor: pointer;
+    background: #f0f2f5;
+    border: 2.3px solid #000;
 }
 
 
