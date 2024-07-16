@@ -2959,10 +2959,9 @@ p .highlight-date {
 .message-tab-pop {
     position: absolute;
     position: fixed;
-    top: 10%;
-    right: 8%;
+    top: 14%;
+    right: 0.8%;
     width: 18rem;
-    max-height: 0;
     /* overflow: hidden; */
     transition: max-height 0.5s;
     border-radius: 0.4rem;
@@ -2974,6 +2973,7 @@ p .highlight-date {
     border: 1px solid #ccc;
     box-shadow: 1px 1px 6px #ccc;
     border-radius: 0.5rem 0.5rem 0 0;
+    height: 100vh;
 }
 
 .message-content-bg .message-tab-pop-icon {
@@ -3002,7 +3002,8 @@ p .highlight-date {
 
 .message-tab-pop-icon .popup-profile i {
     color: #000;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
 }
 
 
