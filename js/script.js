@@ -34,11 +34,30 @@ function businessToggleMenu() {
 
 // BUSINESS ICON MENU DROPDOWN
 
+
+
+// MESSAGE TAB POPUP SECTION FOR TAB SWITCH
+
+function openFocused() {
+    messageTabFocused.style.color = "#0f9f6f";
+    messageTabOther.style.color = "#333";
+    tabFocusedContent.style.transform = "translateX(0)";
+    tabOtherContent.style.transform = "translateX(100%)";
+    tabOtherContent.style.border = "none";
+}
+
+function openOther() {
+    messageTabFocused.style.color = "#333";
+    messageTabOther.style.color = "#0f9f6f";
+    tabFocusedContent.style.transform = "translateX(100%)";
+    tabOtherContent.style.transform = "translateX(0)";
+    tabFocusedContent.style.border = "none";
+}
+
+
 // MESSAGE TAB POPUP SECTION FOR TAB SWITCH
 
 
-
-// MESSAGE TAB POPUP SECTION FOR TAB SWITCH
 
 function toggleActivity() {
     sideActivity.classList.toggle("open-activity");
