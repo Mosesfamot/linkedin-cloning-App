@@ -3072,7 +3072,11 @@ p .highlight-date {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    display: ;
+    display: none;
+}
+
+.active.message-popup-content {
+    display: initial;
 }
 
 .message-tab-pop-bg .message-popup-other-content img {
