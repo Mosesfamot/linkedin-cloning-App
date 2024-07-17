@@ -2604,6 +2604,11 @@ p .highlight-date {
     font-size: 0.9rem;
     margin-top: 0.5rem;
 }
+
+.messenger-chat-content .message-chat-input {
+    border-top: 1px solid #ccc;
+    position: fixed;
+} 
 /* MESSENGER CHAT SECTION FOR USERS -- MESSENGER CHAT SECTION FOR USERS */
 
 
