@@ -3,8 +3,7 @@ let businessMenu = document.getElementById("businessMenu");
 let sideActivity = document.getElementById("sidebarActivity");
 let moreLink = document.getElementById("showMoreLink");
 
-const messagePopupTabs = document.querySelectorAll('[data-tab-target]');
-const messagePopupContent = document.querySelectorAll(['data-tab-content']);
+
 
 // NAVBAR ICON ACTIVE INDICATOR
 
@@ -34,15 +33,7 @@ function businessToggleMenu() {
 
 // MESSAGE TAB POPUP SECTION FOR TAB SWITCH
 
-messagePopupTabs.forEach(messagePopupTab => {
-    messagePopupTab.addEventListener('click', () => {
-        const target = document.querySelector(messagePopupTab.dataset.tabTarget);
-        messagePopupContent.forEach(tabContent => {
-            tabContent.classList.remove('active');
-        });
-        target.classList.add('active');
-    })
-});
+
 
 // MESSAGE TAB POPUP SECTION FOR TAB SWITCH
 
