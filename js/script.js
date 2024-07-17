@@ -43,15 +43,17 @@ function openFocused() {
     messageTabOther.style.color = "#333";
     tabFocusedContent.style.transform = "translateX(0)";
     tabOtherContent.style.transform = "translateX(100%)";
-    tabOtherContent.style.border = "none";
+    messageTabFocused.style.borderBottom = "2px solid #01754f";
+    messageTabOther.style.border = "none";
 }
 
 function openOther() {
     messageTabFocused.style.color = "#333";
     messageTabOther.style.color = "#0f9f6f";
-    tabFocusedContent.style.transform = "translateX(100%)";
+    tabFocusedContent.style.transform = "translateX(110%)";
     tabOtherContent.style.transform = "translateX(0)";
-    tabFocusedContent.style.border = "none";
+    messageTabFocused.style.borderBottom = "none";
+    messageTabOther.style.borderBottom = "2px solid #01754f";
 }
 
 
