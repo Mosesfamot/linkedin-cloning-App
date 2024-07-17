@@ -3,7 +3,10 @@ let businessMenu = document.getElementById("businessMenu");
 let sideActivity = document.getElementById("sidebarActivity");
 let moreLink = document.getElementById("showMoreLink");
 
-
+let messageTabFocused = document.getElementById("message-tab-focused");
+let messageTabOther = document.getElementById("message-tab-other");
+let tabFocusedContent = document.getElementById("tab-focused-content");
+let tabOtherContent = document.getElementById("tab-other-content");
 
 // NAVBAR ICON ACTIVE INDICATOR
 
