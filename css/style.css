@@ -2570,6 +2570,19 @@ p .highlight-date {
     width: 30%;
     margin: 0 0.5rem;
 }
+
+.full-chats-section .chats-by-users {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.full-chats-section .chats-by-users img {
+    width: 2.5rem;
+    border-radius: 50%;
+    margin: 0.5rem 0.5rem;
+}
 /* MESSENGER CHAT SECTION FOR USERS -- MESSENGER CHAT SECTION FOR USERS */
 
 
