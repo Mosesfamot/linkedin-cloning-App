@@ -2971,6 +2971,8 @@ p .highlight-date {
     box-shadow: 1px 1px 6px #ccc;
     border-radius: 0.5rem 0.5rem 0 0;
     height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
 .message-content-bg .message-tab-pop-icon {
@@ -3040,8 +3042,18 @@ p .highlight-date {
     justify-content: start;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    display: none;
+    position: absolute;
+    transform: translateX(100%);
 }
+
+#content1 {
+    transform: translateX(0px);
+  }
+  
+  #btn1 {
+    color: #0f9f6f;
+    border-bottom: 2px solid #01754f;
+  }
 
 .message-tab-pop-bg .message-popup-focused-content img {
     width: 3rem;
@@ -3072,11 +3084,8 @@ p .highlight-date {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    display: none;
-}
-
-.active.message-popup-content {
-    display: initial;
+    position: absolute;
+    transform: translateX(100%);
 }
 
 .message-tab-pop-bg .message-popup-other-content img {
