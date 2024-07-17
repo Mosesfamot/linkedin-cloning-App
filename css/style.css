@@ -2617,12 +2617,12 @@ p .highlight-date {
 }
 
 .message-chat-input .chat-input-area input {
-    width: 80%;
+    width: 85%;
     height: 7rem;
     background: #f4f2ee;
     border: none;
     border-radius: 1rem;
-    margin: 0.8rem 0.5rem 1rem 0.8rem;
+    margin: 0.8rem 0.5rem 0.8rem 0.6rem;
 }
 
 .message-chat-input .chat-input-area i {
@@ -2636,6 +2636,12 @@ p .highlight-date {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.message-chat-footer .chat-footer-icon {
+    color: #000;
+    font-size: 1.5rem;
+    margin: 0.8rem 0.5rem 3rem;
 }
 /* MESSENGER CHAT SECTION FOR USERS -- MESSENGER CHAT SECTION FOR USERS */
 
