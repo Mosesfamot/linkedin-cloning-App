@@ -3045,15 +3045,15 @@ p .highlight-date {
     position: absolute;
     transform: translateX(100%);
 }
-
-#content1 {
-    transform: translateX(0px);
-  }
   
-  #btn1 {
+#message-tab-focused {
     color: #0f9f6f;
     border-bottom: 2px solid #01754f;
-  }
+}
+
+#tab-focused-content {
+    transform: translateX(0px);
+}
 
 .message-tab-pop-bg .message-popup-focused-content img {
     width: 3rem;
