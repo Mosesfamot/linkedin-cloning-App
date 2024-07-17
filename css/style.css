@@ -2554,11 +2554,13 @@ p .highlight-date {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: #999;
 }
 
 .full-chats-section .full-chat-date hr {
     width: 70%;
+    height: 0.1px;
+    border: none;
+    background: #ccc;
 }
 
 .full-chats-section .full-chat-date p {
