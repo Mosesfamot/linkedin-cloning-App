@@ -2617,7 +2617,7 @@ p .highlight-date {
 }
 
 .message-chat-input .chat-input-area input {
-    width: 85%;
+    width: 87%;
     height: 7rem;
     background: #f4f2ee;
     border: none;
@@ -2646,6 +2646,7 @@ p .highlight-date {
 .message-chat-footer .chat-footer-icon a {
     margin: 1rem 1rem 3rem 0;
     color: #000;
+    cursor: pointer;
 }
 
 .message-chat-footer .chat-footer-icon i {
