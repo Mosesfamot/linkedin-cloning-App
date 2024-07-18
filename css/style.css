@@ -2638,8 +2638,15 @@ p .highlight-date {
     justify-content: space-between;
 }
 
+.message-chat-footer .chat-footer-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .message-chat-footer .chat-footer-icon i {
-    margin: 0.8rem 0 3rem 0.8rem;
+    margin: 1rem 1rem 3rem 0;
     color: #000;
     font-size: 1.5rem;
 }
