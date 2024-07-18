@@ -2623,7 +2623,7 @@ p .highlight-date {
     border: none;
     border-radius: 1rem;
     margin: 0.8rem 0.5rem 0.8rem 0.6rem;
-    padding: 0 0.8rem 0;
+    padding: 0 0.8rem 3.5rem;
 }
 
 .message-chat-input .chat-input-area i {
