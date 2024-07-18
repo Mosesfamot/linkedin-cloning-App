@@ -2373,9 +2373,16 @@ p .highlight-date {
 }
 
 .message-tab .message-tab-right {
+    position: relative;
+    overflow: hidden;
     flex-basis: 60%;
     align-self: flex-start;
     border-left: 1px solid #ccc;
+}
+
+.message-tab-right .messenger-chat-content {
+    position: absolute;
+    transform: translateX(100%);
 }
 
 
