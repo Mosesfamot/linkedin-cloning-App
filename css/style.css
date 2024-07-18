@@ -2387,7 +2387,7 @@ p .highlight-date {
     display: flex;
     flex-direction: column;
     position: absolute;
-    transform: translateX(101%);
+    transform: translateX(130%);
 }
 
 #user-chat-1 {
