@@ -68,11 +68,11 @@ let userChat2 = document.getElementById("user-chat-2");
 
 function openUser1() {
     userChat1.style.transform = "translateX(0)";
-    userChat2.style.transform = "translateX(100%)";
+    userChat2.style.transform = "translateX(101%)";
 }
 
 function openUser2() {
-    userChat1.style.transform = "translateX(100%)";
+    userChat1.style.transform = "translateX(101%)";
     userChat2.style.transform = "translateX(0)";
 }
 
