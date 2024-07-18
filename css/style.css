@@ -2613,7 +2613,7 @@ p .highlight-date {
 .message-chat-input .chat-input-area {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .message-chat-input .chat-input-area input {
@@ -2628,6 +2628,7 @@ p .highlight-date {
 .message-chat-input .chat-input-area i {
     color: #333;
     font-size: 2rem;
+    margin-top: 1rem;
 }
 
 .messenger-chat-content .message-chat-footer {
