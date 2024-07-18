@@ -3,11 +3,6 @@ let businessMenu = document.getElementById("businessMenu");
 let sideActivity = document.getElementById("sidebarActivity");
 let moreLink = document.getElementById("showMoreLink");
 
-let messageTabFocused = document.getElementById("message-tab-focused");
-let messageTabOther = document.getElementById("message-tab-other");
-let tabFocusedContent = document.getElementById("tab-focused-content");
-let tabOtherContent = document.getElementById("tab-other-content");
-
 // NAVBAR ICON ACTIVE INDICATOR
 
 document.querySelectorAll('.navbar-link').forEach(link => {
@@ -38,6 +33,11 @@ function businessToggleMenu() {
 
 // MESSAGE TAB POPUP SECTION FOR TAB SWITCH
 
+let messageTabFocused = document.getElementById("message-tab-focused");
+let messageTabOther = document.getElementById("message-tab-other");
+let tabFocusedContent = document.getElementById("tab-focused-content");
+let tabOtherContent = document.getElementById("tab-other-content");
+
 function openFocused() {
     messageTabFocused.style.color = "#0f9f6f";
     messageTabOther.style.color = "#333";
@@ -58,6 +58,25 @@ function openOther() {
 
 
 // MESSAGE TAB POPUP SECTION FOR TAB SWITCH
+
+// MESSAGE TAB FOR CHAT SWITCH SECTION
+
+let userMessage1 = document.getElementById("user-message-1");
+let userMessage2 = document.getElementById("user-message-2");
+let userChat1 = document.getElementById("user-chat-1");
+let userChat2 = document.getElementById("user-chat-2");
+
+function openUser1() {
+    userChat1.style.transform = "translateX(0)";
+    userChat2.style.transform = "translateX(100%)";
+}
+
+function openUser2() {
+    userChat1.style.transform = "translateX(100%)";
+    userChat2.style.transform = "translateX(0)";
+}
+
+// MESSAGE TAB FOR CHAT SWITCH SECTION
 
 
 
