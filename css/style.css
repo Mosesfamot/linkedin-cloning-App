@@ -2607,7 +2607,7 @@ p .highlight-date {
 
 .messenger-chat-content .message-chat-input {
     border-top: 1px solid #ccc;
-    /* position: fixed; */
+    position: static;
 } 
 
 .message-chat-input .chat-input-area {
