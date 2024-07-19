@@ -48,7 +48,6 @@ function businessToggleMenu() {
 
 
 // MESSAGE TAB POPUP SECTION FOR TAB SWITCH
-
 let messageTabFocused = document.getElementById("message-tab-focused");
 let messageTabOther = document.getElementById("message-tab-other");
 let tabFocusedContent = document.getElementById("tab-focused-content");
@@ -71,12 +70,11 @@ function openOther() {
     messageTabFocused.style.borderBottom = "none";
     messageTabOther.style.borderBottom = "2px solid #01754f";
 }
-
-
 // MESSAGE TAB POPUP SECTION FOR TAB SWITCH
 
-// MESSAGE TAB FOR CHAT SWITCH SECTION
 
+
+// MESSAGE TAB FOR CHAT SWITCH SECTION
 let userMessage1 = document.getElementById("user-message-1");
 let userMessage2 = document.getElementById("user-message-2");
 let userChat1 = document.getElementById("user-chat-1");
@@ -99,20 +97,17 @@ function openUser2() {
     userMessage1.classList.add('message-tab-no-highlight');
     userMessage1.classList.remove('message-tab-highlight');
 }
-
 // MESSAGE TAB FOR CHAT SWITCH SECTION
 
 
 // ALLOWING MESSAGE TO AUTOMATICALLY SCROLL TO THE BOTTOM
-
 let scrollToBottom = document.getElementById("scroll-to-bottom");
 scrollToBottom.scrollTo(0, scrollToBottom.scrollHeight);
-
 // ALLOWING MESSAGE TO AUTOMATICALLY SCROLL TO THE BOTTOM
 
+
+
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
-
-
 
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
