@@ -149,7 +149,8 @@ function getResponse() {
       userText = "I love Code Palace!";
     }
   
-    let userHtml = 
+    let userHtml =
+    `<article class="chats-by-users">` + 
     '<img src="img/user-1.png" alt="User Image">' +
     '<article class="user-chat-time">' +
     '<h4>Moses Ojo . <span id="get-time"></span></h4>' +
