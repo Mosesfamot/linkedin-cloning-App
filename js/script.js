@@ -182,6 +182,10 @@ function buttonSendText(sampleText) {
     //     getHardResponse(sampleText);
     // }, 1000)
   }
+
+  function sendButton() {
+    getResponse();
+  }
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
 
