@@ -174,7 +174,7 @@ function buttonSendText(sampleText) {
     userText + "</p></article>";
   
     $("#textInput").val("");
-    $("#chatbox").append(userHtml);
+    $("#chat-box").append(userHtml);
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
   
     //Uncomment this if you want the bot to respond to this buttonSendText event
