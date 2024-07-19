@@ -2540,6 +2540,11 @@ p .highlight-date {
 /* MESSENGER CHAT SECTION FOR ADS -- MESSENGER CHAT SECTION FOR ADS */
 
 /* MESSENGER CHAT SECTION FOR USERS -- MESSENGER CHAT SECTION FOR USERS */
+.message-tab-full-chat .full-message-chat {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
 .full-message-chat .full-message-chat-profile img {
     width: 3rem;
     border-radius: 50%;
@@ -2622,7 +2627,7 @@ p .highlight-date {
 
 .messenger-chat-content .message-chat-input {
     border-top: 1px solid #ccc;
-    position: static;
+    /* position: static; */
 } 
 
 .message-chat-input .chat-input-area {
