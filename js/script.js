@@ -86,8 +86,13 @@ function openUser2() {
 
 // MESSAGE TAB FOR CHAT SWITCH SECTION
 
+
+// ALLOWING MESSAGE TO AUTOMATICALLY SCROLL TO THE BOTTOM
+
 let scrollToBottom = document.getElementById("scroll-to-bottom");
 scrollToBottom.scrollTo(0, scrollToBottom.scrollHeight);
+
+// ALLOWING MESSAGE TO AUTOMATICALLY SCROLL TO THE BOTTOM
 
 
 function toggleActivity() {
