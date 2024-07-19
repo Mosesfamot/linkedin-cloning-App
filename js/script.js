@@ -3,7 +3,9 @@ let businessMenu = document.getElementById("businessMenu");
 let sideActivity = document.getElementById("sidebarActivity");
 let moreLink = document.getElementById("showMoreLink");
 
-// CODE TO ALWAYS GENERATE THE UPDATED TIME
+// CODE TO ALWAYS GENERATE THE UPDATED DATE
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
 function getTime() {
     let today = new Date();
     hours = today.getHours();
@@ -20,7 +22,7 @@ function getTime() {
     let time = hours + ":" + minutes;
     return time;
 }
-// CODE TO ALWAYS GENERATE THE UPDATED TIME
+// CODE TO ALWAYS GENERATE THE UPDATED DATE
 
 
 // NAVBAR ICON ACTIVE INDICATOR
