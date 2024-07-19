@@ -115,7 +115,19 @@ scrollToBottom.scrollTo(0, scrollToBottom.scrollHeight);
 
 
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
-
+// Gets the first message
+function starterMessage() {
+    let firstMessage = "How's it going?";
+    document.getElementById("starter-message").innerHTML =
+      '<p class="botText"><span>' + firstMessage + "</span></p>";
+  
+    let time = getTime();
+  
+    $("#chat-timestamp").append(time);
+    document.getElementById("userInput").scrollIntoView(false);
+  }
+  
+  firstBotMessage();
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
 
