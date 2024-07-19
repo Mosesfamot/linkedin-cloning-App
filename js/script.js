@@ -131,7 +131,8 @@ function getHardResponse(userText) {
     let botResponse = getBotResponse(userText);
     let botHtml = 
     '<img src="img/user-3.png" alt="User Image">' +
-    '<article class="user-chat-time">' 
+    '<article class="user-chat-time">' +
+    '<h4>James Brown . <span id="get-time"></span></h4>' + 
     botResponse + "</span></p>";
     $("#chat-box").append(botHtml);
   
