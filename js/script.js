@@ -6,6 +6,10 @@ let moreLink = document.getElementById("showMoreLink");
 // CODE TO ALWAYS GENERATE THE UPDATED DATE
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
+const d = new Date();
+let month = months[d.getMonth()];
+document.getElementById("full-date").innerHTML = month + date + ", " + year;
+
 function getTime() {
     let today = new Date();
     hours = today.getHours();
