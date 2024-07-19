@@ -148,7 +148,12 @@ function getResponse() {
       userText = "I love Code Palace!";
     }
   
-    let userHtml = '<p class="userText"><span>' + userText + "</span></p>";
+    let userHtml = 
+    '<img src="img/user-1.png" alt="User Image">' +
+    '<article class="user-chat-time">' +
+    '<h4>Moses Ojo . <span id="get-time"></span></h4>' +
+    '<p id="starter-message">' + 
+    userText + "</p></article>";
   
     $("#textInput").val("");
     $("#chat-box").append(userHtml);
