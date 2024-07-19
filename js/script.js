@@ -3,30 +3,46 @@ let businessMenu = document.getElementById("businessMenu");
 let sideActivity = document.getElementById("sidebarActivity");
 let moreLink = document.getElementById("showMoreLink");
 
-// NAVBAR ICON ACTIVE INDICATOR
+// CODE TO ALWAYS GENERATE THE UPDATED TIME
+function getTime() {
+    let today = new Date();
+    hours = today.getHours();
+    minutes = today.getMinutes();
+  
+    if (hours < 10) {
+      hours = "0" + hours;
+    }
+  
+    if (minutes < 10) {
+      minutes = "0" + minutes;
+    }
+  
+    let time = hours + ":" + minutes;
+    return time;
+}
+// CODE TO ALWAYS GENERATE THE UPDATED TIME
 
+
+// NAVBAR ICON ACTIVE INDICATOR
 document.querySelectorAll('.navbar-link').forEach(link => {
     if(link.href === window.location.href){
         link.setAttribute('aria-current', 'active-link');
     }
 });
-
 // NAVBAR ICON ACTIVE INDICATOR
 
-// PROFILE ICON MENU DROPDOWN
 
+// PROFILE ICON MENU DROPDOWN
 function toggleMenu() {
     profileMenu.classList.toggle("open-menu");
 };
-
 // PROFILE ICON MENU DROPDOWN
 
-// BUSINESS ICON MENU DROPDOWN
 
+// BUSINESS ICON MENU DROPDOWN
 function businessToggleMenu() {
     businessMenu.classList.toggle("open-business-menu");
 };
-
 // BUSINESS ICON MENU DROPDOWN
 
 
