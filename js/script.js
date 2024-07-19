@@ -187,8 +187,8 @@ function buttonSendText(sampleText) {
     getResponse();
   }
 
-  function heartButton() {
-    buttonSendText("Heart clicked!");
+  function smileButton() {
+    buttonSendText("Smile clicked!");
   }
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
