@@ -124,7 +124,16 @@ function starterMessage() {
     document.getElementById("get-time").innerHTML = time;
   }
   
-  starterMessage();
+starterMessage();
+
+// Retrieves the response
+function getHardResponse(userText) {
+    let botResponse = getBotResponse(userText);
+    let botHtml = '<p class="botText"><span>' + botResponse + "</span></p>";
+    $("#chatbox").append(botHtml);
+  
+    document.getElementById("chat-bar-bottom").scrollIntoView(true);
+}
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
 
