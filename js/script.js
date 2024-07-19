@@ -69,19 +69,19 @@ let userChat2 = document.getElementById("user-chat-2");
 function openUser1() {
     userChat1.style.transform = "translateX(0)";
     userChat2.style.transform = "translateX(130%)";
-    document.getElementById("user-message-1").classList.add('message-tab-highlight');
-    document.getElementById("user-message-1").classList.remove('message-tab-no-highlight');
-    document.getElementById("user-message-2").classList.add('message-tab-no-highlight');
-    document.getElementById("user-message-2").classList.remove('message-tab-highlight');
+    userMessage1.classList.add('message-tab-highlight');
+    userMessage1.classList.remove('message-tab-no-highlight');
+    userMessage2.classList.add('message-tab-no-highlight');
+    userMessage2.classList.remove('message-tab-highlight');
 }
 
 function openUser2() {
     userChat1.style.transform = "translateX(130%)";
     userChat2.style.transform = "translateX(0)";
-    document.getElementById("user-message-2").classList.add('message-tab-highlight');
-    document.getElementById("user-message-2").classList.remove('message-tab-no-highlight');
-    document.getElementById("user-message-1").classList.add('message-tab-no-highlight');
-    document.getElementById("user-message-1").classList.remove('message-tab-highlight');
+    userMessage2.classList.add('message-tab-highlight');
+    userMessage2.classList.remove('message-tab-no-highlight');
+    userMessage1.classList.add('message-tab-no-highlight');
+    userMessage1.classList.remove('message-tab-highlight');
 }
 
 // MESSAGE TAB FOR CHAT SWITCH SECTION
