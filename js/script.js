@@ -118,16 +118,13 @@ scrollToBottom.scrollTo(0, scrollToBottom.scrollHeight);
 // Gets the first message
 function starterMessage() {
     let firstMessage = "How's it going?";
-    document.getElementById("starter-message").innerHTML =
-      '<p class="botText"><span>' + firstMessage + "</span></p>";
+    document.getElementById("starter-message").innerHTML = firstMessage;
   
     let time = getTime();
-  
-    $("#chat-timestamp").append(time);
-    document.getElementById("userInput").scrollIntoView(false);
+    document.getElementById("get-time").innerHTML = time;
   }
   
-  firstBotMessage();
+  starterMessage();
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
 
