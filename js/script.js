@@ -129,7 +129,10 @@ starterMessage();
 // Retrieves the response
 function getHardResponse(userText) {
     let botResponse = getBotResponse(userText);
-    let botHtml = botResponse;
+    let botHtml = 
+    '<img src="img/user-3.png" alt="User Image">' +
+    '<article class="user-chat-time">' 
+    botResponse + "</span></p>";
     $("#chat-box").append(botHtml);
   
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
