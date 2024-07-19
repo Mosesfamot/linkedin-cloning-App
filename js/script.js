@@ -129,8 +129,8 @@ starterMessage();
 // Retrieves the response
 function getHardResponse(userText) {
     let botResponse = getBotResponse(userText);
-    let botHtml = '<p class="botText"><span>' + botResponse + "</span></p>";
-    $("#chatbox").append(botHtml);
+    let botHtml = botResponse;
+    $("#chat-box").append(botHtml);
   
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
 }
