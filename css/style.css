@@ -2577,7 +2577,7 @@ p .highlight-date {
 }
 
 .full-chats-section .full-chat-date hr {
-    width: 70%;
+    width: 60%;
     height: 0.1px;
     border: none;
     background: #ccc;
