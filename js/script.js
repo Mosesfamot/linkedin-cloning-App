@@ -190,6 +190,13 @@ function buttonSendText(sampleText) {
   function smileButton() {
     buttonSendText("Smile clicked!");
   }
+
+  // Press enter to send a message
+$("#textInput").keypress(function (e) {
+    if (e.which == 13) {
+      getResponse();
+    }
+  });
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
 
