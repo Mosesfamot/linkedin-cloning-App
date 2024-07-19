@@ -7,8 +7,9 @@ let moreLink = document.getElementById("showMoreLink");
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 const d = new Date();
-let month = months[d.getMonth()];
-document.getElementById("full-date").innerHTML = month + date + ", " + year;
+let month = months[d.getMonth()].toUpperCase();
+let year = new Date().getFullYear();
+document.getElementById("full-date").innerHTML = month + ", " + year;
 
 function getTime() {
     let today = new Date();
