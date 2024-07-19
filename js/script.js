@@ -136,8 +136,8 @@ function getHardResponse(userText) {
     '<h4>James Brown . <span id="get-time"></span></h4>' +
     '<p id="starter-message">' + 
     botResponse + "</p></article></article>";
+
     $("#chat-box").append(botHtml);
-  
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
 }
 
