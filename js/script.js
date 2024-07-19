@@ -94,6 +94,12 @@ scrollToBottom.scrollTo(0, scrollToBottom.scrollHeight);
 
 // ALLOWING MESSAGE TO AUTOMATICALLY SCROLL TO THE BOTTOM
 
+// ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
+
+
+
+// ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
+
 
 function toggleActivity() {
     sideActivity.classList.toggle("open-activity");
