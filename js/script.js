@@ -169,11 +169,12 @@ function getResponse() {
 // Handles sending text via button clicks
 function buttonSendText(sampleText) {
     let userHtml = 
+    `<article class="chats-by-users">` +
     '<img src="img/user-1.png" alt="User Image">' +
     '<article class="user-chat-time">' +
     '<h4>Moses Ojo . <span id="get-time"></span></h4>' +
     '<p id="starter-message">' + 
-    sampleText + "</p></article>";
+    sampleText + "</p></article></article>";
   
     $("#textInput").val("");
     $("#chat-box").append(userHtml);
