@@ -171,7 +171,7 @@ function buttonSendText(sampleText) {
     '<article class="user-chat-time">' +
     '<h4>Moses Ojo . <span id="get-time"></span></h4>' +
     '<p id="starter-message">' + 
-    userText + "</p></article>";
+    sampleText + "</p></article>";
   
     $("#textInput").val("");
     $("#chat-box").append(userHtml);
@@ -185,6 +185,10 @@ function buttonSendText(sampleText) {
 
   function sendButton() {
     getResponse();
+  }
+
+  function heartButton() {
+    buttonSendText("Heart clicked!");
   }
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
