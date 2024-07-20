@@ -214,6 +214,10 @@ const getBotResponse = () => {
       "Content-Type": "application/json",
       "Authorization": 'Bearer ${API_KEY}'
     },
+    body: JSON.stringify({
+      model: "gpt-3.5-turbo",
+      messages: [{role: "user", content: userText}]
+    })
   }
 }
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
