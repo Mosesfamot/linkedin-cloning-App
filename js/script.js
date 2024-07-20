@@ -49,6 +49,8 @@ function toggleMenu() {
 // BUSINESS ICON MENU DROPDOWN
 function businessToggleMenu() {
     businessMenu.classList.toggle("open-business-menu");
+    
+
 };
 // BUSINESS ICON MENU DROPDOWN
 
@@ -126,6 +128,8 @@ function starterMessage() {
   
 starterMessage();
 
+const API_KEY = "";
+
 // Retrieves the response
 function getHardResponse(userText) {
     let botResponse = getBotResponse(userText);
@@ -194,12 +198,24 @@ function buttonSendText(sampleText) {
     buttonSendText("Smile clicked!");
   }
 
-  // Press enter to send a message
+// Press enter to send a message
 $("#textInput").keypress(function (e) {
     if (e.which == 13) {
       getResponse();
     }
-  });
+});
+
+const getBotResponse = () => {
+  const API_URL = "https://api.openai.com/v1/chat/completions";
+
+  const requestOptions = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": 'Bearer ${API_KEY}'
+    },
+  }
+}
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
 
