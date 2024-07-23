@@ -182,7 +182,7 @@ const handleChat = () => {
   chatbox.scrollTo(0, chatbox.scrollHeight);
 
   setTimeout(() => {
-    // Display "Playing..." message while waiting for the response
+    // Display "Typing..." message while waiting for the response
     const incomingChatLi = createChatLi("Typing...", "incoming");
     chatbox.appendChild(incomingChatLi);
     chatbox.scrollTo(0, chatbox.scrollHeight);
