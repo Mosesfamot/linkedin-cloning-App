@@ -116,6 +116,21 @@ let userMessage;
 const API_KEY = "";
 const inputInitHeight = chatInput.scrollHeight;
 
+const createChatLi = (message, className) => {
+  // Create a chat <li> element with passed message and className
+  const chatLi = document.createElement("article");
+  chatLi.classList.add("chats-by-users", className);
+  let chatContent = className === "outgoing" ? 
+  `<p id="starter-message"></p>` : 
+  `<img src="img/user-3.png" alt="User Image">
+    <article class="user-chat-time">
+      <h4>James Brown . <span id="get-time"></span></h4>
+      <p id="starter-message"></p>
+    </article>`;
+  chatLi.innerHTML = chatContent;
+  chatLi.querySelector("p").textContent = message;
+  return chatLi;
+};
 
 
 // Gets the first message
