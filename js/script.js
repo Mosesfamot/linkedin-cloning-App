@@ -168,6 +168,26 @@ const generateResponse = (incomingChatLi) => {
     }).finally(() => chatbox.scrollTo(0, chatbox.scrollHeight));
 }
 
+const handleChat = () => {
+  userMessage = chatInput.value.trim();
+  if (!userMessage) return;
+  chatInput.value = "";
+  //Resets textarea height to its default height once message is sent
+  chatInput.style.height = `${inputInitHeight}px`;
+
+  // Append the user's message to the chatbox
+  chatbox.appendChild(createChatLi(userMessage, "outgoing"));
+  chatbox.scrollTo(0, chatbox.scrollHeight);
+
+  setTimeout(() => {
+    // Display "Playing..." message while waiting for the response
+    const incomingChatLi = createChatLi("Typing...", "incoming");
+    chatbox.appendChild(incomingChatLi);
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    generateResponse(incomingChatLi);
+  }, 600);
+};
+
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
 
