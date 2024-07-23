@@ -128,7 +128,7 @@ function starterMessage() {
 starterMessage();
 
 const createChatLi = (message, className) => {
-  // Create a chat <li> element with passed message and className
+  // Create a chat <article> element with passed message and className
   const chatLi = document.createElement("article");
   chatLi.classList.add("chats-by-users", className);
   let chatContent = className === "chats-by-users" ? 
