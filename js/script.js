@@ -108,6 +108,16 @@ function openUser2() {
 
 
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
+// Gets the first message
+function starterMessage() {
+  let firstMessage = "How's it going?";
+  document.getElementById("starter-message").innerHTML = firstMessage;
+
+  let time = getTime();
+  document.getElementById("get-time").innerHTML = time;
+}
+
+starterMessage();
 
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
