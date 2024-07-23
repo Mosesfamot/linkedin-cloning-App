@@ -134,7 +134,7 @@ const createChatLi = (message, className) => {
   let chatContent = className === "chats-by-users" ? 
   `<p id="starter-message"></p>` : 
   `<article class="chats-by-users">
-    <img src="img/user-1.png" alt="User Image">
+    <img src="img/user-3.png" alt="User Image">
     <article class="user-chat-time">
       <h4>James Brown . <span id="get-time"></span></h4>
       <p id="starter-message"></p>
