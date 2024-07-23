@@ -49,8 +49,6 @@ function toggleMenu() {
 // BUSINESS ICON MENU DROPDOWN
 function businessToggleMenu() {
     businessMenu.classList.toggle("open-business-menu");
-    
-
 };
 // BUSINESS ICON MENU DROPDOWN
 
@@ -145,7 +143,7 @@ function getHardResponse(userText) {
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
 }
 
-//Gets the text text from the input box and processes it
+//Gets the text from the input box and processes it
 function getResponse() {
     let userText = $("#textInput").val();
   
@@ -165,10 +163,27 @@ function getResponse() {
     $("#chat-box").append(userHtml);
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
   
-    setTimeout(() => {
-      getHardResponse(userText);
+    // setTimeout(() => {
+    //   getHardResponse(userText);
+    // }, 1000);
+
+    const handleChat = () => {
+      userMessage = chatInput.value.trim();
+      if(!userMessage) return;
+
+      chatbox.appendChild(createChatLi(userMessage, "outgoing"));
+
+      setTimeout(() => {
+        const incomingChatLi = createChatLi("Typing...");
+        chatbox.appendChild(incomingChatLi);
+        getHardResponse(incomingChatLi);
     }, 1000);
-  }
+    }
+
+    send
+}
+
+    
 
 // Handles sending text via button clicks
 function buttonSendText(sampleText) {
@@ -186,7 +201,9 @@ function buttonSendText(sampleText) {
   
     //Uncomment this if you want the bot to respond to this buttonSendText event
     // setTimeout(() => {
-    //     getHardResponse(sampleText);
+    //     const incomingChatLi = createChatLi("Typing...")
+    //     chatbox.appendChild(incomingChatLi);
+    //     getHardResponse(incomingChatLi);
     // }, 1000)
   }
 
@@ -205,8 +222,9 @@ $("#textInput").keypress(function (e) {
     }
 });
 
-const getBotResponse = () => {
+const getBotResponse = (incomingChatLi) => {
   const API_URL = "https://api.openai.com/v1/chat/completions";
+  const messageElement = incomingChatLi.querySelector("p");
 
   const requestOptions = {
     method: "POST",
@@ -219,7 +237,17 @@ const getBotResponse = () => {
       messages: [{role: "user", content: userText}]
     })
   }
+
+  //Send POST request to API, get response
+  fetch(API_URL, requestOptions).then(res => res.json()).then(data => {
+      messageElement.textContent = data.choices[0].message.content;
+    }).catch((error) => {
+      messageElement.textContent = "Oops! Something went wrong. Please try again.";
+  })
+
+  
 }
+
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
 
