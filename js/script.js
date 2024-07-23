@@ -176,7 +176,7 @@ const handleChat = () => {
   chatInput.style.height = `${inputInitHeight}px`;
 
   // Append the user's message to the chatbox
-  chatbox.appendChild(createChatLi(userMessage, "outgoing"));
+  chatbox.appendChild(createChatLi(userMessage, "chats-by-users"));
   chatbox.scrollTo(0, chatbox.scrollHeight);
 
   setTimeout(() => {
