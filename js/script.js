@@ -194,6 +194,17 @@ chatInput.addEventListener("input", () => {
   chatInput.style.height = `${chatInput.scrollHeight}px`;
 });
 
+chatInput.addEventListener("keydown", (e) => {
+  // If Enter key is pressed without Shift key and the window width
+  // is greater than 800px, handle the chat
+  if(e.key === "Enter" && !e.shiftkey && window.innerWidth > 800) {
+      e.preventDefault();
+      handleChat();
+  }
+});
+
+sendChatBtn.addEventListener("click", handleChat);
+
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
 
