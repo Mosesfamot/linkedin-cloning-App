@@ -110,6 +110,7 @@ function openUser2() {
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 const chatInput = document.querySelector(".chat-input-area input");
 const sendChatBtn = document.querySelector(".chat-footer-action a");
+const chatbox = document.querySelector(".chatbox");
 
 
 
