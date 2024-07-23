@@ -116,6 +116,17 @@ let userMessage;
 const API_KEY = "";
 const inputInitHeight = chatInput.scrollHeight;
 
+// Gets the first message
+function starterMessage() {
+  let firstMessage = "How's it going?";
+  document.getElementById("starter-message").innerHTML = firstMessage;
+
+  let time = getTime();
+  document.getElementById("get-time").innerHTML = time;
+}
+
+starterMessage();
+
 const createChatLi = (message, className) => {
   // Create a chat <li> element with passed message and className
   const chatLi = document.createElement("article");
@@ -132,17 +143,30 @@ const createChatLi = (message, className) => {
   return chatLi;
 };
 
+const generateResponse = (incomingChatLi) => {
+  const API_URL = "https://api.openai.com/v1/chat/completions";
+  const messageELement = incomingChatLi.querySelector("p");
 
-// Gets the first message
-function starterMessage() {
-  let firstMessage = "How's it going?";
-  document.getElementById("starter-message").innerHTML = firstMessage;
+  const requestOptions = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": `Bearer ${API_KEY}`
+    },
+    body: JSON.stringify({
+      model: "gpt-3.5-turbo",
+      messages: [{ role: "user", content: userMessage }]
+    })
+  }
 
-  let time = getTime();
-  document.getElementById("get-time").innerHTML = time;
+  // Send POST request to API, get response
+  fetch(API_URL, requestOptions).then(res => res.json()).then(data => {
+        messageELement.textContent = data.choices[0].message.content;
+    }).catch((error) => {
+        messageELement.classList.add("error");
+        messageELement.textContent = "Opps! I'm currently busy. Drop your messages if it's very urgent.";
+    }).finally(() => chatbox.scrollTo(0, chatbox.scrollHeight));
 }
-
-starterMessage();
 
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
 
