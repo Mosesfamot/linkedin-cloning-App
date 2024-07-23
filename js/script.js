@@ -112,6 +112,10 @@ const chatInput = document.querySelector(".chat-input-area input");
 const sendChatBtn = document.querySelector(".chat-footer-action a");
 const chatbox = document.querySelector(".chatbox");
 
+let userMessage;
+const API_KEY = "";
+const inputInitHeight = chatInput.scrollHeight;
+
 
 
 // Gets the first message
