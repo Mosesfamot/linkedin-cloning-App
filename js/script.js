@@ -131,7 +131,7 @@ const createChatLi = (message, className) => {
   // Create a chat <article> element with passed message and className
   const chatLi = document.createElement("article");
   chatLi.classList.add("chats-by-users", className);
-  let chatContent = className === "chats-by-users" ? 
+  let chatContent = className === "chats-by-users outgoing" ? 
   `<p id="starter-message"></p>` : 
   `<article class="chats-by-users">
     <img src="img/user-3.png" alt="User Image">
@@ -178,12 +178,12 @@ const handleChat = () => {
   chatInput.style.height = `${inputInitHeight}px`;
 
   // Append the user's message to the chatbox
-  chatbox.appendChild(createChatLi(userMessage, "chats-by-users"));
+  chatbox.appendChild(createChatLi(userMessage, "chats-by-users outgoing"));
   chatbox.scrollTo(0, chatbox.scrollHeight);
 
   setTimeout(() => {
     // Display "Typing..." message while waiting for the response
-    const incomingChatLi = createChatLi("Typing...", "incoming");
+    const incomingChatLi = createChatLi("Typing...", "chats-by-users incoming");
     chatbox.appendChild(incomingChatLi);
     chatbox.scrollTo(0, chatbox.scrollHeight);
     generateResponse(incomingChatLi);
