@@ -132,7 +132,13 @@ const createChatLi = (message, className) => {
   const chatLi = document.createElement("article");
   chatLi.classList.add("chats-by-users", className);
   let chatContent = className === "chatbox" ? 
-  `<p id="starter-message"></p>` : 
+  `<article class="chats-by-users">
+    <img src="img/user-3.png" alt="User Image">
+    <article class="user-chat-time">
+      <h4>James Brown . <span id="get-time"></span></h4>
+      <p id="starter-message"></p>
+    </article>
+  </article>` : 
   `<article class="chats-by-users">
     <img src="img/user-1.png" alt="User Image">
     <article class="user-chat-time">
