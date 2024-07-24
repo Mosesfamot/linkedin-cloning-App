@@ -131,7 +131,7 @@ const createChatLi = (message, className) => {
   // Create a chat <article> element with passed message and className
   const chatLi = document.createElement("article");
   chatLi.classList.add("chats-by-users", className);
-  let chatContent = className === "outgoing" ? 
+  let chatContent = className === "chatbox" ? 
   `<p id="starter-message"></p>` : 
   `<article class="chats-by-users">
     <img src="img/user-3.png" alt="User Image">
