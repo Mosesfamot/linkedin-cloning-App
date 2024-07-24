@@ -184,12 +184,12 @@ const handleChat = () => {
   chatInput.style.height = `${inputInitHeight}px`;
 
   // Append the user's message to the chatbox
-  chatbox.appendChild(createChatLi(userMessage, "outgoing"));
+  chatbox.appendChild(createChatLi(userMessage, "chatbox"));
   chatbox.scrollTo(0, chatbox.scrollHeight);
 
   setTimeout(() => {
     // Display "Typing..." message while waiting for the response
-    const incomingChatLi = createChatLi("Typing...", "incoming");
+    const incomingChatLi = createChatLi("Typing...", "chatbox");
     chatbox.appendChild(incomingChatLi);
     chatbox.scrollTo(0, chatbox.scrollHeight);
     generateResponse(incomingChatLi);
