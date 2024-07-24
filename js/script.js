@@ -3,6 +3,8 @@ let businessMenu = document.getElementById("businessMenu");
 let sideActivity = document.getElementById("sidebarActivity");
 let moreLink = document.getElementById("showMoreLink");
 
+require('dotenv').config();
+
 // CODE TO ALWAYS GENERATE THE UPDATED DATE
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
@@ -113,7 +115,7 @@ const sendChatBtn = document.querySelector(".chat-footer-action a");
 const chatbox = document.querySelector(".chatbox");
 
 let userMessage;
-const API_KEY = "";
+const API_KEY = process.env.API_KEY;
 const inputInitHeight = chatInput.scrollHeight;
 
 // Gets the first message
