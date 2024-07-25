@@ -3,7 +3,8 @@ let businessMenu = document.getElementById("businessMenu");
 let sideActivity = document.getElementById("sidebarActivity");
 let moreLink = document.getElementById("showMoreLink");
 
-require('dotenv').config();
+// require('dotenv').config();
+// console.log(process.env);
 
 // CODE TO ALWAYS GENERATE THE UPDATED DATE
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -15,8 +16,8 @@ document.getElementById("full-date").innerHTML = month + ", " + year;
 
 function getTime() {
     let today = new Date();
-    hours = today.getHours();
-    minutes = today.getMinutes();
+    let hours = today.getHours();
+    let minutes = today.getMinutes();
   
     if (hours < 10) {
       hours = "0" + hours;
@@ -110,12 +111,13 @@ function openUser2() {
 
 
 // ACTIVATING CHAT FUNCTIONALITY IN THE MESSAGE SECTION
+import {chatApiKey} from './apikey.js'; 
 const chatInput = document.querySelector(".chat-input-area input");
 const sendChatBtn = document.querySelector(".chat-footer-action a");
 const chatbox = document.querySelector(".chatbox");
 
 let userMessage;
-const API_KEY = process.env.API_KEY;
+const API_KEY = chatApiKey();
 const inputInitHeight = chatInput.scrollHeight;
 
 // Gets the first message
