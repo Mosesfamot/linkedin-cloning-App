@@ -22,12 +22,12 @@ class pageNavbar extends HTMLElement {
             </section>
 
             <section class="navbar-right">
-                <article class="online" onclick="toggleMenu()"> 
+                <article class="online toggle-menu"> 
                     <img src="img/user-1.png" alt="User Image" class="nav-profile-img">
                     <p>Me <i class='bx bxs-down-arrow'></i></p>
                 </article>
 
-                <article class="for-business-nav" onclick="businessToggleMenu()">
+                <article class="for-business-nav business-toggle-menu">
                     <i class='bx bx-dots-horizontal'></i>
                     <i class='bx bx-dots-horizontal'></i>
                     <i class='bx bx-dots-horizontal'></i>
@@ -41,7 +41,7 @@ class pageNavbar extends HTMLElement {
             </section>
 
             <!-- PROFILE DROP-DOWN MENU  -->
-            <article class="profile-menu-wrap" id="profileMenu">
+            <article class="profile-menu-wrap">
                 <article class="profile-menu">
 
                     <article class="user-info">
@@ -104,7 +104,7 @@ class pageNavbar extends HTMLElement {
 
 
             <!-- BUSINESS DROP-DOWN MENU  -->
-            <article class="business-menu-wrap" id="businessMenu">
+            <article class="business-menu-wrap">
                 <article class="business-menu">
 
                     <article class="dropdown-menu-list-left">

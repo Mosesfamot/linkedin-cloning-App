@@ -793,7 +793,7 @@ figure:hover, figcaption:hover {
     background: #fff;
 }
 
-.profile-menu-wrap.open-menu {
+.open-menu .profile-menu-wrap {
     max-height: 25rem;
     border: 1px solid #ccc;
 }
@@ -909,7 +909,7 @@ figure:hover, figcaption:hover {
     transition: max-height 0.5s;
 }
 
-.business-menu-wrap.open-business-menu {
+.open-business-menu .business-menu-wrap {
     border: 1px solid #ccc;
     border-radius: 0.4rem;
     max-height: 90.5vh;

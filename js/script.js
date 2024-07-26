@@ -1,10 +1,23 @@
-let profileMenu = document.getElementById("profileMenu");
-let businessMenu = document.getElementById("businessMenu");
+let profileMenu = document.querySelector(".toggle-menu");
+let businessMenu = document.querySelector(".business-toggle-menu");
 let sideActivity = document.getElementById("sidebarActivity");
 let moreLink = document.getElementById("showMoreLink");
 
-// require('dotenv').config();
-// console.log(process.env);
+// PROFILE ICON MENU DROPDOWN
+profileMenu.addEventListener("click", () => 
+  document.body.classList.toggle("open-menu")
+);
+
+// console.log(profileMenu);
+// PROFILE ICON MENU DROPDOWN
+
+
+// BUSINESS ICON MENU DROPDOWN
+businessMenu.addEventListener("click", () => 
+  document.body.classList.toggle("open-business-menu")
+);
+// BUSINESS ICON MENU DROPDOWN
+
 
 // CODE TO ALWAYS GENERATE THE UPDATED DATE
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -40,21 +53,6 @@ document.querySelectorAll('.navbar-link').forEach(link => {
     }
 });
 // NAVBAR ICON ACTIVE INDICATOR
-
-
-// PROFILE ICON MENU DROPDOWN
-function toggleMenu() {
-    profileMenu.classList.toggle("open-menu");
-};
-// PROFILE ICON MENU DROPDOWN
-
-
-// BUSINESS ICON MENU DROPDOWN
-function businessToggleMenu() {
-    businessMenu.classList.toggle("open-business-menu");
-};
-// BUSINESS ICON MENU DROPDOWN
-
 
 
 // MESSAGE TAB POPUP SECTION FOR TAB SWITCH
