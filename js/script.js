@@ -101,10 +101,10 @@ userMessage1.addEventListener("click", () =>
 userMessage2.addEventListener("click", () => 
     userChat1.style.transform = "translateX(130%)",
     userChat2.style.transform = "translateX(0)",
-    userMessage2.classList.add('message-tab-highlight'),
-    userMessage2.classList.remove('message-tab-no-highlight'),
-    userMessage1.classList.add('message-tab-no-highlight'),
-    userMessage1.classList.remove('message-tab-highlight'),
+    userMessage2 = document.body.classList.add('message-tab-highlight'),
+    userMessage2 = document.body.classList.remove('message-tab-no-highlight'),
+    userMessage1 = document.body.classList.add('message-tab-no-highlight'),
+    userMessage1 = document.body.classList.remove('message-tab-highlight'),
 );
 
 // userChat1.style.transform = "translateX(130%)",
