@@ -91,21 +91,12 @@ let userChat2 = document.querySelector(".user-chat-2");
 userMessage1.addEventListener("click", () => 
     userChat1.style.transform = "translateX(0)",
     userChat2.style.transform = "translateX(130%)",
+    document.body.classList.toggle("open-business-menu"),
     userMessage1.classList.add('message-tab-highlight'),
     userMessage1.classList.remove('message-tab-no-highlight'),
     userMessage2.classList.add('message-tab-no-highlight'),
     userMessage2.classList.remove('message-tab-highlight')
 );
-
-// function openUser1() {
-//     userChat1.style.transform = "translateX(0)";
-//     userChat2.style.transform = "translateX(130%)";
-//     userMessage1.classList.add('message-tab-highlight');
-//     userMessage1.classList.remove('message-tab-no-highlight');
-//     userMessage2.classList.add('message-tab-no-highlight');
-//     userMessage2.classList.remove('message-tab-highlight');
-// }
-
 
 userMessage2.addEventListener("click", () => 
     userChat1.style.transform = "translateX(130%)",
@@ -116,14 +107,20 @@ userMessage2.addEventListener("click", () =>
     userMessage1.classList.remove('message-tab-highlight'),
 );
 
-// function openUser2() {
-//     userChat1.style.transform = "translateX(130%)";
-//     userChat2.style.transform = "translateX(0)";
-//     userMessage2.classList.add('message-tab-highlight');
-//     userMessage2.classList.remove('message-tab-no-highlight');
-//     userMessage1.classList.add('message-tab-no-highlight');
-//     userMessage1.classList.remove('message-tab-highlight');
-// }
+// userChat1.style.transform = "translateX(130%)",
+// userChat2.style.transform = "translateX(0)",
+// userMessage2.classList.add('message-tab-highlight'),
+// userMessage2.classList.remove('message-tab-no-highlight'),
+// userMessage1.classList.add('message-tab-no-highlight'),
+// userMessage1.classList.remove('message-tab-highlight'),
+
+// userChat1.style.transform = "translateX(0)",
+// userChat2.style.transform = "translateX(130%)",
+// userMessage1.classList.add('message-tab-highlight'),
+// userMessage1.classList.remove('message-tab-no-highlight'),
+// userMessage2.classList.add('message-tab-no-highlight'),
+// userMessage2.classList.remove('message-tab-highlight')
+
 // MESSAGE TAB FOR CHAT SWITCH SECTION
 
 
