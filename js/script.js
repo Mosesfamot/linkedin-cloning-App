@@ -89,8 +89,8 @@ let userChat1 = document.querySelector(".user-chat-1");
 let userChat2 = document.querySelector(".user-chat-2");
 
 userMessage1.addEventListener("click", () => 
-    userChat1 = document.body.style.transform('translateX(0)'),
-    userChat2 = document.body.style.transform('translateX(130%)'),
+    userChat1.style.transform = "translateX(0)",
+    userChat2.style.transform = "translateX(130%)",
     userMessage1 = document.body.classList.add('message-tab-highlight'),
     userMessage1 = document.body.classList.remove('message-tab-no-highlight'),
     userMessage2 = document.body.classList.add('message-tab-no-highlight'),
