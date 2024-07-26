@@ -93,9 +93,9 @@ userMessage1.addEventListener("click", () =>
     userChat2.style.transform = "translateX(130%)",
     // document.body.classList.toggle("open-business-menu"),
     userMessage1 = document.body.classList.add('message-tab-highlight'),
-    userMessage1 = document.classList.remove('message-tab-no-highlight'),
-    userMessage2 = document.classList.add('message-tab-no-highlight'),
-    userMessage2 = document.classList.remove('message-tab-highlight')
+    userMessage1 = document.body.classList.remove('message-tab-no-highlight'),
+    userMessage2 = document.body.classList.add('message-tab-no-highlight'),
+    userMessage2 = document.body.classList.remove('message-tab-highlight')
 );
 
 userMessage2.addEventListener("click", () => 
