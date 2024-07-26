@@ -56,10 +56,10 @@ document.querySelectorAll('.navbar-link').forEach(link => {
 
 
 // MESSAGE TAB POPUP SECTION FOR TAB SWITCH
-let messageTabFocused = document.getElementById("message-tab-focused");
-let messageTabOther = document.getElementById("message-tab-other");
-let tabFocusedContent = document.getElementById("tab-focused-content");
-let tabOtherContent = document.getElementById("tab-other-content");
+let messageTabFocused = document.querySelector("message-tab-focused");
+let messageTabOther = document.querySelector("message-tab-other");
+let tabFocusedContent = document.querySelector("tab-focused-content");
+let tabOtherContent = document.querySelector("tab-other-content");
 
 function openFocused() {
     messageTabFocused.style.color = "#0f9f6f";
@@ -83,10 +83,10 @@ function openOther() {
 
 
 // MESSAGE TAB FOR CHAT SWITCH SECTION
-let userMessage1 = document.getElementById("user-message-1");
-let userMessage2 = document.getElementById("user-message-2");
-let userChat1 = document.getElementById("user-chat-1");
-let userChat2 = document.getElementById("user-chat-2");
+let userMessage1 = document.querySelector("user-message-1");
+let userMessage2 = document.querySelector("user-message-2");
+let userChat1 = document.querySelector("user-chat-1");
+let userChat2 = document.querySelector("user-chat-2");
 
 function openUser1() {
     userChat1.style.transform = "translateX(0)";
