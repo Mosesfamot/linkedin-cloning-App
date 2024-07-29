@@ -3213,8 +3213,13 @@ p .highlight-date {
     justify-content: start;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    position: absolute;
+    /* position: absolute; */
     /* transform: translateX(100%); */
+}
+
+.message-tab-pop-bg .message-popup-focused-content:hover {
+    cursor: pointer;
+    background: #e7e7e7;
 }
   
 #message-tab-focused {
