@@ -56,10 +56,10 @@ document.querySelectorAll('.navbar-link').forEach(link => {
 
 
 // MESSAGE TAB POPUP SECTION FOR TAB SWITCH
-// let messageTabFocused = document.querySelector("message-tab-focused");
-// let messageTabOther = document.querySelector("message-tab-other");
-// let tabFocusedContent = document.querySelector("tab-focused-content");
-// let tabOtherContent = document.querySelector("tab-other-content");
+let messageTabFocused = document.querySelector(".message-tab-focused");
+let messageTabOther = document.querySelector(".message-tab-other");
+let tabFocusedContent = document.querySelector(".tab-focused-content");
+let tabOtherContent = document.querySelector(".tab-other-content");
 
 // function openFocused() {
 //     messageTabFocused.style.color = "#0f9f6f";
@@ -109,20 +109,6 @@ userMessage2.addEventListener("click", () =>
 );
 
 }
-
-// userChat1.style.transform = "translateX(130%)",
-// userChat2.style.transform = "translateX(0)",
-// userMessage2.classList.add('message-tab-highlight'),
-// userMessage2.classList.remove('message-tab-no-highlight'),
-// userMessage1.classList.add('message-tab-no-highlight'),
-// userMessage1.classList.remove('message-tab-highlight'),
-
-// userChat1.style.transform = "translateX(0)",
-// userChat2.style.transform = "translateX(130%)",
-// userMessage1.classList.add('message-tab-highlight'),
-// userMessage1.classList.remove('message-tab-no-highlight'),
-// userMessage2.classList.add('message-tab-no-highlight'),
-// userMessage2.classList.remove('message-tab-highlight')
 
 // MESSAGE TAB FOR CHAT SWITCH SECTION
 
