@@ -3214,7 +3214,7 @@ p .highlight-date {
     align-items: center;
     border-bottom: 1px solid #ccc;
     position: absolute;
-    transform: translateX(100%);
+    /* transform: translateX(100%); */
 }
   
 #message-tab-focused {
