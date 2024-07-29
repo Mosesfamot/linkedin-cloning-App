@@ -3296,6 +3296,33 @@ p .highlight-date {
     border: 2.3px solid #000;
 }
 
+.message-tab-chatpop {
+    position: absolute;
+    position: fixed;
+    top: 14%;
+    right: 20.5%;
+    width: 18rem;
+    /* overflow: hidden; */
+    transition: max-height 0.5s;
+    border-radius: 0.4rem;
+    background: #fff;
+}
+
+.message-tab-chatpop .message-tab-chatpop-bg {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 6px #ccc;
+    border-radius: 0.5rem 0.5rem 0 0;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.message-content-bg .message-tab-pop-icon {
+    display: flex;
+    flex-direction: row;
+}
+
 
 /* -------------------------------------- MESSAGE POPUP SECION MESSAGE POPUP SECION MESSAGE POPUP SECION -------------------------------------- */
 
