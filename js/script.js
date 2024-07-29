@@ -56,28 +56,34 @@ document.querySelectorAll('.navbar-link').forEach(link => {
 
 
 // MESSAGE TAB POPUP SECTION FOR TAB SWITCH
+
+window.onload=function() {
+
 let messageTabFocused = document.querySelector(".message-tab-focused");
 let messageTabOther = document.querySelector(".message-tab-other");
 let tabFocusedContent = document.querySelector(".tab-focused-content");
 let tabOtherContent = document.querySelector(".tab-other-content");
 
-// function openFocused() {
-//     messageTabFocused.style.color = "#0f9f6f";
-//     messageTabOther.style.color = "#333";
-//     tabFocusedContent.style.transform = "translateX(0)";
-//     tabOtherContent.style.transform = "translateX(100%)";
-//     messageTabFocused.style.borderBottom = "2px solid #01754f";
-//     messageTabOther.style.border = "none";
-// }
+messageTabFocused.addEventListener("click", () => 
+    messageTabFocused.style.color = "#0f9f6f",
+    messageTabOther.style.color = "#333",
+    tabFocusedContent.style.transform = "translateX(0)",
+    tabOtherContent.style.transform = "translateX(100%)",
+    messageTabFocused.style.borderBottom = "2px solid #01754f",
+    messageTabOther.style.border = "none"
+);
 
-// function openOther() {
-//     messageTabFocused.style.color = "#333";
-//     messageTabOther.style.color = "#0f9f6f";
-//     tabFocusedContent.style.transform = "translateX(110%)";
-//     tabOtherContent.style.transform = "translateX(0)";
-//     messageTabFocused.style.borderBottom = "none";
-//     messageTabOther.style.borderBottom = "2px solid #01754f";
-// }
+messageTabOther.addEventListener("click", () =>
+    messageTabFocused.style.color = "#333",
+    messageTabOther.style.color = "#0f9f6f",
+    tabFocusedContent.style.transform = "translateX(110%)",
+    tabOtherContent.style.transform = "translateX(0)",
+    messageTabFocused.style.borderBottom = "none",
+    messageTabOther.style.borderBottom = "2px solid #01754f"
+);
+
+};
+
 // MESSAGE TAB POPUP SECTION FOR TAB SWITCH
 
 
@@ -108,7 +114,7 @@ userMessage2.addEventListener("click", () =>
     userMessage2 = document.body.classList.remove('message-tab-no-highlight')
 );
 
-}
+};
 
 // MESSAGE TAB FOR CHAT SWITCH SECTION
 
