@@ -83,6 +83,8 @@ document.querySelectorAll('.navbar-link').forEach(link => {
 
 
 // MESSAGE TAB FOR CHAT SWITCH SECTION
+window.onload=function() {
+
 let userMessage1 = document.querySelector(".user-message-1");
 let userMessage2 = document.querySelector(".user-message-2");
 let userChat1 = document.querySelector(".user-chat-1");
@@ -105,6 +107,8 @@ userMessage2.addEventListener("click", () =>
     userMessage2 = document.body.classList.add('message-tab-highlight'),
     userMessage2 = document.body.classList.remove('message-tab-no-highlight')
 );
+
+}
 
 // userChat1.style.transform = "translateX(130%)",
 // userChat2.style.transform = "translateX(0)",
