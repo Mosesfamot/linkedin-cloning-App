@@ -25,6 +25,8 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 const d = new Date();
 let month = months[d.getMonth()].toUpperCase();
 let year = new Date().getFullYear();
+let messageTabFocused = document.querySelector(".message-tab-focused");
+
 document.getElementById("full-date").innerHTML = month + ", " + year;
 
 function getTime() {
