@@ -3304,7 +3304,7 @@ p .highlight-date {
     position: fixed;
     top: 14%;
     right: 20.5%;
-    width: 20rem;
+    width: 30rem;
     /* overflow: hidden; */
     transition: max-height 0.5s;
     border-radius: 0.4rem;
