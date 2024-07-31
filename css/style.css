@@ -3146,7 +3146,7 @@ p .highlight-date {
     overflow: hidden;
 }
 
-.message-content-bg .message-tab-pop-icon {
+.message-tab-pop-bg .message-tab-pop-icon {
     display: flex;
     flex-direction: row;
 }
@@ -3296,6 +3296,9 @@ p .highlight-date {
     border: 2.3px solid #000;
 }
 
+
+/* CHATBOX POP UP CHATBOX POP UP CHATBOX POP UP */
+
 .message-tab-chatpop {
     position: absolute;
     position: fixed;
@@ -3318,10 +3321,12 @@ p .highlight-date {
     overflow: hidden;
 }
 
-.message-content-bg .message-tab-pop-icon {
+.message-tab-chatpop-bg .message-tab-pop-icon {
     display: flex;
     flex-direction: row;
 }
+
+/* CHATBOX POP UP CHATBOX POP UP CHATBOX POP UP */
 
 
 /* -------------------------------------- MESSAGE POPUP SECION MESSAGE POPUP SECION MESSAGE POPUP SECION -------------------------------------- */
