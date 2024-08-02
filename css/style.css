@@ -3326,7 +3326,6 @@ p .highlight-date {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: #333;
 }
 
 .message-tab-chatpop-icon .chatpopup-profile {
@@ -3339,6 +3338,11 @@ p .highlight-date {
     width: 2.4rem;
     border-radius: 50%;
     margin: 0.4rem;
+}
+
+.chatpopup-profile span {
+    font-weight: 550;
+    color: #333;
 }
 
 .message-tab-chatpop-icon .chatpop-icon i {
