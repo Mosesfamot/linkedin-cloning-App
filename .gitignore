@@ -1,3 +1,4 @@
 .env
 node_modules
 apikey.js
+chat-automate-code.js
