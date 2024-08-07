@@ -3383,6 +3383,7 @@ p .highlight-date {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 1rem 0 1rem 1rem;
 }
 
 .message-tab-newmessage-icon .chatpopup-profile {
