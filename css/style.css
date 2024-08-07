@@ -3391,6 +3391,12 @@ p .highlight-date {
     align-items: center;
 }
 
+.message-tab-newmessage-icon .chatpop-icon i {
+    color: #000;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+}
+
 /* NEW MESSAGE POP UP NEW MESSAGE POP UP NEW MESSAGE POP UP */
 
 
