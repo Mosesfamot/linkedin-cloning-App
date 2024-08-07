@@ -3385,6 +3385,12 @@ p .highlight-date {
     align-items: center;
 }
 
+.message-tab-newmessage-icon .chatpopup-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 /* NEW MESSAGE POP UP NEW MESSAGE POP UP NEW MESSAGE POP UP */
 
 
