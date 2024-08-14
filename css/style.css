@@ -3411,6 +3411,17 @@ p .highlight-date {
 
 .newmessage-box-container p {
     color: #333;
+    margin: 0.5rem;
+}
+
+.newmessage-box-container .namesuggestions {
+    display: flex;
+    flex-direction: column;
+}
+
+.namesuggestions .suggestedname {
+    display: flex;
+    flex-direction: row;
 }
 
 /* NEW MESSAGE POP UP NEW MESSAGE POP UP NEW MESSAGE POP UP */
