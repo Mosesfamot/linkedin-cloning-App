@@ -3409,6 +3409,10 @@ p .highlight-date {
     margin: 0.1rem 2.5rem 0.1rem 0.5rem;
 }
 
+.newmessage-box-container p {
+    color: #333;
+}
+
 /* NEW MESSAGE POP UP NEW MESSAGE POP UP NEW MESSAGE POP UP */
 
 
