@@ -3398,10 +3398,6 @@ p .highlight-date {
     margin: 0 0.5rem;
 }
 
-.newmessage-box-container {
-    position: relative;
-}
-
 .newmessage-box-container .namesearch {
     display: flex;
     flex-direction: column;
@@ -3416,6 +3412,10 @@ p .highlight-date {
 .newmessage-box-container p {
     color: #333;
     margin: 0.5rem;
+}
+
+.namesuggestcontainer {
+    margin-top: 46%;
 }
 
 .newmessage-box-container .namesuggestions {
