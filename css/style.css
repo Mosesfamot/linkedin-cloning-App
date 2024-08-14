@@ -3435,7 +3435,7 @@ p .highlight-date {
 } 
 
 .suggesteddetails {
-    flex-basis: 90%;
+    flex-basis: 85%;
 }
 
 .suggesteddetails .suggesteddetailsname {
@@ -3443,6 +3443,10 @@ p .highlight-date {
     font-weight: 550;
     margin-top: 1rem;
     margin-bottom: -0.3rem;
+}
+
+.suggesteddetailsdesc {
+    font-size: 0.9rem;
 }
 
 /* NEW MESSAGE POP UP NEW MESSAGE POP UP NEW MESSAGE POP UP */
