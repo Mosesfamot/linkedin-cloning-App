@@ -3398,6 +3398,10 @@ p .highlight-date {
     margin: 0 0.5rem;
 }
 
+.newmessage-box-container {
+    position: relative;
+}
+
 .newmessage-box-container .namesearch {
     display: flex;
     flex-direction: column;
