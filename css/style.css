@@ -3127,9 +3127,10 @@ p .highlight-date {
 .message-tab-pop {
     position: absolute;
     position: fixed;
-    top: 14%;
+    /* top: 14%; */
     right: 0.8%;
     width: 18rem;
+    bottom: 0;
     /* overflow: hidden; */
     transition: max-height 0.5s;
     border-radius: 0.4rem;
@@ -3140,7 +3141,7 @@ p .highlight-date {
     background: #fff;
     /* border: 1px solid #ccc; */
     box-shadow: 1px 1px 6px #ccc;
-    height: 100vh;
+    max-height: 0;
     position: relative;
     overflow: hidden;
 }
