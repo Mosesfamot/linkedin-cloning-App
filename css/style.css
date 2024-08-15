@@ -3151,6 +3151,12 @@ p .highlight-date {
     flex-direction: row;
 }
 
+
+.message-tab-pop-bg .message-tab-pop-icon:hover {
+    background: #e7e7e7;
+    cursor: pointer;
+} 
+
 .message-tab-pop-icon .popup-profile {
     display: flex;
     flex-direction: row;
