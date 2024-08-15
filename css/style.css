@@ -3138,21 +3138,19 @@ p .highlight-date {
 
 .message-tab-pop .message-tab-pop-bg {
     background: #fff;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     box-shadow: 1px 1px 6px #ccc;
-    border-radius: 0.5rem 0.5rem 0 0;
     height: 100vh;
     position: relative;
     overflow: hidden;
 }
 
-.message-tab-pop-bg .message-tab-pop-icon {
-    display: flex;
-    flex-direction: row;
+.message-tab-pop .message-tab-pop-icon {
+    box-shadow: 1px 1px 6px #ccc;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
-
-.message-tab-pop-bg .message-tab-pop-icon:hover {
+.message-tab-pop .message-tab-pop-icon:hover {
     background: #e7e7e7;
     cursor: pointer;
 } 
