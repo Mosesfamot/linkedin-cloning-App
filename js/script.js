@@ -58,6 +58,27 @@ document.querySelectorAll('.navbar-link').forEach(link => {
 // MESSAGE TAB POPUP SECTION FOR TAB SWITCH
 
 
+// MESSAGE TAB POPUP SECTION COLLAPSIBLE
+
+var coll = document.getElementsByClassName("message-tab-pop-icon");
+
+for (let i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+
+    var content = this.nextElementSibling;
+
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+
+// MESSAGE TAB POPUP SECTION COLLAPSIBLE
+
+
 
 
 function toggleActivity() {
