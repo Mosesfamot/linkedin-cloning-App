@@ -3146,6 +3146,10 @@ p .highlight-date {
     overflow: hidden;
 }
 
+.message-tab-pop-bg .message-tab-pop-container {
+    height: 77.6vh;
+}
+
 .message-tab-pop .message-tab-pop-icon {
     box-shadow: 1px 1px 6px #ccc;
     border-radius: 0.5rem 0.5rem 0 0;
@@ -3220,7 +3224,6 @@ p .highlight-date {
     border-bottom: 1px solid #ccc;
     /* position: absolute; */
     /* transform: translateX(100%); */
-    /* margin-bottom: 145.5%; */
 }
 
 .message-tab-pop-bg .message-popup-focused-content:hover {
