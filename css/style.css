@@ -3220,7 +3220,7 @@ p .highlight-date {
     border-bottom: 1px solid #ccc;
     /* position: absolute; */
     /* transform: translateX(100%); */
-    margin-bottom: 145.5%;
+    /* margin-bottom: 145.5%; */
 }
 
 .message-tab-pop-bg .message-popup-focused-content:hover {
