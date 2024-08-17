@@ -3423,7 +3423,7 @@ p .highlight-date {
     margin: 1rem 0 1rem 1rem;
     box-shadow: 1px 1px 6px #ccc;
     border-radius: 0.5rem 0.5rem 0 0;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .message-tab-newmessage-icon .chatpopup-profile {
