@@ -3328,12 +3328,15 @@ p .highlight-date {
 }
 
 .message-tab-chatpop .message-tab-chatpop-icon {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     box-shadow: 1px 1px 6px #ccc;
     border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.message-tab-chatpop-icon .message-tab-chatpop-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
 }
 
 .message-tab-chatpop .message-tab-chatpop-icon:hover {
