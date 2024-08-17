@@ -81,18 +81,18 @@ for (let i = 0; i < coll.length; i++) {
 
 // MESSAGE TAB CHAT POPUP SECTION COLLAPSIBLE
 
-var coll = document.getElementsByClassName("message-tab-chatpop-icon");
+var chatColl = document.getElementsByClassName("message-tab-chatpop-icon");
 
-for (let i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function () {
+for (let i = 0; i < chatColl.length; i++) {
+  chatColl[i].addEventListener("click", function () {
     this.classList.toggle("active");
 
-    var content = this.nextElementSibling;
+    var chatContent = this.nextElementSibling;
 
-    if (content.style.maxHeight) {
-      content.style.maxHeight = null;
+    if (chatContent.style.maxHeight) {
+      chatContent.style.maxHeight = null;
     } else {
-      content.style.maxHeight = content.scrollHeight + "vh";
+      chatContent.style.maxHeight = chatContent.scrollHeight + "vh";
     }
   });
 }

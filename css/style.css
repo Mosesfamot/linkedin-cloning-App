@@ -3371,12 +3371,16 @@ p .highlight-date {
 .message-tab-chatpop .message-tab-chatpop-bg {
     background: #fff;
     border: 1px solid #ccc;
-    height: 0;
+    max-height: 0;
     /* box-shadow: 1px 1px 6px #ccc; */
     /* border-radius: 0.5rem 0.5rem 0 0; */
     /* height: 100vh; */
     position: relative;
     overflow: hidden;
+}
+
+.message-tab-chatpop-bg .chatpop-box-container {
+    height: 77.6vh;
 }
 
 /* CHATBOX POP UP CHATBOX POP UP CHATBOX POP UP */
