@@ -3323,19 +3323,26 @@ p .highlight-date {
 .message-tab-chatpop .message-tab-chatpop-bg {
     background: #fff;
     border: 1px solid #ccc;
-    box-shadow: 1px 1px 6px #ccc;
-    border-radius: 0.5rem 0.5rem 0 0;
+    /* box-shadow: 1px 1px 6px #ccc; */
+    /* border-radius: 0.5rem 0.5rem 0 0; */
     height: 100vh;
     position: relative;
     overflow: hidden;
 }
 
-.message-tab-chatpop-bg .message-tab-chatpop-icon {
+.message-tab-chatpop .message-tab-chatpop-icon {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 1px 1px 6px #ccc;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
+
+.message-tab-chatpop .message-tab-chatpop-icon:hover {
+    background: #e7e7e7;
+    cursor: pointer;
+} 
 
 .message-tab-chatpop-icon .chatpopup-profile {
     display: flex;
