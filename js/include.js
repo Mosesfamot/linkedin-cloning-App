@@ -446,7 +446,7 @@ class messagetabChatPop extends HTMLElement {
 customElements.define('messagetab-chatpop', messagetabChatPop);
 
 
-class messagetabChatPop extends HTMLElement {
+class newMessagePop extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <section class="message-tab-newmessage">
@@ -534,4 +534,4 @@ class messagetabChatPop extends HTMLElement {
     }
 };
 
-customElements.define('messagetab-chatpop', messagetabChatPop);
+customElements.define('newmessage-pop', newMessagePop);
