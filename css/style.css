@@ -3438,10 +3438,15 @@ p .highlight-date {
 .message-tab-newmessage .message-tab-newmessage-bg {
     background: #fff;
     border: 1px solid #ccc;
+    max-height: 0;
     /* box-shadow: 1px 1px 6px #ccc; */
     /* border-radius: 0.5rem 0.5rem 0 0; */
     position: relative;
     overflow: hidden;
+}
+
+.message-tab-newmessage-bg .newmessage-box-container {
+    height: 78.5vh;
 }
 
 .newmessage-box-container .namesearch {
