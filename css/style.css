@@ -3397,22 +3397,13 @@ p .highlight-date {
 .message-tab-newmessage {
     position: absolute;
     position: fixed;
-    top: 14%;
+    /* top: 14%; */
     right: 54%;
     width: 31rem;
+    bottom: 0;
     /* overflow: hidden; */
     transition: max-height 0.5s;
     border-radius: 0.4rem;
-    background: #fff;
-}
-
-.message-tab-newmessage .message-tab-newmessage-bg {
-    background: #fff;
-    border: 1px solid #ccc;
-    /* box-shadow: 1px 1px 6px #ccc; */
-    /* border-radius: 0.5rem 0.5rem 0 0; */
-    position: relative;
-    overflow: hidden;
 }
 
 .message-tab-newmessage .message-tab-newmessage-icon {
@@ -3420,10 +3411,16 @@ p .highlight-date {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 0 1rem 1rem;
+    padding: 1rem 0 1rem 1rem;
+    background: #fff;
     box-shadow: 1px 1px 6px #ccc;
     border-radius: 0.5rem 0.5rem 0 0;
     /* height: 100vh; */
+}
+
+.message-tab-newmessage .message-tab-newmessage-icon:hover {
+    cursor: pointer;
+    background: #e7e7e7;
 }
 
 .message-tab-newmessage-icon .chatpopup-profile {
@@ -3436,6 +3433,15 @@ p .highlight-date {
     color: #000;
     font-size: 1.2rem;
     margin: 0 0.5rem;
+}
+
+.message-tab-newmessage .message-tab-newmessage-bg {
+    background: #fff;
+    border: 1px solid #ccc;
+    /* box-shadow: 1px 1px 6px #ccc; */
+    /* border-radius: 0.5rem 0.5rem 0 0; */
+    position: relative;
+    overflow: hidden;
 }
 
 .newmessage-box-container .namesearch {
