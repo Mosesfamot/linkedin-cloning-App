@@ -444,3 +444,94 @@ class messagetabChatPop extends HTMLElement {
 };
 
 customElements.define('messagetab-chatpop', messagetabChatPop);
+
+
+class messagetabChatPop extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <section class="message-tab-newmessage">
+
+            <article class="message-tab-newmessage-icon">
+                <article class="chatpopup-profile">
+                    <span>New message</span>
+                </article>
+                <article class="chatpop-icon">
+                    <i class='bx bx-collapse'></i>
+                    <i class='bx bx-x'></i>
+                </article>
+            </article>
+
+            <article class="message-tab-newmessage-bg">
+                
+                <article class="newmessage-box-container">
+                    <article class="namesearch">
+                        <input type="text" placeholder="Type a name or multiple names">
+                    </article>
+                    <hr>
+                    <p>Suggested</p>
+
+                    <article class="namesuggestcontainer">
+
+                        <article class="namesuggestions">
+                            <article class="suggestedname">
+                                <article class="suggestedimage">
+                                    <img src="img/user-2.png" alt="User Image">
+                                </article>
+                                <article class="suggesteddetails">
+                                    <p class="suggesteddetailsname">Blessing Gabriel</p>
+                                    <p class="suggesteddetailsdesc">Student at The Polytechnic Ibadan</p>
+                                    <hr>
+                                </article>
+                            </article>
+                        </article>
+    
+                        <article class="namesuggestions">
+                            <article class="suggestedname">
+                                <article class="suggestedimage">
+                                    <img src="img/user-3.png" alt="User Image">
+                                </article>
+                                <article class="suggesteddetails">
+                                    <p class="suggesteddetailsname">Jacob Williams</p>
+                                    <p class="suggesteddetailsdesc">Backend Engineer at Microsoft</p>
+                                    <hr>
+                                </article>
+                            </article>
+                        </article>
+    
+                        <article class="namesuggestions">
+                            <article class="suggestedname">
+                                <article class="suggestedimage">
+                                    <img src="img/user-4.png" alt="User Image">
+                                </article>
+                                <article class="suggesteddetails">
+                                    <p class="suggesteddetailsname">Lara Gorge</p>
+                                    <p class="suggesteddetailsdesc">Forester and Cinematographer</p>
+                                    <hr>
+                                </article>
+                            </article>
+                        </article>
+    
+                        <article class="namesuggestions">
+                            <article class="suggestedname">
+                                <article class="suggestedimage">
+                                    <img src="img/user-1.png" alt="User Image">
+                                </article>
+                                <article class="suggesteddetails">
+                                    <p class="suggesteddetailsname">Gabriel Lazarus</p>
+                                    <p class="suggesteddetailsdesc">Brand Storyteller</p>
+                                    <hr>
+                                </article>
+                            </article>
+                        </article>
+                        
+                    </article>
+
+                </article>
+
+            </article>
+        </section>
+        `
+    }
+};
+
+customElements.define('messagetab-chatpop', messagetabChatPop);
