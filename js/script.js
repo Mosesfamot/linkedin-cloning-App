@@ -79,6 +79,27 @@ for (let i = 0; i < coll.length; i++) {
 // MESSAGE TAB POPUP SECTION COLLAPSIBLE
 
 
+// MESSAGE TAB CHAT POPUP SECTION COLLAPSIBLE
+
+var coll = document.getElementsByClassName("message-tab-chatpop-icon");
+
+for (let i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+
+    var content = this.nextElementSibling;
+
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "vh";
+    }
+  });
+}
+
+// MESSAGE TAB CHAT POPUP SECTION COLLAPSIBLE
+
+
 
 
 function toggleActivity() {

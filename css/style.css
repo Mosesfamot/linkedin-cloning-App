@@ -3306,6 +3306,12 @@ p .highlight-date {
 }
 
 
+
+
+
+
+
+
 /* CHATBOX POP UP CHATBOX POP UP CHATBOX POP UP */
 
 .message-tab-chatpop {
@@ -3314,6 +3320,7 @@ p .highlight-date {
     /* top: 14%; */
     right: 20.5%;
     width: 31rem;
+    bottom: 0;
     /* overflow: hidden; */
     transition: max-height 0.5s;
     border-radius: 0.4rem;
@@ -3360,6 +3367,7 @@ p .highlight-date {
 .message-tab-chatpop .message-tab-chatpop-bg {
     background: #fff;
     border: 1px solid #ccc;
+    height: 0;
     /* box-shadow: 1px 1px 6px #ccc; */
     /* border-radius: 0.5rem 0.5rem 0 0; */
     /* height: 100vh; */
@@ -3368,6 +3376,13 @@ p .highlight-date {
 }
 
 /* CHATBOX POP UP CHATBOX POP UP CHATBOX POP UP */
+
+
+
+
+
+
+
 
 
 /* NEW MESSAGE POP UP NEW MESSAGE POP UP NEW MESSAGE POP UP */
