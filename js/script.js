@@ -100,6 +100,27 @@ for (let i = 0; i < chatColl.length; i++) {
 // MESSAGE TAB CHAT POPUP SECTION COLLAPSIBLE
 
 
+// MESSAGE TAB CHAT POPUP SECTION COLLAPSIBLE
+
+var newChatColl = document.getElementsByClassName("message-tab-newmessage-icon");
+
+for (let i = 0; i < newChatColl.length; i++) {
+  newChatColl[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+
+    var newChatContent = this.nextElementSibling;
+
+    if (newChatContent.style.maxHeight) {
+      newChatContent.style.maxHeight = null;
+    } else {
+      newChatContent.style.maxHeight = newChatContent.scrollHeight + "vh";
+    }
+  });
+}
+
+// MESSAGE TAB CHAT POPUP SECTION COLLAPSIBLE
+
+
 
 
 function toggleActivity() {
