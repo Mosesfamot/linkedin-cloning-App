@@ -3380,19 +3380,21 @@ p .highlight-date {
 .message-tab-newmessage .message-tab-newmessage-bg {
     background: #fff;
     border: 1px solid #ccc;
-    box-shadow: 1px 1px 6px #ccc;
-    border-radius: 0.5rem 0.5rem 0 0;
-    height: 100vh;
+    /* box-shadow: 1px 1px 6px #ccc; */
+    /* border-radius: 0.5rem 0.5rem 0 0; */
     position: relative;
     overflow: hidden;
 }
 
-.message-tab-newmessage-bg .message-tab-newmessage-icon {
+.message-tab-newmessage .message-tab-newmessage-icon {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 1rem 0 1rem 1rem;
+    box-shadow: 1px 1px 6px #ccc;
+    border-radius: 0.5rem 0.5rem 0 0;
+    height: 100vh;
 }
 
 .message-tab-newmessage-icon .chatpopup-profile {
