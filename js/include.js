@@ -82,7 +82,7 @@ class pageNavbar extends HTMLElement {
 
                     <article class="dropdown-menu-list">
                         <h3>Manage</h3>
-                        <a href="#" class="profile-menu-link">
+                        <a href="post_and_activity.html" class="profile-menu-link">
                             <p>Posts & Activity</p>
                         </a>
                         <a href="#" class="profile-menu-link">
@@ -93,7 +93,7 @@ class pageNavbar extends HTMLElement {
                     <hr>
 
                     <article class="dropdown-menu-list">
-                        <a href="#" class="profile-menu-link">
+                        <a href="signin.html" class="profile-menu-link">
                             <p>Sign Out</p>
                         </a>
                     </article>
