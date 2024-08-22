@@ -85,7 +85,7 @@ class pageNavbar extends HTMLElement {
                         <a href="post_and_activity.html" class="profile-menu-link">
                             <p>Posts & Activity</p>
                         </a>
-                        <a href="#" class="profile-menu-link">
+                        <a href="signin.html" class="profile-menu-link">
                             <p>Job Posting Account</p>
                         </a>
                     </article>
