@@ -3115,7 +3115,9 @@ p .highlight-date {
 
 /* ------------------------- NOTIFICATION PAGE SECION NOTIFICATION PAGE SECTION NOTIFICATION PAGE SECTION ---------------------------- */
 
-
+.all-activity-head {
+    color: #000;
+}
 
 
 
