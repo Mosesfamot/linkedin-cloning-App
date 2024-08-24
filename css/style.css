@@ -3144,6 +3144,13 @@ p .highlight-date {
     margin: 1.2rem 0 0.8rem;
 }
 
+.post-activity-section p {
+    color: #777;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
 
 
 /* ------------------------- POST AND ACTIVITY PAGE POST AND ACTIVITY PAGE POST AND ACTIVITY PAGE ---------------------------- */
