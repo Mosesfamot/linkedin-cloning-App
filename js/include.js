@@ -67,7 +67,7 @@ class pageNavbar extends HTMLElement {
                                 Try 1 month of Premium for USD0
                             </p>
                         </a>
-                        <a href="#" class="profile-menu-link">
+                        <a href="settings/account.html" class="profile-menu-link">
                             <p>Settings & Privacy</p>
                         </a>
                         <a href="#" class="profile-menu-link">
