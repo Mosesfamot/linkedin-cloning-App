@@ -3130,6 +3130,13 @@ p .highlight-date {
     border-radius: 2rem;
 }
 
+.post-activity-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /* ------------------------- POST AND ACTIVITY PAGE POST AND ACTIVITY PAGE POST AND ACTIVITY PAGE ---------------------------- */
