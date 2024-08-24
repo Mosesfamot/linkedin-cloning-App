@@ -3120,6 +3120,11 @@ p .highlight-date {
     font-weight: 550;
 }
 
+.post-activity-button {
+    margin: 1rem;
+    background: #0f9f6f;
+}
+
 
 
 /* ------------------------- POST AND ACTIVITY PAGE POST AND ACTIVITY PAGE POST AND ACTIVITY PAGE ---------------------------- */
