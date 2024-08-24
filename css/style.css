@@ -3135,6 +3135,13 @@ p .highlight-date {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
+}
+
+.post-activity-section h3 {
+    color: #333;
+    font-size: 1.4rem;
+    margin: 1.2rem 0 0.8rem;
 }
 
 
