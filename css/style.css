@@ -3945,7 +3945,9 @@ min width 977px - max width 1280px
 
     /* MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING */
 
-    .message-tab-pop {
+    .message-tab-pop,
+    .message-tab-chatpop,
+    .message-tab-newmessage {
         display: none;
     }
 
