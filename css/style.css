@@ -4316,7 +4316,7 @@ min width 977px - max width 1280px
 
 
 
-     /* MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING */
+    /* MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING */
 
     .message-tab-pop,
     .message-tab-chatpop,
@@ -4691,6 +4691,17 @@ min width 977px - max width 1280px
 
     /* PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING  */
 
+
+    /* MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING */
+
+    .message-tab-pop,
+    .message-tab-chatpop,
+    .message-tab-newmessage {
+        display: none;
+    }
+
+    /* MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING */
+
 }
 
 @media only screen and (min-width: 350px) and (max-width: 460px) {
@@ -5055,6 +5066,17 @@ min width 977px - max width 1280px
 
     /* PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING  */
 
+
+    /* MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING */
+
+    .message-tab-pop,
+    .message-tab-chatpop,
+    .message-tab-newmessage {
+        display: none;
+    }
+
+    /* MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING */
+
 }
 
 @media only screen and (min-width: 460px) and (max-width: 512px) {
@@ -5413,6 +5435,17 @@ min width 977px - max width 1280px
 
     /* PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING  */
 
+
+    /* MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING */
+
+    .message-tab-pop,
+    .message-tab-chatpop,
+    .message-tab-newmessage {
+        display: none;
+    }
+
+    /* MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING */
+
 }
 
 @media only screen and (min-width: 512px) and (max-width: 552px) {
@@ -5770,6 +5803,17 @@ min width 977px - max width 1280px
 
     /* PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING  */
 
+
+    /* MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING */
+
+    .message-tab-pop,
+    .message-tab-chatpop,
+    .message-tab-newmessage {
+        display: none;
+    }
+
+    /* MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING */
+
 }
 
 @media only screen and (min-width: 552px) and (max-width: 747px) {
@@ -6121,6 +6165,17 @@ min width 977px - max width 1280px
     }
 
     /* PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING PROFILE PAGE SIZING  */
+
+
+    /* MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING */
+
+    .message-tab-pop,
+    .message-tab-chatpop,
+    .message-tab-newmessage {
+        display: none;
+    }
+
+    /* MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING MESSAGE TAB POP UP SCREEN SIZING */
 
 }
 
