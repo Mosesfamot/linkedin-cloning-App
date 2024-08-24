@@ -3118,11 +3118,16 @@ p .highlight-date {
 .all-activity-head {
     color: #000;
     font-weight: 550;
+    margin-bottom: 0.8rem;
 }
 
 .post-activity-button {
-    margin: 1rem;
-    background: #0f9f6f;
+    padding: 0.5rem 0.7rem;
+    background: #01754f;
+    color: #fff;
+    font-weight: 550;
+    margin-left: 1.5rem;
+    border-radius: 2rem;
 }
 
 
