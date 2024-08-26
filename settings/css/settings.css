@@ -43,4 +43,9 @@ a {
     align-items: center;
 }
 
+.navbar-info .navbar-logo {
+    width: 2.5rem;
+    margin-left: 0.5rem;
+}
+
 /* NAVIGATION BAR SECTION NAVIGATION BAR SECTION  */
