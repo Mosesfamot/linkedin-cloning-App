@@ -64,4 +64,11 @@ a {
     position: fixed;
 }
 
+.navbar-menu .navbar-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 /* NAVIGATION BAR SECTION NAVIGATION BAR SECTION  */
