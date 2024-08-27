@@ -57,4 +57,11 @@ a {
     align-items: center;
 }
 
+.side-navbar {
+    background: #fff;
+    width: 18rem;
+    height: 100vh;
+    position: fixed;
+}
+
 /* NAVIGATION BAR SECTION NAVIGATION BAR SECTION  */
