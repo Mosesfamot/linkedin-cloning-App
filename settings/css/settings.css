@@ -99,10 +99,11 @@ a {
     align-items: center;
     justify-content: start;
     padding: 0.5rem 1rem;
+    border-left: 3px solid #fff;
 }
 
 .sidebar-menu-link[aria-current="active-link"] { 
-    border-left: 3px solid green;
+    border-left: 3px solid #057642;
 }
 
 .sidebar-menu-list .sidebar-menu-link i {
