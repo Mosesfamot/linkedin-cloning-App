@@ -89,8 +89,8 @@ a {
     padding: 1rem;
 }
 
-.navbar-menu-list ul li a {
-    margin-top: 2rem;
+.navbar-menu-list ul li {
+    margin: 0 0 2rem;
 }
 
 /* NAVIGATION BAR SECTION NAVIGATION BAR SECTION  */
