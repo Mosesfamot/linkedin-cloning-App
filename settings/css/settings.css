@@ -85,4 +85,12 @@ a {
     margin-left: 0.8rem;
 }
 
+.navbar-menu-list ul {
+    padding: 1rem;
+}
+
+.navbar-menu-list ul li a {
+    margin-top: 2rem;
+}
+
 /* NAVIGATION BAR SECTION NAVIGATION BAR SECTION  */
