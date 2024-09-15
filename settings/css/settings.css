@@ -65,7 +65,7 @@ a {
     position: fixed;
 }
 
-.navbar-menu .navbar-title {
+.sidebar-menu .sidebar-title {
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -73,40 +73,43 @@ a {
     margin: 2rem 1.5rem 2rem;
 }
 
-.navbar-title img {
+.sidebar-title img {
     width: 2.1rem;
     border-radius: 50%;
 }
 
-.navbar-title h3 {
+.sidebar-title h3 {
     color: #000;
     font-size: 2rem;
     font-weight: 550;
     margin-left: 0.8rem;
 }
 
-.navbar-menu-list ul {
+.sidebar-menu-list ul {
     padding: 1rem 1rem 1rem 0;
 }
 
-.navbar-menu-list ul li {
+.sidebar-menu-list ul li {
     margin: 0 0 2rem;
-    padding: 0.5rem 1rem;
-    border-left: 3px solid green;
 }
 
-.navbar-menu-list ul li a {
+.sidebar-menu-list .sidebar-menu-link {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: start;
+    padding: 0.5rem 1rem;
 }
 
-.navbar-menu-list ul li a i {
+.sidebar-menu-link[aria-current="active-link"] { 
+    border-left: 3px solid green;
+}
+
+.sidebar-menu-list .sidebar-menu-link i {
     font-size: 1.5rem;
 }
 
-.navbar-menu-list ul li a span {
+.sidebar-menu-list .sidebar-menu-link span {
     font-size: 1.2rem;
     font-weight: 500;
     margin-left: 0.5rem;
