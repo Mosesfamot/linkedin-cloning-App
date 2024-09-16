@@ -1,11 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+/*=============== VARIABLES CSS ===============*/
+:root {
+    --font-family: apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 
+    'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+/*=============== VARIABLES CSS ===============*/
+
 /* || RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-family);
   }
 
 /* || GENERAL STYLES */
@@ -15,7 +24,7 @@ html {
 
 body {
     background-color: #f8f7f4;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
 }
 
 /* || HEADER & LOGO AREA */
