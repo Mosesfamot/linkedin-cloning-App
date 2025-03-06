@@ -517,7 +517,7 @@ class newMessagePop extends HTMLElement {
                                     <img src="img/user-1.png" alt="User Image">
                                 </article>
                                 <article class="suggesteddetails">
-                                    <p class="suggesteddetailsname">Gabriel Lazarus</p>
+                                    <p class="suggesteddetailsname">Gabriel James</p>
                                     <p class="suggesteddetailsdesc">Brand Storyteller</p>
                                     <hr>
                                 </article>
